@@ -1,0 +1,208 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle title-options" type="button" data-toggle="dropdown">
+                    <span id="options-span" class="glyphicon glyphicon-th-list"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="menu_item" style="padding-left: 20px; padding-bottom:7px">
+                        <span lang="en" class="lang hidden">
+                            <a href="index.php">Home</a>
+                        </span>
+                        <span lang="de" class="lang hidden">
+                            <a href="index.php">Startseite</a>
+                        </span>
+                        <span lang="es" class="lang hidden">
+                            <a href="index.php">Inicio</a>
+                        </span></li>
+
+
+                    <li class="dropdown-submenu menu_item" style="padding-bottom: 7px">
+                        <a class="test" tabindex="-1">
+                            <span class="lang" lang="en">Language</span>
+                            <span class="lang" lang="de">Sprache</span>
+                            <span class="lang" lang="es">Idioma</span>
+                        </a>
+                        <form class="dropdown-menu">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="en" checked="checked"/>
+                                    <span class="language-selector" id="en">English</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="es"/>
+                                    <span class="language-selector" id="en">Español</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="language-selector" value="de"/>
+                                    <span class="language-selector" id="en">Deutsch</span>
+                                </label>
+                            </div>
+                        </form>
+                    </li>
+
+                    <li class="dropdown-submenu menu_item">
+                        <a tabindex="-1">
+                            <span lang="en" class="lang hidden">Number of columns</span>
+                            <span lang="de" class="lang hidden">Spaltenzahl</span>
+                            <span lang="es" class="lang hidden">Número de columnas</span>
+                        </a>
+                        <form class="dropdown-menu">
+                            <div class="radio">
+                                <label><input type="radio" name="number-cols" value="2"/>2</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="number-cols" value="3"/>3</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="number-cols" value="4"/>4</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="number-cols" value="6"/>6</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="number-cols" value="12"/>12</label>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="menu_item">
+                        <form><span lang="en" class="lang hidden">Show empty verses</span><span lang="de" class="lang hidden">Leere Verse zeigen</span><span class="lang hidden" lang="es">Mostrar versos vacíos</span>&#160;&#160;<input type="checkbox" id="extensive-edition-toggle"/></form>
+                    </li>
+                    <li class="menu_item">
+                        <form><span lang="en" class="lang hidden">Group scrolling</span><span class="lang hidden" lang="de">Gruppen Scrollen</span><span class="lang hidden" lang="es">Desplazamiento conjunto</span>&#160;&#160;<input type="checkbox" id="group-scroll" checked="checked" /></form>
+                    </li>
+                    <li class="dropdown-submenu menu_item">
+                        <a class="test" tabindex="-1">
+                            <span class="lang" lang="en">Visualization </span>
+                            <span class="lang" lang="de">Visualisierung</span>
+                            <span class="lang" lang="es">Visualización</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <form>
+                                    <input type="checkbox" name="global_pc" checked="checked"/>
+                                    <span class="lang" lang="en">Punctuation</span>
+                                    <span class="lang" lang="de">Interpunktion</span>
+                                    <span class="lang" lang="es">Puntuación</span>
+                                </form>
+                            </li>
+                            <li>
+                                <form>
+                                    <input type="checkbox" name="global_expan"/>
+                                    <span class="lang" lang="en">Resolve Abbreviations</span>
+                                    <span class="lang" lang="de">Abkürzungen auflösen</span>
+                                    <span class="lang" lang="es">Resolver abreviaturas</span>
+                                </form>
+                            </li>
+                            <li>
+                                <form>
+                                    <input type="checkbox" name="global_del"/>
+                                    <span data-toggle="tooltip">
+                                        <span class="lang" lang="en">Show scribe's deletions</span>
+                            <span class="lang" lang="de">Schreibers Löschungen zeigen</span>
+                            <span class="lang" lang="es">Mostrar supresiones del copista</span>
+                                    </span>
+                                </form>
+                            </li>
+                            <li>
+                                <form>
+                                    <input type="checkbox" name="global_add"/>
+                                    <span class="lang" lang="en">Signal scribe's corrections</span>
+                            <span class="lang" lang="de">Schreibers Korrekturen kennzeichnen</span>
+                            <span class="lang" lang="es">Marcar correcciones del copista</span>
+                                </form>
+                            </li>
+                            <li>
+                        <form>
+                            <input type="checkbox" name="global_hi" checked="checked">
+                            <span class="lang" lang="en">Show decorations and colors</span>
+                            <span class="lang" lang="de">Verzierungen und Farben zeigen</span>
+                            <span class="lang" lang="es">Mostrar decoraciones y colores</span>
+                            </input>
+                        </form>
+                    </li>
+                            <li>
+                                <form>
+                                <input type="checkbox" name="global_notes" checked="checked"/>
+                                <span class="lang" lang="en">Right Margin References</span>
+                                <span class="lang" lang="de">Referenzen am Rand</span>
+                                <span class="lang" lang="es">Referencias en el margen</span>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu menu_item">
+                        <a class="test" tabindex="-1">
+                            <span class="lang" lang="en">Numbering</span>
+                            <span class="lang" lang="de">Numerierung</span>
+                            <span class="lang" lang="es">Numeración</span>
+                        </a>
+                        <form class="dropdown-menu">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="global_numerierung" value="manuscript"/>
+                                    <span class="lang" lang="en">Manuscript</span>
+                                    <span class="lang" lang="de">Handschrift</span>
+                                    <span class="lang" lang="es">Manuscrito</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="global_numerierung" value="edition"/>
+                                    <span class="lang" lang="en">Edition</span>
+                                    <span class="lang" lang="de">Edition</span>
+                                    <span class="lang" lang="es">Edición</span>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="global_numerierung" value="alt_ed"/>
+                                    <span class="lang" lang="en">Edition Schröder</span>
+                                    <span class="lang" lang="de">Edition Schröder</span>
+                                    <span class="lang" lang="es">Edición Schröder</span>
+                                </label>
+                            </div>
+                        </form>
+                    </li>
+
+                    <li class="dropdown-submenu menu_item">
+                        <a tabindex="-1">
+                            <span lang="en" class="lang hidden">Font Size</span>
+                            <span lang="de" class="lang hidden">Schriftgröße</span>
+                            <span lang="es" class="lang hidden">Tamaño de Fuente</span>
+                        </a>
+                        <form class="dropdown-menu">
+                            <div class="form-group">
+                                <select class="form-control" id="font_control">
+                                    <option value="21" selected="selected">normal</option>
+                                    <option value="13">x-small</option>
+                                    <option value="17">small</option>
+                                    <option value="25">large</option>
+                                    <option value="32">x-large</option>
+                                </select>
+                                </div>
+                        </form>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1 id="maereTitle">
+            	<?php
+                echo $title;
+                ?>
+            </h1>
+        </div>
+        <div class="col-md-2">
+            <button id="traviz_button">Variant Graph</button>
+        </div>
+        <div class="col-md-2">     
+        </div>
+    </div>
+</div>
