@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am a medievalist and digital humanist from Argentina, living in many places. For my PhD I created a digital edition of [three Middle High German verse narratives from the 13th century](http://kvwdigital.000webhostapp.com/). I've been working on digital editing and other issues in digital humanities for some years now. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I also like to play boardgames
