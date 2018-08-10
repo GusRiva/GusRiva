@@ -11,8 +11,7 @@ This depiction of the linguistic profession is a pleasent surprise to me. Usuall
 
 It is interesting that during part of the 20th century linguistics was one of the most sucessful disciplines in the humanities and social sciences. Sausure's structural approach to language was borrowed by many other disciplines in the 50's and 60's in an attempt to become more reliable (Anthropology, Literary Studies, Marxism, Psychoanalisis, etc). Sociolinguistics and Cognitive Science also made huge developments. Linguistics was the diva in academia, but that fame didn't translate to popular culture. Or maybe it did and I am just not aware of that? 
 
-In any case, I think the current heroicity of linguistics in popular culture responds to a revival of the discipline through computational methods and a more direct contact with the concerns of the digital age. Machine Learning and AI are used regularly to analyze the way we communicate and use language over the internet. Everyone is aware of bots capable of processing and creating language. Thanks to the web language is on the spotlight and linguistics becomes a more powerful tool. Even to fight against aliens.
+In any case, I think the current heroicity of linguistics in popular culture responds to a revival of the discipline through computational methods and a more direct contact with the concerns of the digital age. Machine Learning and AI are used regularly to analyze the way we communicate and use language over the internet. Everyone is aware of bots capable of processing and creating language. Thanks to the web, language is on the spotlight and linguistics is considered a very powerful tool. Even to fight against aliens.
 
  
 
-(Owner of the post image: LEPShots at Limgur)
