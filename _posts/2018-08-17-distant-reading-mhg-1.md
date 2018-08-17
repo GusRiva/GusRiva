@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Distant Reading Middle High German – First peak
-image: /img/gephi-1.jpeg
+image: /img/gephi-1.png
 ---
 
 Recently I took a bunch of data from *[Handschriftencensus](http://www.handschriftencensus.de/)*, the online catalogue for Middle High German manuscripts. *Handschriftencensus* was developed mostly at the University of Marburg, but since 2017, it is part of the [Mainzer Akademie der Wissenschaften und der Literatur](http://www.adwmainz.de/). They are supposed to have an entry for every text available in Middle High German and I don't even want to imagine what my PhD would have been like without this amazing resource. You deserve a lot of love and respect *Handschriftencensus*.
@@ -12,10 +12,10 @@ The catalogue I created has 5917 works. However, this is not completely accurate
 
 I found out that there are 1075 works I call "islands": that are never in the same manuscript with other texts. This means that almost 5 out of 6 texts in the corpus are transmitted at least once together with other texts. In other words, the Middle High German book was typically a compilation of different works and not a single volume for a single work. It is possibly to represent this network of interrelated texts as a graph (which I generated with [Gephi](https://gephi.org/)):
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "The Network of Middle High German Literature")
+![alt text](http://gustavofernandezriva.com/img/gephi-1.png "The Network of Middle High German Literature")
 
 I you want to explore the graph with more detail open the following link (it might take several seconds to load the whole thing):
-[Detailed Graph](www.gustavofernandezriva.com/img/gephi-1.svg)
+[Detailed Graph](http://www.gustavofernandezriva.com/img/gephi-1.svg)
 
 Each node of the graph represents one work according to the *Handschriftencensus* catalogue. The edges connect works when they are witnesses at least once in the context of the same manuscript. We can see there are some islands and some small isolated blocks of texts, but, for the most part, the network is an interconnected continent. It is almost always possible create a path between any two nodes using the edges.
 
