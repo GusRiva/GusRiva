@@ -5,7 +5,7 @@ subtitle: Things I've been working on
 
 # I am currently working on:
 
-### Middle High German short narrative
+### Middle High German Rubrics
 I am considering the ways in which distant reading techniques might be used to explore this rich textual tradition. I presented a first attempt at the subject in [a conference last September](http://www.mcda.ugent.be/). The database of MHG rubrics I created can be accesed in a [GitHub-Repository](https://github.com/GusRiva/projects_data/tree/master/rubrics). I look forward to improve the database in the future and be able to perform better analysis.
 
 ### [Open Medieval French (OpenMedFr)](https://github.com/OpenMedFr)
