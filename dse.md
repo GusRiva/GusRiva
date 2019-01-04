@@ -15,6 +15,7 @@ We will be using the following programs:
 
 # Slides
 
-[Overview](https://www.gustavofernandezriva.com/slides/DSE_Intro.pdf)
-[Text Encoding](https://www.gustavofernandezriva.com/slides/DSE_Digital_Text_Unicode.pdf)
+[Overview](http://gustavofernandezriva.com/slides/DSE_Intro.pdf)
+
+[Text Encoding](http:gustavofernandezriva.com/slides/DSE_Digital_Text_Unicode.pdf)
 
