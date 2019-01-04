@@ -10,10 +10,12 @@
         if (section_status[index] == 0){
            $(this).parent().find("div[n=" + index +"]").hide();
            $(this).find("a[class='show'][n=" + index +"]").hide();
+           $(this).find("a[class='hide'][n=" + index +"]").show();
            section_status[index] = 1;
         }else{
             $(this).parent().find("div[n=" + index +"]").show();
             $(this).find("a[class='show'][n=" + index +"]").show();
+            $(this).find("a[class='hide'][n=" + index +"]").hide();
             section_status[index] = 0;
         };
     });
