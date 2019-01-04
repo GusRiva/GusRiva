@@ -4,7 +4,11 @@
     $("[class*='toggler']").click(function () {
         var index = $(this).attr("class").substr(8)
         console.log(index);
-        $(this).parent().find("div[n=" + index +"]").hide();
+        if (section_status[index] == 0){
+           $(this).parent().find("div[n=" + index +"]").hide(); 
+        }else{
+            $(this).parent().find("div[n=" + index +"]").show();
+        };
     });
     
 });
