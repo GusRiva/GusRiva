@@ -9,13 +9,11 @@
         var index = $(this).attr("class").substr(8)
         if (section_status[index] == 0){
            $(this).parent().find("div[n=" + index +"]").toggle();
-           $(this).find("span[class='show'][n=" + index +"]").toggle();
-           $(this).find("span[class='hide'][n=" + index +"]").toggle();
+           $(this).find("span[class='show'][n=" + index +"]").text('hide');
            section_status[index] = 1;
         }else{
             $(this).parent().find("div[n=" + index +"]").toggle();
-            $(this).find("span[class='show'][n=" + index +"]").toggle();
-            $(this).find("span[class='hide'][n=" + index +"]").toggle();
+            $(this).find("span[class='show'][n=" + index +"]").text('show');
             section_status[index] = 0;
         };
     });
