@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     $('.toggler').click(function () {
-        alert("Hola")
+        $(this).parent().find('div').hide();
     });
     
 });
