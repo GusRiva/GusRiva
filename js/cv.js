@@ -3,11 +3,13 @@
     var section_status = [0,0]
     $("[class*='toggler']").click(function () {
         var index = $(this).attr("class").substr(8)
-        console.log(index);
+        console.log(section_status);
         if (section_status[index] == 0){
-           $(this).parent().find("div[n=" + index +"]").hide(); 
+           $(this).parent().find("div[n=" + index +"]").hide();
+           section_status[index] = 1;
         }else{
             $(this).parent().find("div[n=" + index +"]").show();
+            section_status[index] = 0;
         };
     });
     
