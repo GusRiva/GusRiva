@@ -1,9 +1,6 @@
 ﻿$(document).ready(function () {
-    alert("hola");
-    console.log("HOLA");
-    $('.toggler').on('click', 'td.verse', function () {
+    $('.toggler').click(function () {
         alert("Hola")
     });
-    
     
 });
