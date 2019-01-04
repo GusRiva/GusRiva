@@ -8,14 +8,14 @@
     $("[class*='toggler']").click(function () {
         var index = $(this).attr("class").substr(8)
         if (section_status[index] == 0){
-           $(this).parent().find("div[n=" + index +"]").hide();
-           $(this).find("a[class='show'][n=" + index +"]").hide();
-           $(this).find("a[class='hide'][n=" + index +"]").show();
+           $(this).parent().find("div[n=" + index +"]").toggle();
+           $(this).find("a[class='show'][n=" + index +"]").toggle();
+           $(this).find("a[class='hide'][n=" + index +"]").toggle();
            section_status[index] = 1;
         }else{
-            $(this).parent().find("div[n=" + index +"]").show();
-            $(this).find("a[class='show'][n=" + index +"]").show();
-            $(this).find("a[class='hide'][n=" + index +"]").hide();
+            $(this).parent().find("div[n=" + index +"]").toggle();
+            $(this).find("a[class='show'][n=" + index +"]").toggle();
+            $(this).find("a[class='hide'][n=" + index +"]").toggle();
             section_status[index] = 0;
         };
     });
