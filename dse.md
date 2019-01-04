@@ -15,7 +15,7 @@ We will be using the following programs:
 
 # Slides
 
-[Overview](https://username.github.io/slides/DSE_Intro.pdf)
+[Overview](https://GusRiva.github.io/slides/DSE_Intro.pdf)
 
-[Text Encoding](https://username.github.io/slides/DSE_Digital_Text_Unicode.pdf)
+[Text Encoding](https://GusRiva.github.io/slides/DSE_Digital_Text_Unicode.pdf)
 
