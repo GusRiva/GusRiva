@@ -4,7 +4,7 @@
     $("[class*='toggler']").click(function () {
         var index = $(this).attr("class").substr(8)
         console.log(index);
-        $(this).parent().find('div').hide();
+        $(this).parent().find('div[n=index]').hide();
     });
     
 });
