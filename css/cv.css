@@ -4,6 +4,9 @@ ul{
 	margin-left: 2em; 
  	text-indent: -2em;
  	list-style-type: none;
- 	margin-bottom: 1.5em;
- 	text-align: justify;
 }
+
+li{
+	margin-bottom: 1.5em;
+ 	text-align: justify;
+} 
