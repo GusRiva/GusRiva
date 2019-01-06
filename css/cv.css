@@ -1,12 +1,12 @@
-
+﻿
 
 ul{
-	margin-left: 2em; 
- 	text-indent: -2em;
- 	list-style-type: none;
+    list-style-type: none;
 }
 
 .item {
-	margin-bottom: 1.5em;
- 	text-align: justify;
+    margin-left: 2em; 
+    text-indent: -2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
 } 
