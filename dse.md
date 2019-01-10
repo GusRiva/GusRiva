@@ -23,6 +23,15 @@ We will be using the following programs:
 
 [XML-TEI](https://GusRiva.github.io/slides/DSE_TEI_1.pdf)
 
+
 # Practice Texts
 
 <a href="http://www.mediafire.com/folder/o3d451cdbnne4/portuguese_novels" target="_blank">Portuguese Novels of the 19th Century</a>
+
+# Relevant Links
+
+<a href="https://voyant-tools.org/">Voyant Tools</a>
+
+<a href="https://github.com/">GitHub</a>
+
+<a href="https://github.com/OpenMedFr/">Open Medieval French</a>
