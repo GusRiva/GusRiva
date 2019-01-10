@@ -19,3 +19,10 @@ We will be using the following programs:
 
 [Text Encoding](https://GusRiva.github.io/slides/DSE_Digital_Text_Unicode.pdf)
 
+[Plain Text Corpora](https://GusRiva.github.io/slides/DSE_Plain_Text_Corpora.pdf)
+
+[XML-TEI](https://GusRiva.github.io/slides/DSE_TEI_1.pdf)
+
+# Practice Texts
+
+<a href="http://www.mediafire.com/folder/o3d451cdbnne4/portuguese_novels" target="_blank">Portuguese Novels of the 19th Century</a>
