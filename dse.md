@@ -34,7 +34,7 @@ We will be using the following programs:
 
 <a href="http://junicode.sourceforge.net/">Junicode (Font for Medieval Texts)</a>
 
-<a href="https://github.com/OpenMedFr/">Open Medieval French</a>
+<a href="http://juxtacommons.org/">Juxta (Comparison of Versions)</a>
 
 <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI - Guidelines</a>
 
