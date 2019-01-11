@@ -21,7 +21,7 @@ We will be using the following programs:
 
 [Plain Text Corpora](https://GusRiva.github.io/slides/DSE_Plain_Text_Corpora.pdf)
 
-[XML-TEI](https://GusRiva.github.io/slides/DSE_TEI_1.pdf)
+[XML-TEI](https://GusRiva.github.io/slides/DSE_TEI_intro.pdf)
 
 
 # Practice Texts
