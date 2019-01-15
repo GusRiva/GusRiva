@@ -38,6 +38,8 @@ We will be using the following programs:
 
 <a href="http://juxtacommons.org/">Juxta (Comparison of Versions)</a>
 
+<a href="http://roma.tei-c.org/">Roma: Generating customizations for the TEI</a>
+
 <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI - Guidelines</a>
 
 <a href="https://voyant-tools.org/">Voyant Tools</a>
