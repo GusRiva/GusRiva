@@ -26,7 +26,7 @@ We will be using the following programs:
 
 # Practice Texts
 
-<a href="http://www.mediafire.com/folder/o3d451cdbnne4/portuguese_novels" target="_blank">Portuguese Novels of the 19th Century</a>
+<a href="https://github.com/Curso-NOVA-2019/sample-texts">Sample Texts on GitHub</a>
 
 # Relevant Links
 
@@ -39,3 +39,5 @@ We will be using the following programs:
 <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI - Guidelines</a>
 
 <a href="https://voyant-tools.org/">Voyant Tools</a>
+
+<a href="https://www.w3schools.com/xml/xpath_intro.asp">XPath Tutorial</a>
