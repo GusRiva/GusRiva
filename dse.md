@@ -23,7 +23,7 @@ We will be using the following programs:
 
 [XML-TEI](https://GusRiva.github.io/slides/DSE_TEI_intro.pdf)
 
-[XPath Exercise](https://GusRiva.github.io/slides/XPath-Exercise.doc)
+[XPath Guide](https://GusRiva.github.io/slides/DSE_XPath_Guide.pdf)
 
 
 # Practice Texts
