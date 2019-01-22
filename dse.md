@@ -30,6 +30,8 @@ We will be using the following programs:
 
 <a href="https://github.com/Curso-NOVA-2019/sample-texts">Sample Texts on GitHub</a>
 
+<a href="https://GusRiva.github.io/slides/tei-header-example.txt">TEI Header Example Form</a>
+
 # Relevant Links
 
 <a href="https://github.com/">GitHub</a>

@@ -1,0 +1,73 @@
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">The title of the file</title>
+        <author>
+          <persName>The original author</persName>
+          <idno type="GND?VIAF?" source="https://viaf.org/">Is there a link to a thesaurus with more info?</idno>
+        </author>
+        <editor>
+          <persName>Name of Editor</persName>
+          <idno type="GND" source="https://portal.dnb.de">http://d-nb.info/gnd/1162466510</idno>
+          <idno type="ORCID" source="https://orcid.org/">https://orcid.org/0000-0002-2202-6354</idno>
+        </editor>
+        <respStmt>
+        <--- Do more people have a role in this?-->
+          <persName>?????????</persName>
+          <idno type="GND" source="https://portal.dnb.de">http://d-nb.info/gnd/1053149832</idno>
+          <idno type="ORCID" source="https://orcid.org/">https://orcid.org/0000-0002-2202-6354</idno>
+        </respStmt>
+        <funder>
+        <--- Someone supporting this finantially this?-->
+          <orgName>???????</orgName>
+          <idno type="GND" source="https://portal.dnb.de">http://d-nb.info/gnd/61174-8</idno>  
+          <ref target="https://www.conicet.gov.ar">https://www.conicet.gov.ar</ref>
+        </funder>
+      </titleStmt>
+      
+      <publicationStmt>
+        <p>Something about the publication</p>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P">
+            <msDesc>
+              <msIdentifier>
+                <settlement>
+                  <placeName>???????</placeName>
+                  <idno type="GND" source="https://portal.dnb.de">http://d-nb.info/gnd/4023996-2</idno>
+                </settlement>
+                <repository> 
+                  <orgName>?????????</orgName>
+                  <idno type="GND" source="https://portal.dnb.de">http://d-nb.info/gnd/2002498-8</idno>
+                  <ref target="https://www.ub.uni-heidelberg.de">http://www.ub.uni-heidelberg.de</ref>
+                </repository>
+                <collection>
+                  <name>????????</name>
+                  <ref target="http://codpalgerm.uni-hd.de">http://codpalgerm.uni-hd.de</ref> 
+                </collection>
+                <idno>??????????</idno>
+              </msIdentifier>
+              <additional>
+              <-- There is info about the digitazed version -->
+                <surrogates>
+                  <bibl>
+                    <title>Cod. Pal. germ. 341</title>
+                    <ref target="https://digi.ub.uni-heidelberg.de/diglit/cpg341">https://digi.ub.uni-heidelberg.de/diglit/cpg341</ref>
+                    <idno type="URN">urn:nbn:de:bsz:16-diglit-1511</idno>
+                    <idno type="DOI">https://doi.org/10.11588/diglit.151</idno>
+                    <note xml:lang="en">The digital copy of the manuscript</note>
+                    <note xml:lang="de">Das Digitalisat der Handschrift</note>
+                  </bibl>
+                </surrogates>
+              </additional>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
