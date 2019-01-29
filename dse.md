@@ -25,6 +25,8 @@ We will be using the following programs:
 
 [XPath Guide](https://GusRiva.github.io/slides/DSE_XPath_Guide.pdf)
 
+[From XML to WEB](https://GusRiva.github.io/slides/DSE_Web.pdf)
+
 
 # Practice Texts
 
