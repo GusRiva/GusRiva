@@ -28,11 +28,13 @@ We will be using the following programs:
 [From XML to WEB](https://GusRiva.github.io/slides/DSE_Web.pdf)
 
 
-# Practice Texts
+# Practice Texts and Scripts
 
 <a href="https://github.com/Curso-NOVA-2019/sample-texts">Sample Texts on GitHub</a>
 
 <a href="https://GusRiva.github.io/slides/tei-header-example.txt">TEI Header Example Form</a>
+
+<a href="https://GusRiva.github.io/slides/plain-text.xsl">XSLT Transformation for Plain Text</a>
 
 # Relevant Links
 
@@ -49,3 +51,5 @@ We will be using the following programs:
 <a href="https://voyant-tools.org/">Voyant Tools</a>
 
 <a href="https://www.w3schools.com/xml/xpath_intro.asp">XPath Tutorial</a>
+
+<a href="https://www.w3schools.com/xml/xsl_intro.asp">XSLT Tutorial</a>
