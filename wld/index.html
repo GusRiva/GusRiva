@@ -25,14 +25,27 @@
     <body> 
         <div class="container"> 
             <div class="row"> 
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
-                    <div class="page-heading"> <h2>Draft Edition for Medieval Love Debates</h2> 
-                        <h4>On the margin of the text the <i>topoi</i> are indicated. Click on them to see the passage corresponding to that <i>topos</i> in a different text.  </h4> 
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1"> 
+                    <div class="page-heading"><h2>Draft Edition for Medieval Love Debates</h2> 
+                    	<p>This is a very simple draft of some of the functionalities for the digital edition of medieval women's love debates proposed by Gustavo Fernández Riva. This is just a draft: the visualization is not pretty and the functions are not fully programmed. This is designed just as a very general indicator of the possibilities.</p>
+                        <div class="mode-selector"><button id="b_sc_1">Individual Text and Topics</button><button id="b_sc_2">Topic List</button><button id="b_sc_3">Topic Networks</button></div>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+
+        <div class="super-container" id="sc_1">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1"> 
+                    <div class="page-heading"> <h3>Individual Text and Topics</h3>
+                        <h4>On the margin of the text the <i>topoi</i> are indicated. Click on them to see the passage corresponding to that <i>topos</i> in a different text.  Ideally, clicking on the text, would also highlight the <i>topoi</i> present in that fragment, which is currently inactive.</h4> 
                     </div> 
                 </div> 
             </div> 
         </div> 
         
+
         <div class="container"> 
             <div class="row"> 
                 <div class="col-lg-3 col-md-3"> 
@@ -1926,14 +1939,16 @@
                         <tr class="003 004 005"><td></td><td><span class="text-markup" title="003">et annos et animos habent iuveniles;</span></td></tr>
                         <tr class="003 004"><td>15</td><td>sed sunt parum impares et parum hostiles,</td></tr>
                         <tr class="003 004"><td></td><td>nam huic placet clericus et huic placet miles.</td></tr>
+                        <tr class="001 002 003 004 005"><td></td><td><span class="expand">[expand]</span></td></tr>
                     </table>
                     
                     <table class="other-text-table">
-                        <tr class="001"><th>Council of Remiremont</th></tr>
-                        <tr class="001"><td>Veris <span class="text-markup" title="001">in temporibus sub Aprilis Idibus</span></td></tr>
-                        <tr class="001"><td>habuit concilium Romarici montium</td></tr>
-                        <tr class="001"><td>puellaris contio montis in coenobio.</td></tr>
-                        <tr class="001"><td>tale non audivimus nec fuisse credimus</td></tr>
+                        <tr class="001"><th></th><th>Council of Remiremont</th></tr>
+                        <tr class="001"><td>1</td><td>Veris <span class="text-markup" title="001">in temporibus sub Aprilis Idibus</span></td></tr>
+                        <tr class="001"><td></td><td>habuit concilium Romarici montium</td></tr>
+                        <tr class="001"><td></td><td>puellaris contio montis in coenobio.</td></tr>
+                        <tr class="001"><td></td><td>tale non audivimus nec fuisse credimus</td></tr>
+                        <tr class="001"><td></td><td><span class="expand">[expand]</span></td></tr>
                     </table>
                     
                     <table class="other-text-table">
@@ -1944,12 +1959,41 @@
                         <tr class="004"><td></td><td><span class="text-markup" title="004">daz man gesahe nie zwei wip</span></td></tr>
                         <tr class="004"><td></td><td><span class="text-markup" title="004">so wol gestalt, ir beider lip</span></td></tr>
                         <tr class="004"><td></td><td><span class="text-markup" title="004">da wider ein ander luhte.</span></td></tr>
-                        
+                        <tr class="004"><td></td><td><span class="expand">[expand]</span></td></tr>
                     </table>
                 </div>
                 
     
     </div> 
     </div> 
+  
+        </div>
+        
+        
+<div class="super-container" id="sc_2">
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1"> 
+                <div class="page-heading"> <h3>Topic List</h3>
+                    <h4>A way to explore the sources would be through the glossary of <i>topoi</i> identified. This should be a list, with a search tool to aid in finding the desired <i>topoi</i>. Someone interested in, for example, the physical description of women, the references to classic literature or descriptions of fellings, should be able to search the relevant <i>topoi</i> and clicking on them, access the corresponding text passages in the different sources.</h4> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</div>
+        
+        <div class="super-container" id="sc_3">
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1"> 
+                        <div class="page-heading"> <h3>Topics Networks</h3>
+                            <h4>A way to explore the sources would be through networks showing how the texts are related to each other according to shared topics.</h4> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+
+    
     </body>
 </html>

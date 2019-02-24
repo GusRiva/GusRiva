@@ -6,3 +6,28 @@ th {
     padding-top: 2em;
     padding-bottom: 1em;
 }
+
+div.page-heading h2 {
+	text-align: center;
+}
+
+div.page-heading h3 {
+	text-align: center;
+}
+
+div.page-heading p {
+	text-align: justify;
+}
+
+.mode-selector {
+	text-align: center;
+}
+
+p {
+	font-size: large;
+}
+
+button[id*="sc_"]{
+	margin-left: 2em;
+	margin-right: 2em;
+}
