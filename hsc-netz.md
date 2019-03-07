@@ -3,7 +3,7 @@ title: Networks
 subtitle: SVG Graphs ready to be explored with a browser!
 ---
 
-#The Manuscript Transmission of Medieval German
+# The Manuscript Transmission of Medieval German
 
 Based on data from [Handschriftencensus](http://www.handschriftencensus.de/). Each node is a text. Two texts are connected when they are both in least one manuscript.
 
