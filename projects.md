@@ -7,7 +7,7 @@ subtitle: Things I do
 
 ### Publication Formats for Humanities Data
 
-Most of my day is occupied with creating ontologies, RDFs and interfaces for a series of projects at the at the University of Heidelberg. Together with the amazing teams at the University Library and the Collaborative Research Centre 'Material Text Cultures', we want to create exemplary and innovative publication formats for humanities data, which allow researchers to explore and re-use data in the most efficient way.
+Most of my day is occupied with creating ontologies, RDFs and interfaces for a series of projects at the at the University of Heidelberg. Together with amazing teams at the University Library and the Collaborative Research Centre 'Material Text Cultures', we want to create exemplary and innovative publication formats for humanities data, which allow researchers to explore and re-use data in the most efficient way.
 
 ### Network of Shared Manuscript Transmission
 
