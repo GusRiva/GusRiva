@@ -1,9 +1,21 @@
 ---
 title: Projects
-subtitle: Things I've been working on
+subtitle: Things I do
 ---
 
 # I am currently working on:
+
+### Publication Formats for Humanities Data
+
+Most of my day is occupied with creating ontologies, RDFs and interfaces for a series of projects at the at the University of Heidelberg. Together with the amazing teams at the University Library and the Collaborative Research Centre 'Material Text Cultures', we want to create exemplary and innovative publication formats for humanities data, which allow researchers to explore and re-use data in the most efficient way.
+
+### Network of Shared Manuscript Transmission
+
+In medieval Europe, books where often collections of texts. Understanding which texts were brought together in the same codex can be extremely important to understand how texts where read, understood and preserved during the period. Using tools from network analysis, it is possible to gain some global insights into this problems. More information <a href='http://gustavofernandezriva.com/2018-08-17-distant-reading-mhg-1/'>here</a>.
+
+<br/>
+
+### Others projects I have going on 
 
 ### Middle High German Rubrics
 I am considering the ways in which distant reading techniques might be used to explore this rich textual tradition. I presented a first attempt at the subject in [a conference last September](http://www.mcda.ugent.be/). The database of MHG rubrics I created can be accesed in a [GitHub-Repository](https://github.com/GusRiva/projects_data/tree/master/rubrics). I look forward to improve the database in the future and be able to perform better analysis.
@@ -14,7 +26,7 @@ I've been working with [David Wrisley](https://djwrisley.com/) on this since the
 <br/>
 <br/>
 
-# Things I plan to do in the future:
+# Things I would also like to do someday:
 
 ### Medieval Women's Debates over Clerics and Knights
 If I receive funding, I would love to carry out this project. It would be a critical analysis of all the medieval texts where two women argue about who is a better lover: a cleric or a knight. Hard to believe, but no one has ever attempted a comprehensive analysis of this genre. 
