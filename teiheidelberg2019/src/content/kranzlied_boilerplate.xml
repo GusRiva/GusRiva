@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Boilerplate Test</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Some publication info</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <lg>
+               <l>Nement frowe disen cranz</l>
+            <l>also sprach ich zeiner wol getanen maget</l>
+            <l>so zieret ir den tanz</l>
+            <l>mit den schonen bluomen als irs uffe
+            traget·</l>
+            <l>het ich vil edele gesteine
+            daz muoz uf uwer houbet</l>
+            <l>ob ir mirs gehoubet·</l>
+            <l>sent mine truwe daz ich ez meine·</l></lg>
+            <lg><l>Frowe ir sit so wolgetan</l>
+            <l>daz ich uch min schappel gerne geben wil</l>
+            <l>daz aller beste daz ich han·</l>
+            <l>wizer und roter bluomen weiz ich vil·</l>
+            <l>die stent so verre in iener heide</l>
+            <l>da si schone entsprungen</l>
+            <l>und die cleinen vogele sungen</l>
+            <l>da suln wir si brechen beide·</l></lg>
+         </div>
+      </body>
+  </text>
+</TEI>
