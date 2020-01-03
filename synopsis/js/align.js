@@ -69,7 +69,13 @@ function joint_scroll(scrolled_column){
         $(".column").eq(other_col_index).scrollTop(scroll_master[other_col_index] + mov);
         scroll_master[other_col_index] = scroll_master[other_col_index] + mov;
     };
-
+    $.each(scroll_master,function(index,value) {
+           if (value < 0){
+               scroll_master[index] = 0;
+           };  
+    });
+    console.log(scroll_master)
+    
 };
 
 var scroll_master = [0,0]
