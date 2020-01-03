@@ -59,11 +59,29 @@ function create_align(){
 
 };
 
+function joint_scroll(scrolled_column){
+    col_index = scrolled_column.index();
+    other_col_index = Math.abs(col_index - 1);
+    var new_y = scrolled_column.scrollTop();
+    var mov = new_y - scroll_master[col_index]
+    scroll_master[col_index] = new_y
+    if ( $("input[name='joint_scrolling']").is(':checked') ){
+        $(".column").eq(other_col_index).scrollTop(scroll_master[other_col_index] + mov);
+        scroll_master[other_col_index] = scroll_master[other_col_index] + mov;
+    };
+
+};
+
+var scroll_master = [0,0]
+var action_nr = 0
 
 $(document).ready(function() {
     create_align();
    
     $('.column').scroll(function(){
+        
+        joint_scroll( $(this) );
+        
         $("svg").remove();
         create_align();
     });  
