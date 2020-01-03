@@ -1,3 +1,5 @@
+/* FUNCTION DECLARATIONS */
+
 function draw_lines(start_column, goal_column, direction, paper){
 /*Function to draw the lines between two columns*/
 /*Direction can be "ltr" (left to right) or "rtl" (right to left)*/
@@ -15,7 +17,7 @@ function draw_lines(start_column, goal_column, direction, paper){
        start_element_width = start_element.width();
        
        if ( direction === "rtl" ) {
-            start_element_x_pos = start_element_x_pos + start_element_width; // to start at the end of the element, as it is the second column, goes from right to left    
+            start_element_x_pos = start_element_x_pos + start_element_width; // to start at the end of the element   
        };
        
        verse_number = start_element.children(".align_nr").text();
@@ -28,12 +30,10 @@ function draw_lines(start_column, goal_column, direction, paper){
        if ( goal_element.is('div.tei-line') ) {
             goal_element_x_pos = goal_element_pos.left;
             goal_element_y_pos = goal_element_pos.top + 15;
-            goal_element_width = goal_element.width();
-            
+            goal_element_width = goal_element.width();      
             if ( direction === "rtl" ) {
                 goal_element_x_pos = goal_element_x_pos + goal_element_width;    
             };
-            
             if ( direction === "ltr" ) {
                 var curve = paper.path("m "+ start_element_x_pos + " " + start_element_y_pos + " l "+ start_element_width +" 0 L "+ goal_element_x_pos + " " + goal_element_y_pos + " l " + goal_element_width + " 0");    
             }else if ( direction === "rtl"){
@@ -74,12 +74,15 @@ function joint_scroll(scrolled_column){
                scroll_master[index] = 0;
            };  
     });
-    console.log(scroll_master)
-    
 };
 
-var scroll_master = [0,0]
-var action_nr = 0
+
+/* VARIABLES */
+
+var scroll_master = [0,0] /* Stores the current scroll position of each column (from the top) */
+
+
+/* ACTIVATION */
 
 $(document).ready(function() {
     create_align();
