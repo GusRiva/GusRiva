@@ -61,26 +61,34 @@ function create_align(){
 
 function joint_scroll(scrolled_column){
     col_index = scrolled_column.index();
-    other_col_index = Math.abs(col_index - 1);
-    var new_y = scrolled_column.scrollTop();
-    var mov = new_y - scroll_master[col_index]
-    scroll_master[col_index] = new_y
-    if ( $("input[name='joint_scrolling']").is(':checked') ){
-        $(".column").eq(other_col_index).scrollTop(scroll_master[other_col_index] + mov);
-        scroll_master[other_col_index] = scroll_master[other_col_index] + mov;
+    if ( scrolled[col_index] === 0) {
+        scrolled[col_index] = 1
+        
+        other_col_index = Math.abs(col_index - 1);
+        var new_y = scrolled_column.scrollTop();
+        var mov = new_y - scroll_master[col_index]
+        scroll_master[col_index] = new_y
+        if ( $("input[name='joint_scrolling']").is(':checked') ){
+            $(".column").eq(other_col_index).scrollTop(scroll_master[other_col_index] + mov);
+            scroll_master[other_col_index] = scroll_master[other_col_index] + mov;
+        };
+        
+        $.each(scroll_master,function(index,value) { /* Can't go below 0 to the basic position */
+               if (value < 0){
+                   scroll_master[index] = 0;
+               };  
+        });
+        scrolled[other_col_index] = 1;
+    } else {
+      scrolled = [0,0];  
     };
-    $.each(scroll_master,function(index,value) {
-           if (value < 0){
-               scroll_master[index] = 0;
-           };  
-    });
 };
 
 
 /* VARIABLES */
 
 var scroll_master = [0,0] /* Stores the current scroll position of each column (from the top) */
-
+var scrolled = [0,0] /* To prevent redundant scrolling. Each time a column is scrolled the counter goes to 1. Wenn all are one should reset. */
 
 /* ACTIVATION */
 
