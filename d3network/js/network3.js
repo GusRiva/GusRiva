@@ -5,7 +5,7 @@ var data_array = [];
 var filtered_data = {'nodes':[], "links":[]};
 
 
-$.getJSON("data/hsc_d3_data_final.json", function(data){
+$.getJSON("test_data.json", function(data){
     data_array = data
   });
 
