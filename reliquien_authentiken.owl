@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/"
+     xml:base="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ecrm="http://erlangen-crm.org/170309/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:relau="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/">
+    <owl:Ontology rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/">
+        <owl:versionIRI rdf:resource="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/20200208"/>
+        <owl:imports rdf:resource="http://erlangen-crm.org/170309/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Brune_Identifier -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Brune_Identifier">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/ChLA_Identifier -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/ChLA_Identifier">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Digital_Object -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Digital_Object">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E73_Information_Object"/>
+        <rdfs:comment>This Class is based on the CRMdig D1 Digital Object according to version 3.2.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Image_File -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Image_File">
+        <rdfs:subClassOf rdf:resource="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Digital_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E22_Man-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E84_Information_Carrier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Image -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Image">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E36_Visual_Item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Production -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Production">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E12_Production"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Text -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Label_Text">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E31_Document"/>
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E33_Linguistic_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Production -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Relic_Production">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E12_Production"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Shelf_Mark -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Shelf_Mark">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/170309/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/TEI_File -->
+
+    <owl:Class rdf:about="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/TEI_File">
+        <rdfs:subClassOf rdf:resource="http://www.lod.ub.uni-heidelberg.de/ontologies/reliquienauthentiken/Digital_Object"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
