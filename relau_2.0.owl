@@ -1,0 +1,2307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#"
+     xml:base="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:hc="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ecrm="http://erlangen-crm.org/current/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:data-view="http://www.w3.org/2003/g/data-view#">
+    <owl:Ontology rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau">
+        <owl:imports rdf:resource="http://erlangen-crm.org/efrbroo/"/>
+        <owl:imports rdf:resource="http://www.w3.org/2002/07/owl"/>
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <owl:imports rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+        <rdfs:label xml:lang="de">heiEDITIONS Concepts</rdfs:label>
+        <rdfs:label xml:lang="en">heiEDITIONS Concepts</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/applicableTo -->
+
+    <owl:AnnotationProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/applicableTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/bearsContentSurface -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/bearsContentSurface">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P56_bears_feature"/>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+        <rdfs:range rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface"/>
+        <rdfs:label xml:lang="en">bears content surface</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/bearsPage -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/bearsPage">
+        <rdfs:subPropertyOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/bearsContentSurface"/>
+        <rdfs:range rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Page"/>
+        <rdfs:label xml:lang="en">bears page</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/documentsExpression -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/documentsExpression">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P70_documents"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EditorialDocument"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/efrbroo/F2_Expression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/documentsInformationCarrier -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/documentsInformationCarrier">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P70_documents"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EditorialDocument"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/encodes -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/encodes">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P67_refers_to"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalFile"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasCurrentResidence -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasCurrentResidence">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P74_has_current_or_former_residence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasInternalIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasInternalIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P1_is_identified_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasShelfmark -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasShelfmark">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P1_is_identified_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasURL -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasURL">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P1_is_identified_by"/>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E1_CRM_Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/isDigitalReproductionOf -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/isDigitalReproductionOf">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P138_represents"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/isRelicOf -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/isRelicOf">
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Relic"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E1_CRM_Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/labels -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/labels">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P70_documents"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/current/E18_Physical_Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/refersToDigitalReproduction -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/refersToDigitalReproduction">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P70_documents"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EditorialDocument"/>
+        <rdfs:range rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/usedWritingSystem -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/usedWritingSystem">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P33_used_specific_technique"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingEvent"/>
+        <rdfs:range rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/wasWrittenByWritingEvent -->
+
+    <owl:ObjectProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/wasWrittenByWritingEvent">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/current/P108i_was_produced_by"/>
+        <rdfs:domain rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Manuscript"/>
+        <rdfs:range rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingEvent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/appliesToAttribute -->
+
+    <owl:DatatypeProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/appliesToAttribute"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/appliesToElement -->
+
+    <owl:DatatypeProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/appliesToElement"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasURLString -->
+
+    <owl:DatatypeProperty rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/hasURLString">
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/current/E1_CRM_Entity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AboveLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AboveLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AddedTextType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AddedTextType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AnthropomorphicInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AnthropomorphicInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Archive -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Archive">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F11_Corporate_Body"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BackCover -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BackCover">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookCover"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BelowLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BelowLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Bifolium -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Bifolium">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Book -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Book">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookBack -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookBack">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookCover -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookCover">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookEdge -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookEdge">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookHeading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookHeading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading"/>
+        <rdfs:label xml:lang="de">Buchüberschrift</rdfs:label>
+        <rdfs:label xml:lang="en">book heading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BottomEdge -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BottomEdge">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookEdge"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cadel -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cadel">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Catchword -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Catchword">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChampieInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChampieInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Chapter -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Chapter">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChapterHeading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChapterHeading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChapterNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ChapterNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Codex -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Codex">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CodexFragment -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CodexFragment">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Color -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Color">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColorDecoration -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColorDecoration">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DecorationType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Column -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Column">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LayoutFeature"/>
+        <rdfs:label xml:lang="de">Spalte</rdfs:label>
+        <rdfs:label xml:lang="en">column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnBottom -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnBottom">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMargin -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMargin">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMarginLeft -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMarginLeft">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMargin"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMarginRight -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMarginRight">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnMargin"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnTop -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColumnTop">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CompleteExpression -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CompleteExpression">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F2_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E25_Man-Made_Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrectionMark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrectionMark">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cue -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cue">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CueInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CueInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cue"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CueNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CueNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cue"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CuePilcrow -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CuePilcrow">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Cue"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DamagedTextType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DamagedTextType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DecorationType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DecorationType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeliveryAddress -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeliveryAddress">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DependentLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DependentLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLine"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalFile -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalFile">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalImageFile -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalImageFile">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalFile"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalPhotograph -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalPhotograph">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E38_Image"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Document -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Document">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EditorialDocument -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EditorialDocument">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EngravedArtifact -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EngravedArtifact">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Envelope -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Envelope">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionAccordingToGenre -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionAccordingToGenre">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F2_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionContainer -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionContainer">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionFragmentThroughLoss -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionFragmentThroughLoss">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionPart -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionPart">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F23_Expression_Fragment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Fascicle -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Fascicle">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FigureInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FigureInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlourishInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlourishInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Font -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Font">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Footer -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Footer">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ForeEdge -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ForeEdge">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookEdge"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LayoutFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWorkLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWorkLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FrontCover -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FrontCover">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookCover"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Gathering -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Gathering">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GeographicPlace -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GeographicPlace">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GreekScript -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GreekScript">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HandwrittenScript -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HandwrittenScript">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Header -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Header">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HebrewScript -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HebrewScript">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HistoriatedInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HistoriatedInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Hyphen -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Hyphen">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IIIFURL -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IIIFURL">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/URL"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImageCarrier -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImageCarrier">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentedLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentedLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+        <rdfs:comment xml:lang="de">Eine Zeile, die (meist in regelmäßiger Abfolge) in einem deutlich erkennbaren Abstand vom übrigen linken Spaltenrand im inneren Bereich der Spalte beginnt. Sie markiert in der Regel den Beginn eines Textparagraphen oder die Position eines Verses in einer Versgruppe, auch bei hängendem Einzug handelt es sich um eingerückte Zeilen. Eine eingerückte Zeile erfüllt eine strukturelle Gliederungsfunktion. Bei Zeilen, die wegen einer Aussparung für eine Initiale, eine Abbildung o. Ä. nicht am linken Spaltenrand beginnen, handelt es sich um keine eingerückten Zeilen im Sinne dieser Definition.</rdfs:comment>
+        <rdfs:label xml:lang="de">eingerückte Zeile</rdfs:label>
+        <rdfs:label xml:lang="en">indented line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E84_Information_Carrier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Inline -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Inline">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InsertionMark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InsertionMark">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Inspace -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Inspace">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Label -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Label">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionAccordingToGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LatinScript -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LatinScript">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LayoutFeature -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LayoutFeature">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E36_Visual_Item"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Leaf -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Leaf">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Letter -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Letter">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LetterCard -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LetterCard">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Library -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Library">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F11_Corporate_Body"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LayoutFeature"/>
+        <rdfs:label xml:lang="de">Zeile</rdfs:label>
+        <rdfs:label xml:lang="en">line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineDelimiter -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineDelimiter">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+        <rdfs:comment xml:lang="en">A mark which explicitly delimits the beginning or the end of a line in order to prevent the erroneous inclusion of contents from other zones of the written surface into the line marked in this way.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Zeichen, das den Anfang oder das Ende einer Zeile explizit abgrenzt, um irrtümlicher Einbeziehung von Inhalten aus anderen Bereichen der beschriebenen Fläche in die so markierte Zeile vorzubeugen.</rdfs:comment>
+        <rdfs:label xml:lang="de">Zeilenabgrenzungszeichen</rdfs:label>
+        <rdfs:label xml:lang="en">line delimiter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineOrientation -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineOrientation">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LiteraryWork -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LiteraryWork">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Lombard -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Lombard">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Manuscript -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Manuscript">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/MarginalLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/MarginalLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E37_Mark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/MultipleTokensModification -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/MultipleTokensModification">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E11_Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E34_Inscription"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Page -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Page">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ContentSurface"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageBottom -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageBottom">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageFooter -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageFooter">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Footer"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageHeader -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageHeader">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Header"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMargin -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMargin">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMarginLeft -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMarginLeft">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMargin"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMarginRight -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMarginRight">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageMargin"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageTop -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageTop">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PageLayoutPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PaintedArtifact -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PaintedArtifact">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Paragraph -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Paragraph">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphHeading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphHeading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphSign -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ParagraphSign">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PicturePostcard -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PicturePostcard">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Poem -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Poem">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LiteraryWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PostageStamp -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PostageStamp">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart"/>
+        <rdfs:label xml:lang="de">Briefmarke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Postcard -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Postcard">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Postmark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Postmark">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart"/>
+        <rdfs:label xml:lang="de">Poststempelabdruck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintedArtifact -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintedArtifact">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintingEvent -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintingEvent">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F33_Reproduction_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/QuireSignature -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/QuireSignature">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FormeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ReferenceMark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ReferenceMark">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Relic -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Relic">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E22_Man-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabel -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabel">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Label"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabelText -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabelText">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RepeatedLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RepeatedLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ReturnAddress -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ReturnAddress">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLineAbove -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLineAbove">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLine"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLineBelow -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLineBelow">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverLine"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverSign -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RunOverSign">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Saint -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Saint">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E21_Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scan -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scan">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DigitalReproduction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ScriptType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ScriptType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scroll -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scroll">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ScrollworkInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ScrollworkInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sculpture -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sculpture">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Shelfmark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Shelfmark">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SilhouetteInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SilhouetteInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SingleTokenModification -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SingleTokenModification">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E11_Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sketch -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sketch">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E36_Visual_Item"/>
+        <rdfs:comment xml:lang="en">»A rough drawing or delineation of something, giving the outlines or prominent features without the detail, esp. one intended to serve as the basis of a more finished picture, or to be used in its composition; a rough draught or design« (Oxford English Dictionary, 15, 593); a preliminary drawing, in medieval manuscripts typically for a illumination or initial.</rdfs:comment>
+        <rdfs:label xml:lang="de">Skizze</rdfs:label>
+        <rdfs:label xml:lang="en">sketch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaceType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaceType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaltleistenInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaltleistenInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/StrokeDecoration -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/StrokeDecoration">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DecorationType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Subchapter -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Subchapter">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SubchapterHeading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SubchapterHeading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SubchapterNumeral -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SubchapterNumeral">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Numeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Substitution -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Substitution">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E11_Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Superimposed -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Superimposed">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Supplement -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Supplement">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DocumentPart"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Telegram -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Telegram">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CorrespondenceDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextCarrier -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextCarrier">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E25_Man-Made_Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E36_Visual_Item"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextualLossType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextualLossType">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenAddition -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenAddition">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E79_Part_Addition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenDeletion -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenDeletion">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E80_Part_Removal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenMarker -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TokenMarker">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TopEdge -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TopEdge">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BookEdge"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TransposedLine -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TransposedLine">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Line"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TranspositionMark -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TranspositionMark">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/URL -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/URL">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Versal -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Versal">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextStructureElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WordDivider -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WordDivider">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Metamark"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WorkHeading -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WorkHeading">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Heading"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingEvent -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingEvent">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/efrbroo/F32_Carrier_Production_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystem -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystem">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E29_Design_or_Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/XMLPattern -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/XMLPattern">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <rdfs:comment xml:lang="en">Combination of statements about a XML element, a XML attribute and optionally cardinality.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Kombination aus jeweils einer Angabe zum XML-Element, XML-Attribut und ggf. Kardinalität.</rdfs:comment>
+        <rdfs:label xml:lang="en">XML pattern</rdfs:label>
+        <rdfs:label xml:lang="de">XML-Muster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ZoomorphicInitial -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ZoomorphicInitial">
+        <rdfs:subClassOf rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Initial"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://diglit.ub.uni-heidelberg.de/image/cpg336/005v.jpg/pct:25.334382,13.688610,43.823761,18.547544/full/0/default.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://diglit.ub.uni-heidelberg.de/image/cpg336/005v.jpg/pct:25.334382,13.688610,43.823761,18.547544/full/0/default.jpg"/>
+    
+
+
+    <!-- https://diglit.ub.uni-heidelberg.de/image/cpg338/020v.jpg/pct:31.399046,33.896515,7.949126,2.798310/full/0/default.jpg -->
+
+    <owl:NamedIndividual rdf:about="https://diglit.ub.uni-heidelberg.de/image/cpg338/020v.jpg/pct:31.399046,33.896515,7.949126,2.798310/full/0/default.jpg"/>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Adapted -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Adapted">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/AddedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Bold -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Bold">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BottomToTop -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/BottomToTop">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Centered -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Centered">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CutOff -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/CutOff">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextualLossType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DoubleUnderlined -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DoubleUnderlined">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EngravedArtifact -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/EngravedArtifact">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Erased -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Erased">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionAccordingToGenre -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ExpressionAccordingToGenre">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FirstLineIndent -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FirstLineIndent">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlushLeft -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlushLeft">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlushRight -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FlushRight">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Font -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Font">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GreekScript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/GreekScript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HandwrittenScript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HandwrittenScript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HangingIndent -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HangingIndent">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/IndentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HebrewScript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HebrewScript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Horizontal -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Horizontal">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineOrientation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Illegible -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Illegible">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextualLossType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImageCarrier -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImageCarrier">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImplicitlyDeleted -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ImplicitlyDeleted">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToContent">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToForm">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/InformationCarrierAccordingToProductionTechnology">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Italic -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Italic">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Justified -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Justified">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextAlignment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Label -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Label">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LabelText">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LatinScript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LatinScript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LeftToRight -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LeftToRight">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineRelatedPlace">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Manuscript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Manuscript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Oblique -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Oblique">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overdotted -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overdotted">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overpainted -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overpainted">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overwritten -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Overwritten">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription">
+        <dcterms:bibliographicCitation>&lt;bibl&gt;Beal, Peter. &lt;emph&gt;A dictionary of English manuscript terminology: 1450–2000.&lt;/emph&gt;  Oxford, Oxford University Press, 2008, 275–277.&lt;/bibl&gt;
+&lt;bibl&gt;Clemens, Raymond; Graham, Timothy. &lt;emph&gt;Introduction to manuscript studies.&lt;/emph&gt; Ithaca, Cornell University Press, 2007, 124–125.&lt;/bibl&gt;
+&lt;bibl&gt;Schneider, Karin. &lt;emph&gt;Paläographie und Handschriftenkunde für Germanisten: Eine Einführung.&lt;/emph&gt; 3., durchgesehene Auflage. Berlin, de Gruyter, 2014, 204–205.&lt;/bibl&gt;</dcterms:bibliographicCitation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PaintedArtifact -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PaintedArtifact">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintedArtifact -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/PrintedArtifact">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedRetrace -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedRetrace">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColorDecoration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedStrikethrough -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedStrikethrough">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColorDecoration"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/StrokeDecoration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedStroke -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedStroke">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/ColorDecoration"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/StrokeDecoration"/>
+        <foaf:depiction rdf:resource="https://diglit.ub.uni-heidelberg.de/image/cpg336/005v.jpg/pct:25.334382,13.688610,43.823761,18.547544/full/0/default.jpg"/>
+        <foaf:depiction rdf:resource="https://diglit.ub.uni-heidelberg.de/image/cpg338/020v.jpg/pct:31.399046,33.896515,7.949126,2.798310/full/0/default.jpg"/>
+        <rdfs:comment xml:lang="de">Hervorhebende Verzierung eines Buchstabens mit einem senkrechten Strich in roter Farbe. Häufig verwendet für die Verzierung ›der Majuskeln zu Satz- oder Abschnittsbeginn, der Eigennamen oder auch der Versanfänge. In manchen Handschriften, besonders Papiercodices des späten 14. und des 15. Jahrhunderts mit abgesetzten Reimpaaren vereinfachte der Rubrikator diese Tätigkeit, indem er einen einzigen senkrechten roten Strich durch sämtliche Versanfänge zog.‹ (Schneider [1999] 152)</rdfs:comment>
+        <rdfs:label xml:lang="en">red stroke decoration</rdfs:label>
+        <rdfs:label xml:lang="de">rote Strichelung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedUnderlined -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RedUnderlined">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabelText -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RelicLabelText">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RightToLeft -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/RightToLeft">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scroll -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Scroll">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sculpture -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Sculpture">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SmallCaps -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SmallCaps">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TypographicType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Strikethrough -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Strikethrough">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Subscript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Subscript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Superscript -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Superscript">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextCarrier -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TextCarrier">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TopToBottom -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/TopToBottom">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingDirection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Underdotted -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Underdotted">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Underlined -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Underlined">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/DeletedTextType"/>
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/HighlightedTextType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Vertical -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/Vertical">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/LineOrientation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/VerticalSpaceAfter -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/VerticalSpaceAfter">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/VerticalSpaceBefore -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/VerticalSpaceBefore">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/SpaceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToCharacterSet">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology -->
+
+    <owl:NamedIndividual rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/WritingSystemAccordingToProductionTechnology">
+        <rdf:type rdf:resource="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/FacetClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription">
+        <rdfs:label xml:lang="en">ownership inscription</rdfs:label>
+        <rdfs:comment xml:lang="en">Hand-written remark in a book recording the name of the institution or person to whom the book belonged.</rdfs:comment>
+        <hc:applicableTo>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                <hc:appliesToAttribute>TEI-ana</hc:appliesToAttribute>
+                <hc:appliesToElement>TEI-p</hc:appliesToElement>
+            </rdf:Description>
+        </hc:applicableTo>
+        <rdfs:label xml:lang="de">Besitzvermerk</rdfs:label>
+        <rdfs:comment xml:lang="de">Handgeschriebener Vermerk in einem Buch mit der Angabe der Institution oder Person, die im Besitz des Buches war.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
