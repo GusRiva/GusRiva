@@ -1759,6 +1759,22 @@
     
 
 
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#Brune_number -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#Brune_number">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#ChLA_number -->
+
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#ChLA_number">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2287,8 +2303,6 @@
      -->
 
     <rdf:Description rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/OwnershipInscription">
-        <rdfs:label xml:lang="en">ownership inscription</rdfs:label>
-        <rdfs:comment xml:lang="en">Hand-written remark in a book recording the name of the institution or person to whom the book belonged.</rdfs:comment>
         <hc:applicableTo>
             <rdf:Description>
                 <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
@@ -2296,6 +2310,8 @@
                 <hc:appliesToElement>TEI-p</hc:appliesToElement>
             </rdf:Description>
         </hc:applicableTo>
+        <rdfs:label xml:lang="en">ownership inscription</rdfs:label>
+        <rdfs:comment xml:lang="en">Hand-written remark in a book recording the name of the institution or person to whom the book belonged.</rdfs:comment>
         <rdfs:label xml:lang="de">Besitzvermerk</rdfs:label>
         <rdfs:comment xml:lang="de">Handgeschriebener Vermerk in einem Buch mit der Angabe der Institution oder Person, die im Besitz des Buches war.</rdfs:comment>
     </rdf:Description>
