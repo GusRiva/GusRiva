@@ -1759,17 +1759,17 @@
     
 
 
-    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#Brune_number -->
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau/Brune_number -->
 
-    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#Brune_number">
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau/Brune_number">
         <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
     </owl:Class>
     
 
 
-    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#ChLA_number -->
+    <!-- https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau/ChLA_number -->
 
-    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau#ChLA_number">
+    <owl:Class rdf:about="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/relau/ChLA_number">
         <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/current/E42_Identifier"/>
     </owl:Class>
     
