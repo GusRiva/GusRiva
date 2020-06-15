@@ -2,8 +2,8 @@
 <xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
-    <xt:extension id="">
-        <xt:location href=""/>
+    <xt:extension id="iwein_fw">
+        <xt:location href="http://gustavofernandezriva.com/iwein_fw/iwein_fw.xml"/>
         <xt:version>1.0.0</xt:version>
         <xt:oxy_version>14.0+</xt:oxy_version>
         <xt:type>framework</xt:type>
