@@ -1,4 +1,5 @@
 # Taller de Análisis de Redes
+
 ## \#Noviembre HD, 5 Noviembre 2020
 
 - [Presentación](riva_presentacion_redes_2020_11_5.pdf)
@@ -11,4 +12,4 @@
 
 - [Python, ejemplo de networkx convertir gexf a graphml](gexf_to_graphml.py)
 
-- [Redes de Películar (formato graphml)](graphml.zip)
+- [Redes de Películas (formato graphml)](graphml.zip)
