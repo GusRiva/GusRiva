@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="4629042">
+      <data key="d0">4629042</data>
+      <data key="d1">GIBARIAN</data>
+    </node>
+    <node id="4629102">
+      <data key="d0">4629102</data>
+      <data key="d1">KELVIN</data>
+    </node>
+    <node id="4629607">
+      <data key="d0">4629607</data>
+      <data key="d1">RHEYA</data>
+    </node>
+    <node id="4629298">
+      <data key="d0">4629298</data>
+      <data key="d1">SARTORIUS</data>
+    </node>
+    <node id="4629217">
+      <data key="d0">4629217</data>
+      <data key="d1">SNOW</data>
+    </node>
+    <edge source="4629042" target="4629607">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4629042" target="4629298">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4629042" target="4629102">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4629042" target="4629217">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4629102" target="4629607">
+      <data key="d2">20.0</data>
+    </edge>
+    <edge source="4629102" target="4629298">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="4629102" target="4629217">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="4629607" target="4629298">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4629607" target="4629217">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="4629298" target="4629217">
+      <data key="d2">3.0</data>
+    </edge>
+  </graph>
+</graphml>

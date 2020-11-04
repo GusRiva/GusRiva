@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="3107511">
+      <data key="d0">3107511</data>
+      <data key="d1">ANN</data>
+    </node>
+    <node id="3110512">
+      <data key="d0">3110512</data>
+      <data key="d1">CARLOS</data>
+    </node>
+    <node id="3108353">
+      <data key="d0">3108353</data>
+      <data key="d1">DRIVER</data>
+    </node>
+    <node id="3108013">
+      <data key="d0">3108013</data>
+      <data key="d1">EDDIE</data>
+    </node>
+    <node id="3108180">
+      <data key="d0">3108180</data>
+      <data key="d1">FIRST STUDENT</data>
+    </node>
+    <node id="3109970">
+      <data key="d0">3109970</data>
+      <data key="d1">GUIDONE</data>
+    </node>
+    <node id="3109825">
+      <data key="d0">3109825</data>
+      <data key="d1">HOTEL SWITCHBOARD</data>
+    </node>
+    <node id="3107661">
+      <data key="d0">3107661</data>
+      <data key="d1">JEALOUS</data>
+    </node>
+    <node id="3107456">
+      <data key="d0">3107456</data>
+      <data key="d1">LETOUR</data>
+    </node>
+    <node id="3110955">
+      <data key="d0">3110955</data>
+      <data key="d1">MANUEL</data>
+    </node>
+    <node id="3108240">
+      <data key="d0">3108240</data>
+      <data key="d1">MARIANNE</data>
+    </node>
+    <node id="3109921">
+      <data key="d0">3109921</data>
+      <data key="d1">MEDICAL VOICE</data>
+    </node>
+    <node id="3108133">
+      <data key="d0">3108133</data>
+      <data key="d1">MID-TWENTIESH MAN</data>
+    </node>
+    <node id="3110686">
+      <data key="d0">3110686</data>
+      <data key="d1">POLICE SWITCHBOARD</data>
+    </node>
+    <node id="3108830">
+      <data key="d0">3108830</data>
+      <data key="d1">RANDI</data>
+    </node>
+    <node id="3107525">
+      <data key="d0">3107525</data>
+      <data key="d1">ROBERT</data>
+    </node>
+    <node id="3108183">
+      <data key="d0">3108183</data>
+      <data key="d1">SECOND STUDENT</data>
+    </node>
+    <node id="3109906">
+      <data key="d0">3109906</data>
+      <data key="d1">ST LUKE'S SWITCHBOARD</data>
+    </node>
+    <node id="3108391">
+      <data key="d0">3108391</data>
+      <data key="d1">TERESA</data>
+    </node>
+    <node id="3110409">
+      <data key="d0">3110409</data>
+      <data key="d1">THOMAS</data>
+    </node>
+    <node id="3108763">
+      <data key="d0">3108763</data>
+      <data key="d1">TIS</data>
+    </node>
+    <node id="3110797">
+      <data key="d0">3110797</data>
+      <data key="d1">TONY</data>
+    </node>
+    <node id="3108621">
+      <data key="d0">3108621</data>
+      <data key="d1">YOUNG HASID</data>
+    </node>
+    <edge source="3107511" target="3108013">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107511" target="3107525">
+      <data key="d2">9.0</data>
+    </edge>
+    <edge source="3107511" target="3108763">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107511" target="3107456">
+      <data key="d2">14.0</data>
+    </edge>
+    <edge source="3107511" target="3108621">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3110512" target="3107456">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3108353" target="3107456">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3108353" target="3108240">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3108013" target="3107456">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3108013" target="3107525">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3108180" target="3108183">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3108180" target="3107456">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3109970" target="3107456">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3109825" target="3107456">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3109825" target="3109906">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107661" target="3107456">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3107456" target="3108830">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3107456" target="3108183">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3107456" target="3109906">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3108391">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3107456" target="3110409">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3110797">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3110955">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3107456" target="3108240">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="3107456" target="3109921">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3108133">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3110686">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107456" target="3107525">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="3107456" target="3108763">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="3108240" target="3108830">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3107525" target="3110797">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3110409" target="3108763">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="2953384">
+      <data key="d0">2953384</data>
+      <data key="d1">ATTENDANT</data>
+    </node>
+    <node id="2955687">
+      <data key="d0">2955687</data>
+      <data key="d1">BODYGUARD</data>
+    </node>
+    <node id="2952791">
+      <data key="d0">2952791</data>
+      <data key="d1">CHINESE GOVERNOR</data>
+    </node>
+    <node id="2952276">
+      <data key="d0">2952276</data>
+      <data key="d1">FATHER</data>
+    </node>
+    <node id="2956538">
+      <data key="d0">2956538</data>
+      <data key="d1">GENERAL CHIANG</data>
+    </node>
+    <node id="2956284">
+      <data key="d0">2956284</data>
+      <data key="d1">GENERAL CHIANG CHIN-WU</data>
+    </node>
+    <node id="2954573">
+      <data key="d0">2954573</data>
+      <data key="d1">KASHAG MEMBER</data>
+    </node>
+    <node id="2952627">
+      <data key="d0">2952627</data>
+      <data key="d1">KEUSTANG RINPOCHE</data>
+    </node>
+    <node id="2952599">
+      <data key="d0">2952599</data>
+      <data key="d1">LAMA</data>
+    </node>
+    <node id="2952273">
+      <data key="d0">2952273</data>
+      <data key="d1">LHAMO</data>
+    </node>
+    <node id="2953954">
+      <data key="d0">2953954</data>
+      <data key="d1">LING RINPOCHE</data>
+    </node>
+    <node id="2952494">
+      <data key="d0">2952494</data>
+      <data key="d1">LOBSANG</data>
+    </node>
+    <node id="2952298">
+      <data key="d0">2952298</data>
+      <data key="d1">LOBSANG SAMTEN</data>
+    </node>
+    <node id="2953143">
+      <data key="d0">2953143</data>
+      <data key="d1">LORD CHAMBERLAIN</data>
+    </node>
+    <node id="2956594">
+      <data key="d0">2956594</data>
+      <data key="d1">LUKHANGWA</data>
+    </node>
+    <node id="2952358">
+      <data key="d0">2952358</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="2956807">
+      <data key="d0">2956807</data>
+      <data key="d1">MAO TSE TUNG</data>
+    </node>
+    <node id="2953028">
+      <data key="d0">2953028</data>
+      <data key="d1">MONKS</data>
+    </node>
+    <node id="2952288">
+      <data key="d0">2952288</data>
+      <data key="d1">MOTHER</data>
+    </node>
+    <node id="2955871">
+      <data key="d0">2955871</data>
+      <data key="d1">MUSLIM MAN</data>
+    </node>
+    <node id="2955971">
+      <data key="d0">2955971</data>
+      <data key="d1">NOBLE BOY</data>
+    </node>
+    <node id="2953192">
+      <data key="d0">2953192</data>
+      <data key="d1">NORBU THUNDRUP</data>
+    </node>
+    <node id="2957087">
+      <data key="d0">2957087</data>
+      <data key="d1">OLD WOMAN</data>
+    </node>
+    <node id="2954355">
+      <data key="d0">2954355</data>
+      <data key="d1">QUESTIONER</data>
+    </node>
+    <node id="2956185">
+      <data key="d0">2956185</data>
+      <data key="d1">RADIO VOICE</data>
+    </node>
+    <node id="2955087">
+      <data key="d0">2955087</data>
+      <data key="d1">REGENT TAKTRA</data>
+    </node>
+    <node id="2952982">
+      <data key="d0">2952982</data>
+      <data key="d1">RETING RINPOCHE</data>
+    </node>
+    <node id="2952401">
+      <data key="d0">2952401</data>
+      <data key="d1">SERVANT</data>
+    </node>
+    <node id="2957772">
+      <data key="d0">2957772</data>
+      <data key="d1">SOLDIER</data>
+    </node>
+    <node id="2955321">
+      <data key="d0">2955321</data>
+      <data key="d1">TAKSTER RINPOCHE</data>
+    </node>
+    <node id="2953865">
+      <data key="d0">2953865</data>
+      <data key="d1">TAKTRA RINPOCHE</data>
+    </node>
+    <node id="2953181">
+      <data key="d0">2953181</data>
+      <data key="d1">TENZIN GYATSO</data>
+    </node>
+    <node id="2955903">
+      <data key="d0">2955903</data>
+      <data key="d1">TIBETAN WOMAN</data>
+    </node>
+    <edge source="2953384" target="2952298">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953384" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955687" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952791" target="2952627">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952791" target="2952273">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952791" target="2952288">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2952494">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952276" target="2952273">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2952298">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2952288">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952276" target="2953192">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2952982">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2953865">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952276" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2956538" target="2953143">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2956538" target="2956594">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2956538" target="2953181">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2956284" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2954573" target="2953143">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="2954573" target="2953181">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="2954573" target="2953865">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952627" target="2952273">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952627" target="2952288">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952599" target="2952288">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952273" target="2952494">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952273" target="2952298">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952273" target="2952401">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952273" target="2952358">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952273" target="2952288">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="2953954" target="2954355">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953954" target="2953181">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2953954" target="2953028">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952494" target="2952288">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952494" target="2952298">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952494" target="2952982">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952494" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952298" target="2952288">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952298" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953143" target="2953192">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953143" target="2956185">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953143" target="2953865">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953143" target="2953181">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="2956594" target="2953181">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952358" target="2952401">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2952358" target="2952288">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2956807" target="2953181">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952288" target="2952401">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2952288" target="2953181">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="2952288" target="2952982">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955871" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955971" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953192" target="2953865">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953192" target="2953181">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="2957087" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955087" target="2953865">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955087" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2957772" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2955321" target="2953181">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2953865" target="2953181">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="2953181" target="2955903">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

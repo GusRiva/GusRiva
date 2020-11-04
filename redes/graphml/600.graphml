@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="3692682">
+      <data key="d0">3692682</data>
+      <data key="d1">ALICE</data>
+    </node>
+    <node id="3694877">
+      <data key="d0">3694877</data>
+      <data key="d1">ASSISTANT</data>
+    </node>
+    <node id="3696983">
+      <data key="d0">3696983</data>
+      <data key="d1">BARTENDER</data>
+    </node>
+    <node id="3694360">
+      <data key="d0">3694360</data>
+      <data key="d1">BLADE COP</data>
+    </node>
+    <node id="3696659">
+      <data key="d0">3696659</data>
+      <data key="d1">BUM</data>
+    </node>
+    <node id="3692630">
+      <data key="d0">3692630</data>
+      <data key="d1">CHILD</data>
+    </node>
+    <node id="3694911">
+      <data key="d0">3694911</data>
+      <data key="d1">COP</data>
+    </node>
+    <node id="3694882">
+      <data key="d0">3694882</data>
+      <data key="d1">CORONER</data>
+    </node>
+    <node id="3693256">
+      <data key="d0">3693256</data>
+      <data key="d1">DAVID</data>
+    </node>
+    <node id="3694527">
+      <data key="d0">3694527</data>
+      <data key="d1">DOCTOR</data>
+    </node>
+    <node id="3696027">
+      <data key="d0">3696027</data>
+      <data key="d1">FAT MAN</data>
+    </node>
+    <node id="3694907">
+      <data key="d0">3694907</data>
+      <data key="d1">FIRE MARSHALL</data>
+    </node>
+    <node id="3692807">
+      <data key="d0">3692807</data>
+      <data key="d1">FREDDY</data>
+    </node>
+    <node id="3693424">
+      <data key="d0">3693424</data>
+      <data key="d1">GINA</data>
+    </node>
+    <node id="3692484">
+      <data key="d0">3692484</data>
+      <data key="d1">GREYHAIRED MAN</data>
+    </node>
+    <node id="3692478">
+      <data key="d0">3692478</data>
+      <data key="d1">JACOB</data>
+    </node>
+    <node id="3693099">
+      <data key="d0">3693099</data>
+      <data key="d1">KAREN</data>
+    </node>
+    <node id="3697819">
+      <data key="d0">3697819</data>
+      <data key="d1">KAREN'S FATHER</data>
+    </node>
+    <node id="3697846">
+      <data key="d0">3697846</data>
+      <data key="d1">KAREN'S MOTHER</data>
+    </node>
+    <node id="3693253">
+      <data key="d0">3693253</data>
+      <data key="d1">MARY</data>
+    </node>
+    <node id="3693066">
+      <data key="d0">3693066</data>
+      <data key="d1">MR HOPKINS</data>
+    </node>
+    <node id="3696386">
+      <data key="d0">3696386</data>
+      <data key="d1">MR SILVERMAN</data>
+    </node>
+    <node id="3697955">
+      <data key="d0">3697955</data>
+      <data key="d1">MR UNDERWOOD</data>
+    </node>
+    <node id="3696942">
+      <data key="d0">3696942</data>
+      <data key="d1">MUTANT BOUNCER</data>
+    </node>
+    <node id="3696962">
+      <data key="d0">3696962</data>
+      <data key="d1">MUTANT WAITRESS</data>
+    </node>
+    <node id="3694647">
+      <data key="d0">3694647</data>
+      <data key="d1">ORDERLY ON TV</data>
+    </node>
+    <node id="3694397">
+      <data key="d0">3694397</data>
+      <data key="d1">POWER COP</data>
+    </node>
+    <node id="3693433">
+      <data key="d0">3693433</data>
+      <data key="d1">SCOTT</data>
+    </node>
+    <node id="3694664">
+      <data key="d0">3694664</data>
+      <data key="d1">SECOND ORDERLY</data>
+    </node>
+    <node id="3696582">
+      <data key="d0">3696582</data>
+      <data key="d1">SOCIAL WORKER</data>
+    </node>
+    <node id="3692993">
+      <data key="d0">3692993</data>
+      <data key="d1">SOUND COP</data>
+    </node>
+    <node id="3692501">
+      <data key="d0">3692501</data>
+      <data key="d1">STEWARDESS</data>
+    </node>
+    <node id="3693700">
+      <data key="d0">3693700</data>
+      <data key="d1">SUPERVISOR</data>
+    </node>
+    <node id="3692582">
+      <data key="d0">3692582</data>
+      <data key="d1">THE CHILDREN</data>
+    </node>
+    <node id="3693417">
+      <data key="d0">3693417</data>
+      <data key="d1">WESLEY</data>
+    </node>
+    <node id="3692766">
+      <data key="d0">3692766</data>
+      <data key="d1">WOMAN</data>
+    </node>
+    <edge source="3692682" target="3692807">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692682" target="3692993">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692682" target="3692478">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3692682" target="3693099">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694877" target="3694911">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694877" target="3694882">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694877" target="3694907">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694877" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696983" target="3692807">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696983" target="3696942">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696983" target="3696962">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696983" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694360" target="3692478">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3694360" target="3692807">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3694360" target="3693099">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694360" target="3694397">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3694360" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694360" target="3692993">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3696659" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692630" target="3692478">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692630" target="3692582">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694911" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694911" target="3694882">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694911" target="3694907">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694882" target="3694907">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694882" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693256" target="3692478">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="3693256" target="3693099">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3693256" target="3693433">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3693256" target="3694527">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693256" target="3693424">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693256" target="3693253">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694527" target="3692478">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696027" target="3692807">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696027" target="3692478">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694907" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3693424">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3692478">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="3692807" target="3693099">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3692807" target="3697819">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3697846">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3697955">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3696942">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3694397">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3692807" target="3692993">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3692807" target="3693417">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3692807" target="3696962">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3694647">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3693433">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3692807" target="3694664">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692807" target="3692766">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693424" target="3692478">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="3693424" target="3693099">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3693424" target="3694647">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693424" target="3694664">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693424" target="3693417">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3693424" target="3693433">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3692484" target="3692501">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692484" target="3692478">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3697819">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3697846">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3693253">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3693066">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3697955">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3696582">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3692501">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3692766">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3693099">
+      <data key="d2">18.0</data>
+    </edge>
+    <edge source="3692478" target="3696386">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3694397">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="3692478" target="3693433">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="3692478" target="3692993">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="3692478" target="3693700">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3692582">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3692478" target="3693417">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3693099" target="3697819">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3697846">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3693253">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3693066">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3697955">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3694397">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3693099" target="3696582">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3692993">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3696386">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693099" target="3693433">
+      <data key="d2">9.0</data>
+    </edge>
+    <edge source="3693099" target="3693417">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697819" target="3697846">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697819" target="3697955">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697819" target="3694397">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697846" target="3697955">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697846" target="3694397">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696386" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3697955" target="3694397">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696942" target="3696962">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696942" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3696962" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694647" target="3694664">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694647" target="3693417">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694397" target="3692993">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3694397" target="3693433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693433" target="3696582">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693433" target="3692993">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3693433" target="3693417">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3694664" target="3693417">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

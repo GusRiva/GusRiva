@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1138496">
+      <data key="d0">1138496</data>
+      <data key="d1">CELESTE</data>
+    </node>
+    <node id="1138293">
+      <data key="d0">1138293</data>
+      <data key="d1">DERM</data>
+    </node>
+    <node id="1140070">
+      <data key="d0">1140070</data>
+      <data key="d1">DOCTOR</data>
+    </node>
+    <node id="1137326">
+      <data key="d0">1137326</data>
+      <data key="d1">ED</data>
+    </node>
+    <node id="1142018">
+      <data key="d0">1142018</data>
+      <data key="d1">GEOFFREY</data>
+    </node>
+    <node id="1138769">
+      <data key="d0">1138769</data>
+      <data key="d1">GEORGE</data>
+    </node>
+    <node id="1142535">
+      <data key="d0">1142535</data>
+      <data key="d1">HARVEY</data>
+    </node>
+    <node id="1140602">
+      <data key="d0">1140602</data>
+      <data key="d1">MAZUREK</data>
+    </node>
+    <node id="1140141">
+      <data key="d0">1140141</data>
+      <data key="d1">MOTHER</data>
+    </node>
+    <node id="1138517">
+      <data key="d0">1138517</data>
+      <data key="d1">MRS MASTRIONI</data>
+    </node>
+    <node id="1137467">
+      <data key="d0">1137467</data>
+      <data key="d1">NURSE</data>
+    </node>
+    <node id="1139053">
+      <data key="d0">1139053</data>
+      <data key="d1">OK</data>
+    </node>
+    <node id="1137446">
+      <data key="d0">1137446</data>
+      <data key="d1">OPERATOR</data>
+    </node>
+    <node id="1138621">
+      <data key="d0">1138621</data>
+      <data key="d1">SADIE</data>
+    </node>
+    <node id="1140608">
+      <data key="d0">1140608</data>
+      <data key="d1">SNYDER</data>
+    </node>
+    <node id="1137975">
+      <data key="d0">1137975</data>
+      <data key="d1">STEWART</data>
+    </node>
+    <node id="1137317">
+      <data key="d0">1137317</data>
+      <data key="d1">SUSIE</data>
+    </node>
+    <edge source="1138496" target="1138517">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138496" target="1138293">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138496" target="1137326">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138293" target="1137326">
+      <data key="d2">10.0</data>
+    </edge>
+    <edge source="1138293" target="1138769">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138293" target="1140602">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="1138293" target="1138517">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1138293" target="1139053">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1138293" target="1138621">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1138293" target="1140608">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138293" target="1137317">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1140070" target="1137326">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1140070" target="1140141">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1142535">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1140141">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1138517">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1137326" target="1137467">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1139053">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1137326" target="1140608">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1137975">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137326" target="1137317">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1137326" target="1142018">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1137326" target="1138769">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1137326" target="1140602">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1137326" target="1137446">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1137326" target="1138621">
+      <data key="d2">9.0</data>
+    </edge>
+    <edge source="1142018" target="1138769">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138769" target="1138517">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138769" target="1138621">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1138769" target="1137317">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1142535" target="1138621">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1140602" target="1140608">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138517" target="1138621">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138517" target="1137317">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137467" target="1137446">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137467" target="1137317">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1139053" target="1138621">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1137446" target="1137975">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1137446" target="1137317">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1138621" target="1137317">
+      <data key="d2">2.0</data>
+    </edge>
+  </graph>
+</graphml>

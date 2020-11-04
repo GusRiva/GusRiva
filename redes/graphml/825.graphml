@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="5076610">
+      <data key="d0">5076610</data>
+      <data key="d1">AD LIBS</data>
+    </node>
+    <node id="5075836">
+      <data key="d0">5075836</data>
+      <data key="d1">BRIDEWELL</data>
+    </node>
+    <node id="5075809">
+      <data key="d0">5075809</data>
+      <data key="d1">DR HILLYER</data>
+    </node>
+    <node id="5075855">
+      <data key="d0">5075855</data>
+      <data key="d1">FILBY</data>
+    </node>
+    <node id="5077429">
+      <data key="d0">5077429</data>
+      <data key="d1">JAMES FILBY</data>
+    </node>
+    <node id="5075901">
+      <data key="d0">5075901</data>
+      <data key="d1">KEMP</data>
+    </node>
+    <node id="5078815">
+      <data key="d0">5078815</data>
+      <data key="d1">MAN IN WHITE</data>
+    </node>
+    <node id="5075875">
+      <data key="d0">5075875</data>
+      <data key="d1">MRS WATCHETT</data>
+    </node>
+    <node id="5078634">
+      <data key="d0">5078634</data>
+      <data key="d1">THE GIRL</data>
+    </node>
+    <node id="5075981">
+      <data key="d0">5075981</data>
+      <data key="d1">TIME TRAVELLER</data>
+    </node>
+    <node id="5077859">
+      <data key="d0">5077859</data>
+      <data key="d1">WARDEN</data>
+    </node>
+    <node id="5078694">
+      <data key="d0">5078694</data>
+      <data key="d1">WEENA</data>
+    </node>
+    <edge source="5076610" target="5075981">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5075836" target="5075809">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075836" target="5075855">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5075836" target="5075901">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5075836" target="5075875">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075836" target="5075981">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075809" target="5075855">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5075809" target="5075901">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5075809" target="5075875">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075809" target="5075981">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075855" target="5075901">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075855" target="5075875">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5075855" target="5075981">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5077429" target="5075981">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5075901" target="5075875">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075901" target="5075981">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5078815" target="5075981">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5075875" target="5075981">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5078634" target="5075981">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5078634" target="5078694">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5075981" target="5077859">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5075981" target="5078694">
+      <data key="d2">3.0</data>
+    </edge>
+  </graph>
+</graphml>

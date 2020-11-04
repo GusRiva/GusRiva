@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="802349">
+      <data key="d0">802349</data>
+      <data key="d1">ABBY</data>
+    </node>
+    <node id="802627">
+      <data key="d0">802627</data>
+      <data key="d1">DEBRA</data>
+    </node>
+    <node id="807260">
+      <data key="d0">807260</data>
+      <data key="d1">KYLE</data>
+    </node>
+    <node id="803736">
+      <data key="d0">803736</data>
+      <data key="d1">LANDLADY</data>
+    </node>
+    <node id="802153">
+      <data key="d0">802153</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="802393">
+      <data key="d0">802393</data>
+      <data key="d1">MARTY</data>
+    </node>
+    <node id="802535">
+      <data key="d0">802535</data>
+      <data key="d1">MEURICE</data>
+    </node>
+    <node id="806796">
+      <data key="d0">806796</data>
+      <data key="d1">OLD WOMAN</data>
+    </node>
+    <node id="802325">
+      <data key="d0">802325</data>
+      <data key="d1">RAY</data>
+    </node>
+    <node id="807251">
+      <data key="d0">807251</data>
+      <data key="d1">RHODES</data>
+    </node>
+    <node id="802396">
+      <data key="d0">802396</data>
+      <data key="d1">VISSER</data>
+    </node>
+    <node id="802149">
+      <data key="d0">802149</data>
+      <data key="d1">WOMAN</data>
+    </node>
+    <edge source="802349" target="802325">
+      <data key="d2">12.0</data>
+    </edge>
+    <edge source="802349" target="803736">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802349" target="802393">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802349" target="802535">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802349" target="806796">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802627" target="802153">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802627" target="802393">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802627" target="802535">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802627" target="802149">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="807260" target="802325">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="807260" target="807251">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802153" target="802393">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802153" target="802149">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802153" target="802535">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802393" target="802535">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802393" target="802325">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802393" target="802396">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="802393" target="802149">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802535" target="802149">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="802535" target="802325">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="802325" target="807251">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="4434725">
+      <data key="d0">4434725</data>
+      <data key="d1">ANN</data>
+    </node>
+    <node id="4435035">
+      <data key="d0">4435035</data>
+      <data key="d1">CYNTHIA</data>
+    </node>
+    <node id="4437318">
+      <data key="d0">4437318</data>
+      <data key="d1">CYTNHIA</data>
+    </node>
+    <node id="4434743">
+      <data key="d0">4434743</data>
+      <data key="d1">DOCTOR</data>
+    </node>
+    <node id="4437455">
+      <data key="d0">4437455</data>
+      <data key="d1">DUDE</data>
+    </node>
+    <node id="4435167">
+      <data key="d0">4435167</data>
+      <data key="d1">GRAHAM</data>
+    </node>
+    <node id="4434816">
+      <data key="d0">4434816</data>
+      <data key="d1">JOHN</data>
+    </node>
+    <node id="4435715">
+      <data key="d0">4435715</data>
+      <data key="d1">MR MILLER</data>
+    </node>
+    <node id="4439739">
+      <data key="d0">4439739</data>
+      <data key="d1">SECRETARY</data>
+    </node>
+    <node id="4435200">
+      <data key="d0">4435200</data>
+      <data key="d1">VOICE ON PHONE</data>
+    </node>
+    <edge source="4434725" target="4435035">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="4434725" target="4434743">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="4434725" target="4435167">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="4434725" target="4435200">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434725" target="4437318">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434725" target="4437455">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4434725" target="4434816">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="4435035" target="4434743">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4435035" target="4434816">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="4435035" target="4437318">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4435035" target="4437455">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4435035" target="4435167">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="4437318" target="4434816">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4437318" target="4437455">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434743" target="4435167">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434743" target="4434816">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4437455" target="4434816">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4437455" target="4439739">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4437455" target="4435200">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4435167" target="4434816">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="4435167" target="4435715">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4435167" target="4435200">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434816" target="4439739">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4434816" target="4435200">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4439739" target="4435200">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

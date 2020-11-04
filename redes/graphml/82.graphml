@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="483659">
+      <data key="d0">483659</data>
+      <data key="d1">AKIRA</data>
+    </node>
+    <node id="482261">
+      <data key="d0">482261</data>
+      <data key="d1">BAIN</data>
+    </node>
+    <node id="485326">
+      <data key="d0">485326</data>
+      <data key="d1">BAIN/SCREEN</data>
+    </node>
+    <node id="484184">
+      <data key="d0">484184</data>
+      <data key="d1">BELLBOY</data>
+    </node>
+    <node id="483644">
+      <data key="d0">483644</data>
+      <data key="d1">CABBY</data>
+    </node>
+    <node id="482056">
+      <data key="d0">482056</data>
+      <data key="d1">CONTRACTOR/SCREEN</data>
+    </node>
+    <node id="482448">
+      <data key="d0">482448</data>
+      <data key="d1">COP</data>
+    </node>
+    <node id="483265">
+      <data key="d0">483265</data>
+      <data key="d1">ELECTRA</data>
+    </node>
+    <node id="481789">
+      <data key="d0">481789</data>
+      <data key="d1">ESCORT</data>
+    </node>
+    <node id="483278">
+      <data key="d0">483278</data>
+      <data key="d1">JENNIFER</data>
+    </node>
+    <node id="481450">
+      <data key="d0">481450</data>
+      <data key="d1">KETCHAM</data>
+    </node>
+    <node id="483249">
+      <data key="d0">483249</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="486955">
+      <data key="d0">486955</data>
+      <data key="d1">OFFICIAL</data>
+    </node>
+    <node id="481460">
+      <data key="d0">481460</data>
+      <data key="d1">RATH</data>
+    </node>
+    <node id="482059">
+      <data key="d0">482059</data>
+      <data key="d1">RATH/SCREEN</data>
+    </node>
+    <node id="483254">
+      <data key="d0">483254</data>
+      <data key="d1">WOMAN</data>
+    </node>
+    <edge source="483659" target="483265">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="482261" target="482448">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="482261" target="485326">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="482261" target="484184">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="482261" target="482056">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="482261" target="481460">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="485326" target="482056">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483644" target="481460">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="482056" target="483265">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="482056" target="482059">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="482056" target="481460">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="483265" target="481460">
+      <data key="d2">10.0</data>
+    </edge>
+    <edge source="483265" target="483278">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="483265" target="483249">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483265" target="482059">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483265" target="483254">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="481789" target="481460">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483278" target="483249">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483278" target="483254">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="481450" target="481460">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="483249" target="483254">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="486955" target="481460">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="481460" target="482059">
+      <data key="d2">2.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="4141665">
+      <data key="d0">4141665</data>
+      <data key="d1">BABY SITTER</data>
+    </node>
+    <node id="4134854">
+      <data key="d0">4134854</data>
+      <data key="d1">BRYCE</data>
+    </node>
+    <node id="4136054">
+      <data key="d0">4136054</data>
+      <data key="d1">CARL</data>
+    </node>
+    <node id="4142851">
+      <data key="d0">4142851</data>
+      <data key="d1">DETECTIVE</data>
+    </node>
+    <node id="4138550">
+      <data key="d0">4138550</data>
+      <data key="d1">DOYLE</data>
+    </node>
+    <node id="4134849">
+      <data key="d0">4134849</data>
+      <data key="d1">GUNNISON</data>
+    </node>
+    <node id="4134903">
+      <data key="d0">4134903</data>
+      <data key="d1">JEFF</data>
+    </node>
+    <node id="4135833">
+      <data key="d0">4135833</data>
+      <data key="d1">LISA</data>
+    </node>
+    <node id="4139224">
+      <data key="d0">4139224</data>
+      <data key="d1">MRS DOYLE</data>
+    </node>
+    <node id="4141940">
+      <data key="d0">4141940</data>
+      <data key="d1">POLICE</data>
+    </node>
+    <node id="4135329">
+      <data key="d0">4135329</data>
+      <data key="d1">STELLA</data>
+    </node>
+    <node id="4141561">
+      <data key="d0">4141561</data>
+      <data key="d1">THORWALD</data>
+    </node>
+    <edge source="4141665" target="4134903">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4134854" target="4134849">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4136054" target="4134903">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4136054" target="4135833">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4142851" target="4135329">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4142851" target="4138550">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4138550" target="4135833">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="4138550" target="4135329">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4138550" target="4134903">
+      <data key="d2">9.0</data>
+    </edge>
+    <edge source="4134849" target="4134903">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="4134903" target="4135833">
+      <data key="d2">28.0</data>
+    </edge>
+    <edge source="4134903" target="4141940">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4134903" target="4135329">
+      <data key="d2">14.0</data>
+    </edge>
+    <edge source="4134903" target="4139224">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4134903" target="4141561">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4135833" target="4135329">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="4135833" target="4141561">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

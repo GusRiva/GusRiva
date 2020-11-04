@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="5623111">
+      <data key="d0">5623111</data>
+      <data key="d1">ALEXA</data>
+    </node>
+    <node id="5623493">
+      <data key="d0">5623493</data>
+      <data key="d1">CHAD</data>
+    </node>
+    <node id="5625342">
+      <data key="d0">5625342</data>
+      <data key="d1">FEMALE LUKE</data>
+    </node>
+    <node id="5623789">
+      <data key="d0">5623789</data>
+      <data key="d1">FIRST WAITER</data>
+    </node>
+    <node id="5623216">
+      <data key="d0">5623216</data>
+      <data key="d1">JANINE</data>
+    </node>
+    <node id="5624470">
+      <data key="d0">5624470</data>
+      <data key="d1">JEREMY</data>
+    </node>
+    <node id="5623228">
+      <data key="d0">5623228</data>
+      <data key="d1">KEENAN</data>
+    </node>
+    <node id="5625569">
+      <data key="d0">5625569</data>
+      <data key="d1">LUCA</data>
+    </node>
+    <node id="5623101">
+      <data key="d0">5623101</data>
+      <data key="d1">LUKE</data>
+    </node>
+    <node id="5627316">
+      <data key="d0">5627316</data>
+      <data key="d1">MALE SYDNEY</data>
+    </node>
+    <node id="5623384">
+      <data key="d0">5623384</data>
+      <data key="d1">MAX</data>
+    </node>
+    <node id="5623437">
+      <data key="d0">5623437</data>
+      <data key="d1">MICHELLE</data>
+    </node>
+    <node id="5624248">
+      <data key="d0">5624248</data>
+      <data key="d1">POLLY</data>
+    </node>
+    <node id="5624093">
+      <data key="d0">5624093</data>
+      <data key="d1">SYDNEY</data>
+    </node>
+    <edge source="5623111" target="5623101">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623493" target="5624470">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623493" target="5623228">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5623493" target="5623437">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623493" target="5623101">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5623493" target="5623384">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5625342" target="5623216">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5625342" target="5623228">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5625342" target="5625569">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5625342" target="5623384">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623789" target="5623101">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623216" target="5623437">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5623216" target="5624093">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623216" target="5624470">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623216" target="5623228">
+      <data key="d2">10.0</data>
+    </edge>
+    <edge source="5623216" target="5625569">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="5623216" target="5623101">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="5623216" target="5623384">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623216" target="5624248">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5624470" target="5623228">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5624470" target="5623101">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5624470" target="5623437">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5624470" target="5624248">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5624470" target="5624093">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5624470" target="5625569">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5624470" target="5627316">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5623228" target="5623101">
+      <data key="d2">14.0</data>
+    </edge>
+    <edge source="5623228" target="5623437">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5623228" target="5625569">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="5623228" target="5627316">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623228" target="5623384">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5623228" target="5624248">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623228" target="5624093">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="5625569" target="5623384">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5625569" target="5627316">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5625569" target="5623437">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623101" target="5624093">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="5623101" target="5623384">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="5623101" target="5623437">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="5627316" target="5623437">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623384" target="5623437">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623384" target="5624248">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5623437" target="5624248">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5624248" target="5624093">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

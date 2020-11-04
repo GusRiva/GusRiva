@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="746186">
+      <data key="d0">746186</data>
+      <data key="d1">ALEXEI</data>
+    </node>
+    <node id="748781">
+      <data key="d0">748781</data>
+      <data key="d1">ANNOUNCEMENT</data>
+    </node>
+    <node id="744998">
+      <data key="d0">744998</data>
+      <data key="d1">ANSWER MACHINE</data>
+    </node>
+    <node id="745400">
+      <data key="d0">745400</data>
+      <data key="d1">BRANCH MANAGER</data>
+    </node>
+    <node id="745380">
+      <data key="d0">745380</data>
+      <data key="d1">CLARE</data>
+    </node>
+    <node id="746857">
+      <data key="d0">746857</data>
+      <data key="d1">COLLEAGUE</data>
+    </node>
+    <node id="744559">
+      <data key="d0">744559</data>
+      <data key="d1">JOHN</data>
+    </node>
+    <node id="746754">
+      <data key="d0">746754</data>
+      <data key="d1">MOSELEY</data>
+    </node>
+    <node id="744760">
+      <data key="d0">744760</data>
+      <data key="d1">NADIA</data>
+    </node>
+    <node id="748943">
+      <data key="d0">748943</data>
+      <data key="d1">OFFICIAL</data>
+    </node>
+    <node id="747604">
+      <data key="d0">747604</data>
+      <data key="d1">POLICEMAN</data>
+    </node>
+    <node id="747559">
+      <data key="d0">747559</data>
+      <data key="d1">SERGEANT</data>
+    </node>
+    <node id="749080">
+      <data key="d0">749080</data>
+      <data key="d1">SOPHIA</data>
+    </node>
+    <node id="745588">
+      <data key="d0">745588</data>
+      <data key="d1">TRAINER</data>
+    </node>
+    <node id="747327">
+      <data key="d0">747327</data>
+      <data key="d1">WAITRESS</data>
+    </node>
+    <node id="745830">
+      <data key="d0">745830</data>
+      <data key="d1">YURI</data>
+    </node>
+    <edge source="746186" target="744760">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="746186" target="745830">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="748781" target="744559">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="748781" target="744760">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744998" target="744559">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="745400" target="745380">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="745400" target="744559">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="745400" target="746754">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="745380" target="744559">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="745380" target="746754">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="746857" target="744559">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="746754">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="747559">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="749080">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="744760">
+      <data key="d2">9.0</data>
+    </edge>
+    <edge source="744559" target="748943">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="747604">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="745588">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="747327">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744559" target="745830">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="744760" target="747559">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744760" target="749080">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744760" target="745830">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="744760" target="747327">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

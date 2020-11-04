@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1989580">
+      <data key="d0">1989580</data>
+      <data key="d1">BARBARA</data>
+    </node>
+    <node id="1988959">
+      <data key="d0">1988959</data>
+      <data key="d1">BARTENDER</data>
+    </node>
+    <node id="1986974">
+      <data key="d0">1986974</data>
+      <data key="d1">BERNIE</data>
+    </node>
+    <node id="1986344">
+      <data key="d0">1986344</data>
+      <data key="d1">BRUNO</data>
+    </node>
+    <node id="1987145">
+      <data key="d0">1987145</data>
+      <data key="d1">CUSTOMER</data>
+    </node>
+    <node id="1987623">
+      <data key="d0">1987623</data>
+      <data key="d1">DEALER</data>
+    </node>
+    <node id="1986752">
+      <data key="d0">1986752</data>
+      <data key="d1">EVELYN</data>
+    </node>
+    <node id="1985416">
+      <data key="d0">1985416</data>
+      <data key="d1">JIMMY</data>
+    </node>
+    <node id="1984997">
+      <data key="d0">1984997</data>
+      <data key="d1">LILA</data>
+    </node>
+    <node id="1984735">
+      <data key="d0">1984735</data>
+      <data key="d1">MATT</data>
+    </node>
+    <node id="1985873">
+      <data key="d0">1985873</data>
+      <data key="d1">MIKE</data>
+    </node>
+    <node id="1984811">
+      <data key="d0">1984811</data>
+      <data key="d1">MOHAWK TEENAGER</data>
+    </node>
+    <node id="1984231">
+      <data key="d0">1984231</data>
+      <data key="d1">RAY</data>
+    </node>
+    <node id="1984410">
+      <data key="d0">1984410</data>
+      <data key="d1">RICKY</data>
+    </node>
+    <node id="1987186">
+      <data key="d0">1987186</data>
+      <data key="d1">ROSALIE</data>
+    </node>
+    <node id="1989518">
+      <data key="d0">1989518</data>
+      <data key="d1">THREE RIVERS</data>
+    </node>
+    <node id="1984900">
+      <data key="d0">1984900</data>
+      <data key="d1">TICKET TAKER</data>
+    </node>
+    <node id="1987162">
+      <data key="d0">1987162</data>
+      <data key="d1">TROOPER</data>
+    </node>
+    <node id="1987953">
+      <data key="d0">1987953</data>
+      <data key="d1">TROOPER NAPOLI</data>
+    </node>
+    <node id="1986940">
+      <data key="d0">1986940</data>
+      <data key="d1">TROY</data>
+    </node>
+    <node id="1989435">
+      <data key="d0">1989435</data>
+      <data key="d1">VELMA</data>
+    </node>
+    <node id="1984473">
+      <data key="d0">1984473</data>
+      <data key="d1">VERSAILLES</data>
+    </node>
+    <edge source="1989580" target="1986974">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1989580" target="1987186">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1989580" target="1989518">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1988959" target="1986344">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1988959" target="1984997">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1986974" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1986974" target="1984997">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1986974" target="1987186">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1986974" target="1989518">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1986344" target="1984997">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1986344" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1987145" target="1987162">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1987145" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1987623" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1986752" target="1984997">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1985416" target="1984997">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1985416" target="1989518">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1985416" target="1989435">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984997" target="1984231">
+      <data key="d2">23.0</data>
+    </edge>
+    <edge source="1984997" target="1985873">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984997" target="1987186">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984735" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984811" target="1984231">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984231" target="1984410">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="1984231" target="1987162">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984231" target="1987953">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="1984231" target="1986940">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1984231" target="1984900">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1984231" target="1984473">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984410" target="1987953">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1984410" target="1984473">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1987186" target="1989518">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

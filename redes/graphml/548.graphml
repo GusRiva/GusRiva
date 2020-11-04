@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="3411391">
+      <data key="d0">3411391</data>
+      <data key="d1">BLONDE</data>
+    </node>
+    <node id="3407958">
+      <data key="d0">3407958</data>
+      <data key="d1">BURT</data>
+    </node>
+    <node id="3409586">
+      <data key="d0">3409586</data>
+      <data key="d1">DOCTOR</data>
+    </node>
+    <node id="3410498">
+      <data key="d0">3410498</data>
+      <data key="d1">DODD</data>
+    </node>
+    <node id="3414073">
+      <data key="d0">3414073</data>
+      <data key="d1">JIMMY</data>
+    </node>
+    <node id="3407723">
+      <data key="d0">3407723</data>
+      <data key="d1">LEONARD</data>
+    </node>
+    <node id="3411169">
+      <data key="d0">3411169</data>
+      <data key="d1">LEONARD'S WIFE</data>
+    </node>
+    <node id="3410492">
+      <data key="d0">3410492</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="3409323">
+      <data key="d0">3409323</data>
+      <data key="d1">MRS JANKIS</data>
+    </node>
+    <node id="3408710">
+      <data key="d0">3408710</data>
+      <data key="d1">NATALIE</data>
+    </node>
+    <node id="3409589">
+      <data key="d0">3409589</data>
+      <data key="d1">SAMMY</data>
+    </node>
+    <node id="3413623">
+      <data key="d0">3413623</data>
+      <data key="d1">TATTOOIST</data>
+    </node>
+    <node id="3407756">
+      <data key="d0">3407756</data>
+      <data key="d1">TEDDY</data>
+    </node>
+    <node id="3408413">
+      <data key="d0">3408413</data>
+      <data key="d1">WAITER</data>
+    </node>
+    <edge source="3411391" target="3407723">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3407958" target="3407756">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3407958" target="3407723">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="3409586" target="3407723">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3409586" target="3409589">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3410498" target="3407723">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3410498" target="3410492">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3410498" target="3407756">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3414073" target="3407723">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3407723" target="3411169">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3407723" target="3410492">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3407723" target="3409323">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3407723" target="3408710">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="3407723" target="3409589">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3407723" target="3413623">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="3407723" target="3407756">
+      <data key="d2">13.0</data>
+    </edge>
+    <edge source="3407723" target="3408413">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3410492" target="3407756">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="3413623" target="3407756">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

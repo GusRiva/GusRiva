@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1976136">
+      <data key="d0">1976136</data>
+      <data key="d1">DAN</data>
+    </node>
+    <node id="1978991">
+      <data key="d0">1978991</data>
+      <data key="d1">DAN / PARKER / LYNCH</data>
+    </node>
+    <node id="1976289">
+      <data key="d0">1976289</data>
+      <data key="d1">JASON</data>
+    </node>
+    <node id="1976133">
+      <data key="d0">1976133</data>
+      <data key="d1">LYNCH</data>
+    </node>
+    <node id="1976297">
+      <data key="d0">1976297</data>
+      <data key="d1">OK</data>
+    </node>
+    <node id="1976146">
+      <data key="d0">1976146</data>
+      <data key="d1">PARKER</data>
+    </node>
+    <node id="1977925">
+      <data key="d0">1977925</data>
+      <data key="d1">RIFKIN</data>
+    </node>
+    <node id="1977097">
+      <data key="d0">1977097</data>
+      <data key="d1">RYAN</data>
+    </node>
+    <node id="1977054">
+      <data key="d0">1977054</data>
+      <data key="d1">SHANNON</data>
+    </node>
+    <edge source="1976136" target="1978991">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976136" target="1976289">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1976136" target="1976133">
+      <data key="d2">16.0</data>
+    </edge>
+    <edge source="1976136" target="1976297">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976136" target="1977097">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976136" target="1977054">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976136" target="1976146">
+      <data key="d2">15.0</data>
+    </edge>
+    <edge source="1978991" target="1976133">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1978991" target="1976146">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976289" target="1976133">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976289" target="1976297">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976289" target="1976146">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1976289" target="1977925">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976133" target="1976297">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1976133" target="1977097">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976133" target="1977054">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1976133" target="1976146">
+      <data key="d2">18.0</data>
+    </edge>
+    <edge source="1976297" target="1976146">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="1976146" target="1977097">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1976146" target="1977054">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1977097" target="1977054">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

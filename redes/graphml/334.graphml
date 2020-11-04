@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="2020954">
+      <data key="d0">2020954</data>
+      <data key="d1">ACK</data>
+    </node>
+    <node id="2020169">
+      <data key="d0">2020169</data>
+      <data key="d1">AISLEY</data>
+    </node>
+    <node id="2023053">
+      <data key="d0">2023053</data>
+      <data key="d1">ANNOUNCER 1</data>
+    </node>
+    <node id="2023056">
+      <data key="d0">2023056</data>
+      <data key="d1">ANNOUNCER 2</data>
+    </node>
+    <node id="2022744">
+      <data key="d0">2022744</data>
+      <data key="d1">BAR CROWD</data>
+    </node>
+    <node id="2022407">
+      <data key="d0">2022407</data>
+      <data key="d1">BAR VOICES</data>
+    </node>
+    <node id="2021728">
+      <data key="d0">2021728</data>
+      <data key="d1">DODGIE</data>
+    </node>
+    <node id="2019206">
+      <data key="d0">2019206</data>
+      <data key="d1">DRIVER</data>
+    </node>
+    <node id="2019862">
+      <data key="d0">2019862</data>
+      <data key="d1">ELLIOT</data>
+    </node>
+    <node id="2021061">
+      <data key="d0">2021061</data>
+      <data key="d1">ETER</data>
+    </node>
+    <node id="2020255">
+      <data key="d0">2020255</data>
+      <data key="d1">FIRST MAN</data>
+    </node>
+    <node id="2019681">
+      <data key="d0">2019681</data>
+      <data key="d1">GEORGE</data>
+    </node>
+    <node id="2022092">
+      <data key="d0">2022092</data>
+      <data key="d1">GEORGIE</data>
+    </node>
+    <node id="2021407">
+      <data key="d0">2021407</data>
+      <data key="d1">ICHAEL</data>
+    </node>
+    <node id="2020895">
+      <data key="d0">2020895</data>
+      <data key="d1">JACK</data>
+    </node>
+    <node id="2019302">
+      <data key="d0">2019302</data>
+      <data key="d1">JOANNA</data>
+    </node>
+    <node id="2019593">
+      <data key="d0">2019593</data>
+      <data key="d1">LAUREL</data>
+    </node>
+    <node id="2022331">
+      <data key="d0">2022331</data>
+      <data key="d1">LILLIAN</data>
+    </node>
+    <node id="2020553">
+      <data key="d0">2020553</data>
+      <data key="d1">LLIOT</data>
+    </node>
+    <node id="2020138">
+      <data key="d0">2020138</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="2022123">
+      <data key="d0">2022123</data>
+      <data key="d1">MATTHEW</data>
+    </node>
+    <node id="2021362">
+      <data key="d0">2021362</data>
+      <data key="d1">MICHAEL</data>
+    </node>
+    <node id="2019199">
+      <data key="d0">2019199</data>
+      <data key="d1">NICKY</data>
+    </node>
+    <node id="2020154">
+      <data key="d0">2020154</data>
+      <data key="d1">PAISLEY</data>
+    </node>
+    <node id="2020811">
+      <data key="d0">2020811</data>
+      <data key="d1">PETER</data>
+    </node>
+    <node id="2020714">
+      <data key="d0">2020714</data>
+      <data key="d1">RENEE</data>
+    </node>
+    <node id="2021326">
+      <data key="d0">2021326</data>
+      <data key="d1">RIVER</data>
+    </node>
+    <node id="2020258">
+      <data key="d0">2020258</data>
+      <data key="d1">SECOND MAN</data>
+    </node>
+    <node id="2020736">
+      <data key="d0">2020736</data>
+      <data key="d1">SIDNEY</data>
+    </node>
+    <node id="2021118">
+      <data key="d0">2021118</data>
+      <data key="d1">STEVEN</data>
+    </node>
+    <node id="2021976">
+      <data key="d0">2021976</data>
+      <data key="d1">TOYOTA</data>
+    </node>
+    <node id="2022590">
+      <data key="d0">2022590</data>
+      <data key="d1">TV SCREEN</data>
+    </node>
+    <node id="2020319">
+      <data key="d0">2020319</data>
+      <data key="d1">WAITER</data>
+    </node>
+    <edge source="2020954" target="2020895">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020954" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020954" target="2020811">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020954" target="2020714">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020169" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020169" target="2020154">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020169" target="2019862">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020169" target="2020138">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023053" target="2023056">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023053" target="2022407">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023053" target="2022123">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023053" target="2022590">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023056" target="2022407">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023056" target="2022123">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2023056" target="2022590">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022744" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2022744" target="2021976">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022744" target="2022590">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="2022744" target="2022123">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2022744" target="2020319">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022407" target="2022590">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022407" target="2022123">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021728" target="2020553">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021728" target="2019862">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021728" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019206" target="2019862">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019206" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2019206" target="2021326">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019862" target="2020553">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2019862" target="2020138">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019862" target="2020154">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019862" target="2020319">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019862" target="2019199">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="2021061" target="2020895">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021061" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021061" target="2020154">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020255" target="2020258">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020255" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019681" target="2019593">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019681" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022092" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021407" target="2021362">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021407" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020895" target="2020811">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020895" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020895" target="2020154">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020895" target="2020714">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2019302" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019593" target="2019199">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="2019593" target="2021118">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="2022331" target="2020319">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022331" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020553" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020138" target="2020154">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020138" target="2019199">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2022123" target="2019199">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="2022123" target="2021976">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="2022123" target="2022590">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="2021362" target="2019199">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2019199" target="2020154">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="2019199" target="2021326">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019199" target="2020258">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019199" target="2020736">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019199" target="2021118">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019199" target="2021976">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="2019199" target="2022590">
+      <data key="d2">10.0</data>
+    </edge>
+    <edge source="2019199" target="2020319">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2019199" target="2020811">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2019199" target="2020714">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2020154" target="2021118">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="2020811" target="2020714">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="2021976" target="2022590">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="2022590" target="2020319">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

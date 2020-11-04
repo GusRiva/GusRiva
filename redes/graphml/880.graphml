@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="5415796">
+      <data key="d0">5415796</data>
+      <data key="d1">ANDREW</data>
+    </node>
+    <node id="5414640">
+      <data key="d0">5414640</data>
+      <data key="d1">CAITLIN</data>
+    </node>
+    <node id="5414630">
+      <data key="d0">5414630</data>
+      <data key="d1">CLAIRE</data>
+    </node>
+    <node id="5415779">
+      <data key="d0">5415779</data>
+      <data key="d1">COURTNEY</data>
+    </node>
+    <node id="5417867">
+      <data key="d0">5417867</data>
+      <data key="d1">DIFFERENT VOICE</data>
+    </node>
+    <node id="5416890">
+      <data key="d0">5416890</data>
+      <data key="d1">DR DRAYTON</data>
+    </node>
+    <node id="5416641">
+      <data key="d0">5416641</data>
+      <data key="d1">ELENA</data>
+    </node>
+    <node id="5416771">
+      <data key="d0">5416771</data>
+      <data key="d1">GIRL</data>
+    </node>
+    <node id="5419644">
+      <data key="d0">5419644</data>
+      <data key="d1">HIPPIE WOMAN</data>
+    </node>
+    <node id="5415484">
+      <data key="d0">5415484</data>
+      <data key="d1">JODY</data>
+    </node>
+    <node id="5416167">
+      <data key="d0">5416167</data>
+      <data key="d1">MR FEUR</data>
+    </node>
+    <node id="5415183">
+      <data key="d0">5415183</data>
+      <data key="d1">MRS FEUR</data>
+    </node>
+    <node id="5418547">
+      <data key="d0">5418547</data>
+      <data key="d1">MRS FRANK</data>
+    </node>
+    <node id="5418049">
+      <data key="d0">5418049</data>
+      <data key="d1">MRS TEMPLETON</data>
+    </node>
+    <node id="5414703">
+      <data key="d0">5414703</data>
+      <data key="d1">NORMAN</data>
+    </node>
+    <node id="5416619">
+      <data key="d0">5416619</data>
+      <data key="d1">STAN</data>
+    </node>
+    <node id="5418043">
+      <data key="d0">5418043</data>
+      <data key="d1">TEMPLETON</data>
+    </node>
+    <node id="5417873">
+      <data key="d0">5417873</data>
+      <data key="d1">YOUNG MAN</data>
+    </node>
+    <edge source="5415796" target="5414630">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415796" target="5415779">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415796" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414640" target="5414630">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5414640" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5416890">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5416641">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5416771">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5416167">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5414703">
+      <data key="d2">20.0</data>
+    </edge>
+    <edge source="5414630" target="5415779">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5417867">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5419644">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5415484">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="5414630" target="5415183">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5414630" target="5418547">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="5414630" target="5418049">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="5414630" target="5416619">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5418043">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414630" target="5417873">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415779" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5417867" target="5417873">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5416641" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5416641" target="5416619">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415484" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415484" target="5416167">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5415484" target="5416619">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5416167" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5418049" target="5414703">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5418049" target="5418043">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414703" target="5416619">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="5414703" target="5418043">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

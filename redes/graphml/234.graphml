@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1405955">
+      <data key="d0">1405955</data>
+      <data key="d1">BOILER</data>
+    </node>
+    <node id="1406811">
+      <data key="d0">1406811</data>
+      <data key="d1">BOMB #20</data>
+    </node>
+    <node id="1405882">
+      <data key="d0">1405882</data>
+      <data key="d1">DOOLITTLE</data>
+    </node>
+    <node id="1405839">
+      <data key="d0">1405839</data>
+      <data key="d1">NARRATOR</data>
+    </node>
+    <node id="1405886">
+      <data key="d0">1405886</data>
+      <data key="d1">PINBACK</data>
+    </node>
+    <node id="1407143">
+      <data key="d0">1407143</data>
+      <data key="d1">POWELL</data>
+    </node>
+    <node id="1406202">
+      <data key="d0">1406202</data>
+      <data key="d1">RECORDED VOICE</data>
+    </node>
+    <node id="1405926">
+      <data key="d0">1405926</data>
+      <data key="d1">TALBY</data>
+    </node>
+    <edge source="1405955" target="1405882">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="1405955" target="1405886">
+      <data key="d2">11.0</data>
+    </edge>
+    <edge source="1405955" target="1406202">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1405955" target="1405926">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1406811" target="1405882">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="1406811" target="1405886">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1405882" target="1407143">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1405882" target="1405839">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1405882" target="1405886">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="1405882" target="1406202">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1405882" target="1405926">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="1405839" target="1405886">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1405839" target="1405926">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1405886" target="1406202">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1405886" target="1405926">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1406202" target="1405926">
+      <data key="d2">2.0</data>
+    </edge>
+  </graph>
+</graphml>

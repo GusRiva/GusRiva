@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1912108">
+      <data key="d0">1912108</data>
+      <data key="d1">ABOU FATMA</data>
+    </node>
+    <node id="1911208">
+      <data key="d0">1911208</data>
+      <data key="d1">AIDE-DE-CAMP</data>
+    </node>
+    <node id="1912618">
+      <data key="d0">1912618</data>
+      <data key="d1">CAPTAIN CALDER</data>
+    </node>
+    <node id="1911006">
+      <data key="d0">1911006</data>
+      <data key="d1">CAROLINE</data>
+    </node>
+    <node id="1910835">
+      <data key="d0">1910835</data>
+      <data key="d1">CASTELTON</data>
+    </node>
+    <node id="1910922">
+      <data key="d0">1910922</data>
+      <data key="d1">COLONEL HAMILTON</data>
+    </node>
+    <node id="1910904">
+      <data key="d0">1910904</data>
+      <data key="d1">COLONEL SUTCH</data>
+    </node>
+    <node id="1912424">
+      <data key="d0">1912424</data>
+      <data key="d1">CORPORAL</data>
+    </node>
+    <node id="1912349">
+      <data key="d0">1912349</data>
+      <data key="d1">DERVISH CAPTAIN</data>
+    </node>
+    <node id="1910826">
+      <data key="d0">1910826</data>
+      <data key="d1">DURRANCE</data>
+    </node>
+    <node id="1912433">
+      <data key="d0">1912433</data>
+      <data key="d1">EGYPTIAN CORPORAL</data>
+    </node>
+    <node id="1912201">
+      <data key="d0">1912201</data>
+      <data key="d1">EGYPTIAN OVERSEER</data>
+    </node>
+    <node id="1910956">
+      <data key="d0">1910956</data>
+      <data key="d1">ETHNE</data>
+    </node>
+    <node id="1910897">
+      <data key="d0">1910897</data>
+      <data key="d1">GENERAL FEVERSHAM</data>
+    </node>
+    <node id="1912167">
+      <data key="d0">1912167</data>
+      <data key="d1">GENERAL WOLSELEY</data>
+    </node>
+    <node id="1910915">
+      <data key="d0">1910915</data>
+      <data key="d1">HARRY</data>
+    </node>
+    <node id="1913195">
+      <data key="d0">1913195</data>
+      <data key="d1">TRENCH</data>
+    </node>
+    <node id="1910892">
+      <data key="d0">1910892</data>
+      <data key="d1">WILLOUGHBY</data>
+    </node>
+    <node id="1912170">
+      <data key="d0">1912170</data>
+      <data key="d1">WOUNDED CAPTAIN</data>
+    </node>
+    <edge source="1912108" target="1910826">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912108" target="1912201">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912108" target="1912424">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912108" target="1912349">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912108" target="1912433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1911208" target="1912167">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1911208" target="1910915">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1911208" target="1912170">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912618" target="1910826">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1911006" target="1910826">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1911006" target="1910956">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1910835" target="1910826">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="1910835" target="1910892">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1910922" target="1910826">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1910922" target="1910915">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1910904" target="1910915">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1910904" target="1910897">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1912424" target="1912433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1910826" target="1912433">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1910826" target="1910956">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="1910826" target="1910892">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1910956" target="1910915">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="1910897" target="1910915">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1912167" target="1912170">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="1910915" target="1913195">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="1910915" target="1910892">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="4222018">
+      <data key="d0">4222018</data>
+      <data key="d1">ARCHER'S WOMAN</data>
+    </node>
+    <node id="4218174">
+      <data key="d0">4218174</data>
+      <data key="d1">BEARDED MAN</data>
+    </node>
+    <node id="4218184">
+      <data key="d0">4218184</data>
+      <data key="d1">BEARDED MAN 2</data>
+    </node>
+    <node id="4216023">
+      <data key="d0">4216023</data>
+      <data key="d1">BOY</data>
+    </node>
+    <node id="4216565">
+      <data key="d0">4216565</data>
+      <data key="d1">END OF FLASHBACK</data>
+    </node>
+    <node id="4216877">
+      <data key="d0">4216877</data>
+      <data key="d1">GANG MEMBER</data>
+    </node>
+    <node id="4215972">
+      <data key="d0">4215972</data>
+      <data key="d1">MAN</data>
+    </node>
+    <node id="4220916">
+      <data key="d0">4220916</data>
+      <data key="d1">MAN-</data>
+    </node>
+    <node id="4220258">
+      <data key="d0">4220258</data>
+      <data key="d1">OLD MAN</data>
+    </node>
+    <node id="4221495">
+      <data key="d0">4221495</data>
+      <data key="d1">THIEF</data>
+    </node>
+    <node id="4222467">
+      <data key="d0">4222467</data>
+      <data key="d1">VETERAN</data>
+    </node>
+    <node id="4218171">
+      <data key="d0">4218171</data>
+      <data key="d1">WELL FED WOMAN</data>
+    </node>
+    <node id="4215969">
+      <data key="d0">4215969</data>
+      <data key="d1">WOMAN</data>
+    </node>
+    <edge source="4222018" target="4215972">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218174" target="4218184">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218174" target="4216023">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218174" target="4215972">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218174" target="4218171">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218184" target="4216023">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218184" target="4215972">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4218184" target="4218171">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4216023" target="4220916">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4216023" target="4220258">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4216023" target="4221495">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4216023" target="4215972">
+      <data key="d2">43.0</data>
+    </edge>
+    <edge source="4216023" target="4222467">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="4216023" target="4218171">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4216565" target="4215972">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="4216565" target="4215969">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="4216877" target="4215972">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4215972" target="4220916">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4215972" target="4220258">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="4215972" target="4221495">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4215972" target="4215969">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="4215972" target="4222467">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="4215972" target="4218171">
+      <data key="d2">1.0</data>
+    </edge>
+  </graph>
+</graphml>

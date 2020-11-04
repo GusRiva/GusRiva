@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="id" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="955613">
+      <data key="d0">955613</data>
+      <data key="d1">ALLISON</data>
+    </node>
+    <node id="954412">
+      <data key="d0">954412</data>
+      <data key="d1">ANDREW</data>
+    </node>
+    <node id="954407">
+      <data key="d0">954407</data>
+      <data key="d1">ANDREW'S FATHER</data>
+    </node>
+    <node id="954517">
+      <data key="d0">954517</data>
+      <data key="d1">BENDER</data>
+    </node>
+    <node id="954321">
+      <data key="d0">954321</data>
+      <data key="d1">BRIAN</data>
+    </node>
+    <node id="954371">
+      <data key="d0">954371</data>
+      <data key="d1">BRIAN'S MOTHER</data>
+    </node>
+    <node id="955893">
+      <data key="d0">955893</data>
+      <data key="d1">CARL</data>
+    </node>
+    <node id="954349">
+      <data key="d0">954349</data>
+      <data key="d1">CLAIRE</data>
+    </node>
+    <node id="954471">
+      <data key="d0">954471</data>
+      <data key="d1">VERNON</data>
+    </node>
+    <edge source="955613" target="954517">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="955613" target="954321">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="955613" target="955893">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="955613" target="954349">
+      <data key="d2">3.0</data>
+    </edge>
+    <edge source="955613" target="954412">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="954412" target="954517">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="954412" target="954321">
+      <data key="d2">7.0</data>
+    </edge>
+    <edge source="954412" target="955893">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="954412" target="954349">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="954412" target="954407">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="954412" target="954471">
+      <data key="d2">5.0</data>
+    </edge>
+    <edge source="954517" target="954349">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="954517" target="954471">
+      <data key="d2">6.0</data>
+    </edge>
+    <edge source="954517" target="954321">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="954517" target="955893">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="954321" target="954349">
+      <data key="d2">8.0</data>
+    </edge>
+    <edge source="954321" target="954371">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="954321" target="955893">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="954321" target="954471">
+      <data key="d2">4.0</data>
+    </edge>
+    <edge source="955893" target="954349">
+      <data key="d2">1.0</data>
+    </edge>
+    <edge source="955893" target="954471">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge source="954349" target="954471">
+      <data key="d2">5.0</data>
+    </edge>
+  </graph>
+</graphml>
