@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:ria="http://lod.ub.uni-heidelberg.de/ontologies/ria/">
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_2">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="en">(Local) Stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="tr">kamen</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="fi">kivi</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kő</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="es">piedra</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="fr">pierre locale</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="fr">grit-stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="it">pietra</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="de">Stein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="en">stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="tr">taş</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="el">πέτρα</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="bg">камък</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/2</corresp>
+      <ecrm:P3_has_note xml:lang="ar">حجر</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/2"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_735">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/735</corresp>
+      <ecrm:P3_has_note xml:lang="de">(vulkanische) Breccie</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/735</corresp>
+      <ecrm:P3_has_note xml:lang="es">Brecha (volcanic) breccia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/735</corresp>
+      <ecrm:P3_has_note xml:lang="it">breccia (vulcanica)</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/735"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_30">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="de">(vulkanischer) Tuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="de">CIL: Tuff, vulkanischer vor allem Peperin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="en">(volcanic) tuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="de">Tuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="es">Toba</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Tuf</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="it">Tufo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="fr">tuf volcanique</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/30</corresp>
+      <ecrm:P3_has_note xml:lang="hu">tufa</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/30"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_88">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/88</corresp>
+      <ecrm:P3_has_note xml:lang="de">Achat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/88</corresp>
+      <ecrm:P3_has_note xml:lang="hu">achát</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/88</corresp>
+      <ecrm:P3_has_note xml:lang="en">Achat</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/88"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_136">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/136</corresp>
+      <ecrm:P3_has_note xml:lang="en">Acrolithic</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/136"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_109">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="la">aes</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="es">bronce</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="hu">bronz</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="de">Bronze</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Bronze</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="it">bronzo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="it">bronzo, rame</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="hr">mjed</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="fi">pronssi</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="tr">tunç</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="el">χαλκός</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="bg">бронз</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/109</corresp>
+      <ecrm:P3_has_note xml:lang="ar">برونز</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/109"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_304">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/304</corresp>
+      <ecrm:P3_has_note xml:lang="de">Amethyst</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/304</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ametiszt</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/304"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_35">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/35</corresp>
+      <ecrm:P3_has_note xml:lang="de">Amphibolit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/35</corresp>
+      <ecrm:P3_has_note xml:lang="hu">amfibol</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/35</corresp>
+      <ecrm:P3_has_note xml:lang="en">amphibolite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/35"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_43">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/43</corresp>
+      <ecrm:P3_has_note xml:lang="de">Amphibolit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/43</corresp>
+      <ecrm:P3_has_note xml:lang="en">amphibolite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/43"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_309">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/309</corresp>
+      <ecrm:P3_has_note xml:lang="de">anderes metall</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/309"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_15">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/15</corresp>
+      <ecrm:P3_has_note xml:lang="de">Andesit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/15</corresp>
+      <ecrm:P3_has_note xml:lang="en">Andesite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/15</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Andezit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/15"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_22">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="de">Andesit-Porphyr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="de">Porphyr, grüner</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="de">Porphyr, roter</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="it">Porfido rosso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="hu">andezit-porfír</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo porfido verde antico</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo porfido di Grecia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo porfido serpentino</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="la">Marmor Lacedaemonium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/22</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo porfido rosso</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/22"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_100">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/100</corresp>
+      <ecrm:P3_has_note xml:lang="de">Anhydrit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/100</corresp>
+      <ecrm:P3_has_note xml:lang="hu">anhidrit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/100</corresp>
+      <ecrm:P3_has_note xml:lang="en">anhydrite-stone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/100"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_7">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/7</corresp>
+      <ecrm:P3_has_note xml:lang="de">Aplit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/7</corresp>
+      <ecrm:P3_has_note xml:lang="hu">gránitaplit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/7"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_131">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="es">Arcilla</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="hu">agyag</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Argile</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="it">Argilla</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="en">Clay</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="de">Ton</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis cretaceus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/131</corresp>
+      <ecrm:P3_has_note xml:lang="la">creta figularis</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/131"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_128">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="la">arenatum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="en">fresh mortar</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="tr">kireç</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="fi">laasti</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="fr">mortier</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="de">Putz</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="it">su malta fresca</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="hr">žbuka</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="el">αμμοκονίαμα</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="bg">хоросан</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/128</corresp>
+      <ecrm:P3_has_note xml:lang="ar">ملاط طازج</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/128"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_115">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="la">argentum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="fr">argent</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="es">argento</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="it">argento</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ezüst</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="tr">gümüş</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="fi">hopea</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="es">plata</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="de">Silber</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="en">silver</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="hr">srebro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="el">ασήμι/άργυρος</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="bg">сребро</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/115</corresp>
+      <ecrm:P3_has_note xml:lang="ar">فضة</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/115"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_3">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/3</corresp>
+      <ecrm:P3_has_note xml:lang="en">Artificial Rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/3</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kuenstliche Gesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/3</corresp>
+      <ecrm:P3_has_note xml:lang="hu">mesterséges kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/3"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_112">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="la">aurum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="tr">altın</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="hu">arany</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="en">Gold</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="fi">kulta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Or</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="it">oro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="hr">zlato</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="el">χρυσός</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="bg">злато</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/112</corresp>
+      <ecrm:P3_has_note xml:lang="ar">ذهب</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/112"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_16">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/16</corresp>
+      <ecrm:P3_has_note xml:lang="de">Basalt</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/16</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Basalte</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/16</corresp>
+      <ecrm:P3_has_note xml:lang="es">Basalto</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/16</corresp>
+      <ecrm:P3_has_note xml:lang="it">Basalto</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/16</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Bazalt</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/16"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_23">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/23</corresp>
+      <ecrm:P3_has_note xml:lang="de">Basalt-Porphyr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/23</corresp>
+      <ecrm:P3_has_note xml:lang="hu">bazalt-porfír</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/23"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_305">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/305</corresp>
+      <ecrm:P3_has_note xml:lang="de">Bergkristall</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/305</corresp>
+      <ecrm:P3_has_note xml:lang="hu">hegyikristály</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/305"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_119">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="de">Bernstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="es">Ambar</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="en">amber</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Ambre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="it">Ambra</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/119</corresp>
+      <ecrm:P3_has_note xml:lang="hu">borostyánkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/119"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_31">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="de">Bimsstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="hu">habkő</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="es">Piedra pómez</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Pierre ponce</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="it">Pietra pomice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="en">pumice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="la">pumex</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/31</corresp>
+      <ecrm:P3_has_note xml:lang="en">pumicestone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/31"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_65">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/65</corresp>
+      <ecrm:P3_has_note xml:lang="de">Biogene Sedimente</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/65</corresp>
+      <ecrm:P3_has_note xml:lang="de">Biogene Sedimente</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/65</corresp>
+      <ecrm:P3_has_note xml:lang="hu">biogenetikus üledékes kőzet</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/65</corresp>
+      <ecrm:P3_has_note xml:lang="en">Biological sediments</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/65"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_124">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="en">bone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="de">Bein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="hu">csont</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="es">Hueso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="de">Knochen</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Os</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/124</corresp>
+      <ecrm:P3_has_note xml:lang="it">Osso</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/124"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_73">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="it">Breccie</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="en">Breccia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="hu">breccsa</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="en">breccsák</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Brèche</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="de">Brekzie</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="en">Purple breccia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="en">Yellow breccia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="en">metalimestone breccia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo africano, var. rosso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/73</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Luculleum</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/73"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_642">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/642</corresp>
+      <ecrm:P3_has_note xml:lang="en">Brick</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/642"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_644">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/644</corresp>
+      <ecrm:P3_has_note xml:lang="en">Bronze, Copper Alloy</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/644"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_110">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/110</corresp>
+      <ecrm:P3_has_note xml:lang="en">Bronze, gilded</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/110"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_133">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="la">cera</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="fr">cire</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="tr">mum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="fi">vaha</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="hu">viasz</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="hr">vosak</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="de">Wachs</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="en">wax</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="el">κερί</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="bg">восък</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/133</corresp>
+      <ecrm:P3_has_note xml:lang="ar">شمعه</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/133"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_643">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/643</corresp>
+      <ecrm:P3_has_note xml:lang="en">ceramic (glazed)</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/643"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_118">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="la">ceterum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="it">altro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="hu">egyéb</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="en">other</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="en">Other Materials / substances</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/118</corresp>
+      <ecrm:P3_has_note xml:lang="de">Sonstige Materialen</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/118"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_106">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/106</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Chaux</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/106</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cal</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/106"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_69">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/69</corresp>
+      <ecrm:P3_has_note xml:lang="de">Chemische Sedimente</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/69</corresp>
+      <ecrm:P3_has_note xml:lang="en">Chemical sediments</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/69"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_298">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/298</corresp>
+      <ecrm:P3_has_note xml:lang="de">Chlorit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/298</corresp>
+      <ecrm:P3_has_note xml:lang="hu">klorit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/298"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_135">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/135</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Ciment</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/135</corresp>
+      <ecrm:P3_has_note xml:lang="hu">cement</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/135</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cimiento</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/135"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_130">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="la">creta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="it">ceramica</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="tr">çömlek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kerámia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="en">pottery</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="es">teracota</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="hr">terakota</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="it">terracotta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="it">creta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="fi">terrakotta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="fr">terre cuite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Céramique</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="de">Ton</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="el">γύψος, τερακότα (οπτή γη)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="bg">теракота</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/130</corresp>
+      <ecrm:P3_has_note xml:lang="ar">تيراكوتا</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/130"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_105">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/105</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Cuir</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/105</corresp>
+      <ecrm:P3_has_note xml:lang="es">Piel</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/105"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_294">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/294</corresp>
+      <ecrm:P3_has_note xml:lang="de">Diabas</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/294"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_9">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/9</corresp>
+      <ecrm:P3_has_note xml:lang="de">Diorit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/9</corresp>
+      <ecrm:P3_has_note xml:lang="es">Diorita</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/9</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Diorite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/9</corresp>
+      <ecrm:P3_has_note xml:lang="en">Diorite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/9"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_295">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/295</corresp>
+      <ecrm:P3_has_note xml:lang="de">Dolerit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/295"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_59">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/59</corresp>
+      <ecrm:P3_has_note xml:lang="de">Dolomit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/59</corresp>
+      <ecrm:P3_has_note xml:lang="es">Dolimita</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/59</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Dolimite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/59</corresp>
+      <ecrm:P3_has_note xml:lang="hu">dolomit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/59</corresp>
+      <ecrm:P3_has_note xml:lang="en">dolostone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/59"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_44">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/44</corresp>
+      <ecrm:P3_has_note xml:lang="de">Dolomit-Marmor</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/44</corresp>
+      <ecrm:P3_has_note xml:lang="hu">dolomit-márvány</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/44</corresp>
+      <ecrm:P3_has_note xml:lang="en">dolomite-marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/44"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_352">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/352</corresp>
+      <ecrm:P3_has_note xml:lang="hu">durvaszemcsés kristályos kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/352"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_308">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/308</corresp>
+      <ecrm:P3_has_note xml:lang="de">Edelmetall</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/308</corresp>
+      <ecrm:P3_has_note xml:lang="hu">nyers fém</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/308"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_288">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/288</corresp>
+      <ecrm:P3_has_note xml:lang="de">Edelstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/288</corresp>
+      <ecrm:P3_has_note xml:lang="it">Pietra preziosa</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/288</corresp>
+      <ecrm:P3_has_note xml:lang="hu">drágakő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/288"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_36">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/36</corresp>
+      <ecrm:P3_has_note xml:lang="de">Eklogit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/36</corresp>
+      <ecrm:P3_has_note xml:lang="en">eclogite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/36</corresp>
+      <ecrm:P3_has_note xml:lang="hu">eklogit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/36"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_120">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="de">Elfenbein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="hu">elefántcsont</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Ivoire</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="it">Avorio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="en">Ivory</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/120</corresp>
+      <ecrm:P3_has_note xml:lang="es">Marfil</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/120"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_121">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/121</corresp>
+      <ecrm:P3_has_note xml:lang="de">Emaille</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/121</corresp>
+      <ecrm:P3_has_note xml:lang="hu">email</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/121</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Email</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/121</corresp>
+      <ecrm:P3_has_note xml:lang="en">Enamel</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/121</corresp>
+      <ecrm:P3_has_note xml:lang="es">Esmalte</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/121"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_311">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/311</corresp>
+      <ecrm:P3_has_note xml:lang="de">Fayence</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/311</corresp>
+      <ecrm:P3_has_note xml:lang="hu">fajansz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/311"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_14">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/14</corresp>
+      <ecrm:P3_has_note xml:lang="de">Feinkörnige Kristallingesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/14</corresp>
+      <ecrm:P3_has_note xml:lang="en">coarse-grained crystalline rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/14</corresp>
+      <ecrm:P3_has_note xml:lang="hu">finomszemcsés kristályos kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/14"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_24">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/24</corresp>
+      <ecrm:P3_has_note xml:lang="de">Feldspat-Porphyr</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/24"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_17">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/17</corresp>
+      <ecrm:P3_has_note xml:lang="de">Felsit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/17</corresp>
+      <ecrm:P3_has_note xml:lang="hu">felsite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/17"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_111">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="la">ferrum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="tr">demir</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="de">Eisen</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="fr">fer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="it">ferro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="es">hierro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="en">iron</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="fi">rauta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vas</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="hr">željezo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="el">σίδηρος</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="bg">желязо</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/111</corresp>
+      <ecrm:P3_has_note xml:lang="ar">حديد</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/111"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_86">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/86</corresp>
+      <ecrm:P3_has_note xml:lang="de">Feuerstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/86</corresp>
+      <ecrm:P3_has_note xml:lang="en">chert / flintstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/86</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kovakő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/86"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_299">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/299</corresp>
+      <ecrm:P3_has_note xml:lang="en">Fluorit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/299"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_10">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Gabbro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Gabbró</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="es">Gabro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="de">Serpentin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="it">(meta)gabbro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="it">gabbro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="it">gabbro dioritico</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="it">granito verde della sedia di San Lorenzo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="it">granito verde della sedia di San Pietro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/10</corresp>
+      <ecrm:P3_has_note xml:lang="en">ophytes</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/10"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_300">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/300</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Gagat</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/300"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_101">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/101</corresp>
+      <ecrm:P3_has_note xml:lang="de">Gips</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/101</corresp>
+      <ecrm:P3_has_note xml:lang="hu">gipsz</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/101</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Gypse</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/101</corresp>
+      <ecrm:P3_has_note xml:lang="en">gypsum-stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/101</corresp>
+      <ecrm:P3_has_note xml:lang="es">Yeso</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/101"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_19">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/19</corresp>
+      <ecrm:P3_has_note xml:lang="de">Glasige magmatische Gesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/19</corresp>
+      <ecrm:P3_has_note xml:lang="en">glassy igneous rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/19</corresp>
+      <ecrm:P3_has_note xml:lang="hu">üveges magmatikus kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/19"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_289">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/289</corresp>
+      <ecrm:P3_has_note xml:lang="en">Glaspaste</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/289</corresp>
+      <ecrm:P3_has_note xml:lang="en">üvegpaszta</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/289"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_39">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/39</corresp>
+      <ecrm:P3_has_note xml:lang="de">Glimmerschiefer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/39</corresp>
+      <ecrm:P3_has_note xml:lang="hu">csillámpala</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/39</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Mica</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/39</corresp>
+      <ecrm:P3_has_note xml:lang="en">mica schist</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/39"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_37">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/37</corresp>
+      <ecrm:P3_has_note xml:lang="es">Gneis</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/37</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Gneiss</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/37</corresp>
+      <ecrm:P3_has_note xml:lang="hu">gneissz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/37"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_45">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/45</corresp>
+      <ecrm:P3_has_note xml:lang="de">Gneis</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/45"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_301">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/301</corresp>
+      <ecrm:P3_has_note xml:lang="en">Granat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/301</corresp>
+      <ecrm:P3_has_note xml:lang="hu">gránát</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/301"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_11">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="de">Granit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="en">Granite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="hu">gránit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Granite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="es">Granito</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="en">red Egyptian granite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey granite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="it">granito</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="it">granito violetto</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="la">Marmor Claudianum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Troadense</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis granatus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="la">Marmor Troadense</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/11</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor der Troas (Granit)</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/11"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_8">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/8</corresp>
+      <ecrm:P3_has_note xml:lang="de">Grobkörnige Kristallingesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/8</corresp>
+      <ecrm:P3_has_note xml:lang="en">coarse-grained crystalline rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/8</corresp>
+      <ecrm:P3_has_note xml:lang="hu">durvaszemcsés kristályos kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/8"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_90">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/90</corresp>
+      <ecrm:P3_has_note xml:lang="de">Hämatit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/90</corresp>
+      <ecrm:P3_has_note xml:lang="en">Haematite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/90</corresp>
+      <ecrm:P3_has_note xml:lang="hu">hematit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/90</corresp>
+      <ecrm:P3_has_note xml:lang="es">Hematita</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/90</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Hématite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/90"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_91">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/91</corresp>
+      <ecrm:P3_has_note xml:lang="de">Heliotrop</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/91</corresp>
+      <ecrm:P3_has_note xml:lang="en">Heliotrope</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/91"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_38">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/38</corresp>
+      <ecrm:P3_has_note xml:lang="en">Hornfels</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/38</corresp>
+      <ecrm:P3_has_note xml:lang="hu">granoblasztos kristályos pala</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/38"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_46">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/46</corresp>
+      <ecrm:P3_has_note xml:lang="en">Hornfels</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/46"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_138">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="la">ignoratur</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="es">Desconocido</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Inconnu</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ismeretlen</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="it">sconosciuto</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="en">unknown</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/138</corresp>
+      <ecrm:P3_has_note xml:lang="en">?</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/138"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_5">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/5</corresp>
+      <ecrm:P3_has_note xml:lang="en">Indefinite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/5</corresp>
+      <ecrm:P3_has_note xml:lang="de">Andere Gestein</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/5"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_137">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/137</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Indéterminé</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/137</corresp>
+      <ecrm:P3_has_note xml:lang="en">indefinite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/137</corresp>
+      <ecrm:P3_has_note xml:lang="hu">meghatározhatatlan</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/137</corresp>
+      <ecrm:P3_has_note xml:lang="de">unbestimmt</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/137"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_89">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/89</corresp>
+      <ecrm:P3_has_note xml:lang="de">Jaspis</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/89</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Jaspe</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/89</corresp>
+      <ecrm:P3_has_note xml:lang="es">Jaspe</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/89</corresp>
+      <ecrm:P3_has_note xml:lang="en">Jasper</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/89</corresp>
+      <ecrm:P3_has_note xml:lang="hu">jáspis</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/89"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_47">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/47</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalk-Marmor</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/47</corresp>
+      <ecrm:P3_has_note xml:lang="en">lime-marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/47</corresp>
+      <ecrm:P3_has_note xml:lang="hu">mészkő-márvány</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/47"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_76">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/76</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalkmergel / Mergel</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/76</corresp>
+      <ecrm:P3_has_note xml:lang="en">Lime marl / marl</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/76"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_57">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalksandstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis calcarius</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Calcaire</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="it">Calcare grigio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="it">Calcare</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="en">calcareous sandstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="es">Caliza</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/57</corresp>
+      <ecrm:P3_has_note xml:lang="hu">meszes homokkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/57"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_67">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalksinter</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="en">calcareous sinter</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="es">Calcedonia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Calcédonie</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="es">Caliza, calcárea</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="en">Carbonaceous Limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="hu">karbonátos mészkő</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kohlenkalk</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/67</corresp>
+      <ecrm:P3_has_note xml:lang="en">Limestone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/67"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_60">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/60</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/60</corresp>
+      <ecrm:P3_has_note xml:lang="en">limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/60</corresp>
+      <ecrm:P3_has_note xml:lang="hu">mészkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/60"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_507">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/507</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalkstein/ Alabaster</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/507"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_77">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalkstein/ Alabaster</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="de">Alabaster</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="es">Alabastro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="it">Alabastro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="hu">alabástrom</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Albâtre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/77</corresp>
+      <ecrm:P3_has_note xml:lang="de">Calc-sinter / Alabaster</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/77"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_78">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/78</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kalktuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/78</corresp>
+      <ecrm:P3_has_note xml:lang="en">Calcareous Tuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/78</corresp>
+      <ecrm:P3_has_note xml:lang="la">tofus</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/78"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_56">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/56</corresp>
+      <ecrm:P3_has_note xml:lang="de">Karbonatische Sedimentgesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/56</corresp>
+      <ecrm:P3_has_note xml:lang="en">carbonate sedimentary rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/56</corresp>
+      <ecrm:P3_has_note xml:lang="hu">karbonátos üledékes kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/56"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_92">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/92</corresp>
+      <ecrm:P3_has_note xml:lang="de">Karneol</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/92</corresp>
+      <ecrm:P3_has_note xml:lang="en">Carnelian</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/92"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_103">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/103</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kieselige Sedimentgesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/103</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kovás üledékes kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/103</corresp>
+      <ecrm:P3_has_note xml:lang="en">siliciclastic sedimentary rocks</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/103"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_72">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/72</corresp>
+      <ecrm:P3_has_note xml:lang="de">Klastische Sedimentgesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/72</corresp>
+      <ecrm:P3_has_note xml:lang="en">Clastic sediments</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/72</corresp>
+      <ecrm:P3_has_note xml:lang="hu">törmelékes üledékes kőzet</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/72"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_74">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="de">Konglomerat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="es">Conglomerado</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Conglomérat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="en">Conglomerate</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="fr">conglomérat calcareux</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/74</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kavicskövek / konglomerátumok</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/74"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_58">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/58</corresp>
+      <ecrm:P3_has_note xml:lang="de">Korallen-Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/58</corresp>
+      <ecrm:P3_has_note xml:lang="en">Coral-limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/58</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cornaline</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/58</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Cornaline</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/58</corresp>
+      <ecrm:P3_has_note xml:lang="hu">korallos mészkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/58"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_307">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/307</corresp>
+      <ecrm:P3_has_note xml:lang="en">Kork</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/307"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_306">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/306</corresp>
+      <ecrm:P3_has_note xml:lang="de">Korund</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/306</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Korund</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/306"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_312">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/312</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kunstmarmor</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/312"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_313">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/313</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kunststoff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/313</corresp>
+      <ecrm:P3_has_note xml:lang="hu">műanyag</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/313"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_113">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/113</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kupfer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/113</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cobre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/113</corresp>
+      <ecrm:P3_has_note xml:lang="en">Copper</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/113</corresp>
+      <ecrm:P3_has_note xml:lang="it">Rame</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/113</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vörösréz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/113"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_310">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/310</corresp>
+      <ecrm:P3_has_note xml:lang="de">Kupferniederschlag</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/310"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_93">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/93</corresp>
+      <ecrm:P3_has_note xml:lang="de">Lapislazuli</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/93</corresp>
+      <ecrm:P3_has_note xml:lang="hu">lazúrkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/93"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_125">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/125</corresp>
+      <ecrm:P3_has_note xml:lang="de">Leder</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/125</corresp>
+      <ecrm:P3_has_note xml:lang="hu">bőr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/125</corresp>
+      <ecrm:P3_has_note xml:lang="en">Leder</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/125"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_314">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/314</corresp>
+      <ecrm:P3_has_note xml:lang="de">Lehm</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/314</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vájog</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/314"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_318">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/318</corresp>
+      <ecrm:P3_has_note xml:lang="de">Leinwand</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/318</corresp>
+      <ecrm:P3_has_note xml:lang="hu">lenvászon</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/318"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_123">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="la">lignum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="fr">bois</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="hr">drvo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="hu">fa</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="de">Holz</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="it">legno</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="es">madera</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="tr">ödün</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="fi">puu</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="en">wood</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="el">ξύλο</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="bg">дърво</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/123</corresp>
+      <ecrm:P3_has_note xml:lang="ar">خشب</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/123"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_66">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">Limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">brownish-grey limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">coarse grey limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">dark limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">fine brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey and grey-brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey-brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">pink limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">pinkish brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">pitted grey limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">white limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellow limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellow-brown limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellowish limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/66</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellowish-grey limestone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/66"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_647">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/647</corresp>
+      <ecrm:P3_has_note xml:lang="en">limestone veined with quartz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/647"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_6">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="de">MAGMATISCHE GESTEINE</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="es">Igneas</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="en">Igneous Rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="hu">magmás kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="en">Magmatic Rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/6</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Roches Ignées</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/6"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_34">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/34</corresp>
+      <ecrm:P3_has_note xml:lang="de">Magmatisches Ausgangsgestein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/34</corresp>
+      <ecrm:P3_has_note xml:lang="en">igneous protolith</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/34"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_61">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/61</corresp>
+      <ecrm:P3_has_note xml:lang="en">Magnesit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/61</corresp>
+      <ecrm:P3_has_note xml:lang="en">magnesite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/61</corresp>
+      <ecrm:P3_has_note xml:lang="hu">magnezit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/61"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_94">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/94</corresp>
+      <ecrm:P3_has_note xml:lang="de">Magnetit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/94</corresp>
+      <ecrm:P3_has_note xml:lang="en">Magnetite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/94"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_48">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="en">marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="en">Marble (colour indefinite)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="fr">marbre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="es">mármol</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor (Farbe unbestimmt)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="fi">marmori</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="hu">márvány</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="tr">mermer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="hr">mramor</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="la">tabula marmorea</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis marmoreus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="el">μάρμαρο</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="bg">мрамор</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="he">שיש</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/48</corresp>
+      <ecrm:P3_has_note xml:lang="ar">رخام</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/48"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_739">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/739</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor Chium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/739</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Portasanta</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/739</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo di Chio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/739</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Chium</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/739"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_740">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/740</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor Claudianum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/740</corresp>
+      <ecrm:P3_has_note xml:lang="it">granito del Foro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/740</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis granatus, marmor Claudianum</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/740"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_741">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/741</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, hymettischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/741</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Cipolla</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/741</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo dell'Imetto</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/741</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Imezio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/741</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Hymettium</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/741"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_742">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/742</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, karystischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/742</corresp>
+      <ecrm:P3_has_note xml:lang="en">chloritic marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/742</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo cipollino, marmo cipollino verde</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/742</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Carystium / Carysteum</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/742"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_743">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/743</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, parischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/743</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Parium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/743</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Pario</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/743</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Paro</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/743"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_744">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, phrygischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="en">brecciated marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo frigio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Docimenium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Synnadicum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Phrygium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/744</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Pavonazzetto</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/744"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_745">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, prokonnesischer </ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="en">brecciated marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Proconnesium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Cyzicenum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Proconnesio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo di Proconneso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/745</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Cipolla</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/745"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_746">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, skyrischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="en">brecciated marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Scyreticum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="it">breccia di Sciro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Sciro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/746</corresp>
+      <ecrm:P3_has_note xml:lang="it">breccia di Settebassi</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/746"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_747">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/747</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, taenarischer (rot)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/747</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Taenarium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/747</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Tenaro rosso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/747</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo rosso antico</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/747"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_748">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/748</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, taenarischer (schwarz)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/748</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Tenaro nero</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/748</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Taenarium nigrum</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/748"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_749">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/749</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor von Thassos</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/749</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Thasium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/749</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Taso</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/749"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_50">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/50</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, geädert / farbig</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/50</corresp>
+      <ecrm:P3_has_note xml:lang="en">Marble, veined / coloured</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/50"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_49">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/49</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, weiß</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/49</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo bianco</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/49"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_366">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/366</corresp>
+      <ecrm:P3_has_note xml:lang="en">black marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/366</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, schwarzer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/366</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis marmoreus niger </ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/366</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo nero antico</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/366"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_365">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/365</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellow marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/365</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, numidischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/365</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Numidicum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/365</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo giallo antico</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/365"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_364">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/364</corresp>
+      <ecrm:P3_has_note xml:lang="en">yellow and white marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/364"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_363">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/363</corresp>
+      <ecrm:P3_has_note xml:lang="en">White Pentelic marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/363</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, pentelischer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/363</corresp>
+      <ecrm:P3_has_note xml:lang="la"> marmor Pentelicum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/363</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo pentelico</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/363</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo bianco pentelico</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/363"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_648">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/648</corresp>
+      <ecrm:P3_has_note xml:lang="en">Cipollino</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/648</corresp>
+      <ecrm:P3_has_note xml:lang="it">Cipollino</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/648"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_362">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/362</corresp>
+      <ecrm:P3_has_note xml:lang="en">white marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/362</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Lunense / Luniense</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/362</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, Carrara (weiß)</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/362"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_361">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/361</corresp>
+      <ecrm:P3_has_note xml:lang="en">Portasanta marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/361"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_738">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/738</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, Carrara (blau)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/738</corresp>
+      <ecrm:P3_has_note xml:lang="la">marmor Lunense / Luniense caesium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/738</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo Bardiglio di Carrara</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/738"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_360">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/360</corresp>
+      <ecrm:P3_has_note xml:lang="en">pink-grained white marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/360"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_359">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/359</corresp>
+      <ecrm:P3_has_note xml:lang="en">Numidian marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/359</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo numidico</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/359"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_358">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey-flecked, white marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey-flecked white</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey-flecked</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo grigio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo di Caristo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Marbre blanc à veines grises</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/358</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey and white marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/358"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_357">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/357</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/357</corresp>
+      <ecrm:P3_has_note xml:lang="en">Greyish marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/357"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_356">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/356</corresp>
+      <ecrm:P3_has_note xml:lang="en">dark grey marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/356"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_750">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/750</corresp>
+      <ecrm:P3_has_note xml:lang="en">blue grey marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/750</corresp>
+      <ecrm:P3_has_note xml:lang="en">blue-grey marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/750"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_751">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/751</corresp>
+      <ecrm:P3_has_note xml:lang="en">blue marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/751</corresp>
+      <ecrm:P3_has_note xml:lang="en">blue-veined marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/751</corresp>
+      <ecrm:P3_has_note xml:lang="en">blueish white marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/751</corresp>
+      <ecrm:P3_has_note xml:lang="en">bluish marble</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/751"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_355">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/355</corresp>
+      <ecrm:P3_has_note xml:lang="en">cream marble flecked with brown</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/355"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_354">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/354</corresp>
+      <ecrm:P3_has_note xml:lang="en">cream marble</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/354</corresp>
+      <ecrm:P3_has_note xml:lang="en">marble, cream mottled with grey and purple</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/354"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_353">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/353</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Marbre de Prokonnesos</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/353</corresp>
+      <ecrm:P3_has_note xml:lang="it">Marmo di Proconneso</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/353"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_321">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/321</corresp>
+      <ecrm:P3_has_note xml:lang="de">Materialkombination</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/321</corresp>
+      <ecrm:P3_has_note xml:lang="hu">anyagkompozit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/321"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_62">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/62</corresp>
+      <ecrm:P3_has_note xml:lang="de">Mergel</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/62</corresp>
+      <ecrm:P3_has_note xml:lang="hu">márga</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/62</corresp>
+      <ecrm:P3_has_note xml:lang="it">merga</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/62</corresp>
+      <ecrm:P3_has_note xml:lang="en">marl</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/62"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_114">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/114</corresp>
+      <ecrm:P3_has_note xml:lang="de">Messing</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/114</corresp>
+      <ecrm:P3_has_note xml:lang="en">brass</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/114</corresp>
+      <ecrm:P3_has_note xml:lang="it">Ottone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/114</corresp>
+      <ecrm:P3_has_note xml:lang="es">Latón</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/114</corresp>
+      <ecrm:P3_has_note xml:lang="hu">sárgaréz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/114"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_107">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="en">Metal</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="hu">fém</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="es">Metales</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="de">Metalle</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="it">Metallo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/107</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Métaux</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/107"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_33">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/33</corresp>
+      <ecrm:P3_has_note xml:lang="de">METAMORPHE GESTEINE</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/33</corresp>
+      <ecrm:P3_has_note xml:lang="hu">metamorf kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/33</corresp>
+      <ecrm:P3_has_note xml:lang="es">Metamórficas</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/33</corresp>
+      <ecrm:P3_has_note xml:lang="en">Metamorphic rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/33</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Métamorphiques</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/33"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_87">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/87</corresp>
+      <ecrm:P3_has_note xml:lang="en">Minerale</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/87</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ásványok</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/87</corresp>
+      <ecrm:P3_has_note xml:lang="es">Minerales</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/87</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Minéraux</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/87"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_79">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/79</corresp>
+      <ecrm:P3_has_note xml:lang="de">Molasse</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/79"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_251">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/251</corresp>
+      <ecrm:P3_has_note xml:lang="de">mozaik</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/251"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_63">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/63</corresp>
+      <ecrm:P3_has_note xml:lang="de">Muschel-Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/63</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kagylós mészkő</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/63</corresp>
+      <ecrm:P3_has_note xml:lang="en">shell-limestone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/63"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_68">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/68</corresp>
+      <ecrm:P3_has_note xml:lang="de">Muschelkalk</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/68</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis conchyliferus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/68</corresp>
+      <ecrm:P3_has_note xml:lang="en">conchiferous limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/68</corresp>
+      <ecrm:P3_has_note xml:lang="en">Shell limestone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/68"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_134">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="la">musivum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="en">mosaic</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="it">mosaico</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="fi">mosaiikki</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Mosaik</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="fr">mosaïque</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="hr">mozaik</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="tr">mozaik</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="el">μωσαϊκό</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="bg">мозайка</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/134</corresp>
+      <ecrm:P3_has_note xml:lang="ar">فسيفساء</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/134"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_81">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/81</corresp>
+      <ecrm:P3_has_note xml:lang="de">Nenfro</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/81"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_85">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/85</corresp>
+      <ecrm:P3_has_note xml:lang="de">Nicht Klastische silikatreiche
+            Sedimentgesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/85</corresp>
+      <ecrm:P3_has_note xml:lang="hu">nem cementálódott szilikátgazdag üledékes
+            kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/85</corresp>
+      <ecrm:P3_has_note xml:lang="en">non clastic silica-rich sedimentary rocks</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/85"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_99">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/99</corresp>
+      <ecrm:P3_has_note xml:lang="de">Nicht-karbonatische Salze</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/99</corresp>
+      <ecrm:P3_has_note xml:lang="hu">nem karbonátos sók</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/99</corresp>
+      <ecrm:P3_has_note xml:lang="en">non-carbonate salts</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/99"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_20">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/20</corresp>
+      <ecrm:P3_has_note xml:lang="en">Obsidian</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/20</corresp>
+      <ecrm:P3_has_note xml:lang="it">Ossidiana</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/20</corresp>
+      <ecrm:P3_has_note xml:lang="hu">obszidián</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/20"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_95">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/95</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Onyx</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/95</corresp>
+      <ecrm:P3_has_note xml:lang="es">Ónice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/95</corresp>
+      <ecrm:P3_has_note xml:lang="it">Onice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/95</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ónix</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/95"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_70">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/70</corresp>
+      <ecrm:P3_has_note xml:lang="de">Ooid-Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/70</corresp>
+      <ecrm:P3_has_note xml:lang="en">ooid-limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/70</corresp>
+      <ecrm:P3_has_note xml:lang="en">Oolite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/70</corresp>
+      <ecrm:P3_has_note xml:lang="de">Oolith</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/70"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_96">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/96</corresp>
+      <ecrm:P3_has_note xml:lang="en">Opal</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/96</corresp>
+      <ecrm:P3_has_note xml:lang="hu">opál</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/96</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Opale</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/96</corresp>
+      <ecrm:P3_has_note xml:lang="es">Opalo</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/96"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_129">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/129</corresp>
+      <ecrm:P3_has_note xml:lang="la">opus latericium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/129</corresp>
+      <ecrm:P3_has_note xml:lang="it">laterizio</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/129"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_319">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/319</corresp>
+      <ecrm:P3_has_note xml:lang="de">Papier</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/319</corresp>
+      <ecrm:P3_has_note xml:lang="hu">papír</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/319"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_320">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/320</corresp>
+      <ecrm:P3_has_note xml:lang="en">Papyrus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/320</corresp>
+      <ecrm:P3_has_note xml:lang="hu">papirusz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/320"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_82">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/82</corresp>
+      <ecrm:P3_has_note xml:lang="de">Peperin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/82</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis albanus</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/82"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_12">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/12</corresp>
+      <ecrm:P3_has_note xml:lang="de">Peridodit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/12</corresp>
+      <ecrm:P3_has_note xml:lang="hu">peridodite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/12"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_102">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/102</corresp>
+      <ecrm:P3_has_note xml:lang="de">Phosphat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/102</corresp>
+      <ecrm:P3_has_note xml:lang="hu">foszfát</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/102</corresp>
+      <ecrm:P3_has_note xml:lang="en">phosphate</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/102"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_108">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="la">plumbum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="de">Blei</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="tr">kurşun</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="en">lead</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="fi">lyijy</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="hu">ólom</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="hr">olovo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="it">piombo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="fr">plomb</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="es">plomo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="el">μόλυβδος</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="bg">олово</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/108</corresp>
+      <ecrm:P3_has_note xml:lang="ar">رصاص</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/108"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_297">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/297</corresp>
+      <ecrm:P3_has_note xml:lang="en">Poros</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/297"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_25">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="de">Porphyr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="es">Pórfido</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="hu">porfír</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="es">Porfirio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Porphyre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="en">porphyry</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="la">Marmor Lacedaemonium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/25</corresp>
+      <ecrm:P3_has_note xml:lang="de">Marmor, thessalischer</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/25"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_21">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/21</corresp>
+      <ecrm:P3_has_note xml:lang="de">Porphyrische (ungleichkörnige)
+            Kristallingesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/21</corresp>
+      <ecrm:P3_has_note xml:lang="hu">porfírikus kristályos kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/21</corresp>
+      <ecrm:P3_has_note xml:lang="en">porphyric (inequigranular) crystalline rocks</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/21"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_315">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/315</corresp>
+      <ecrm:P3_has_note xml:lang="de">Porzellan</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/315</corresp>
+      <ecrm:P3_has_note xml:lang="hu">porcelán</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/315"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_80">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/80</corresp>
+      <ecrm:P3_has_note xml:lang="de">Pyroclastische Sedimente</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/80</corresp>
+      <ecrm:P3_has_note xml:lang="en">polyclastic sediments</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/80"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_28">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/28</corresp>
+      <ecrm:P3_has_note xml:lang="de">Pyroklastische Gesteine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/28</corresp>
+      <ecrm:P3_has_note xml:lang="hu">piroklasztikus kőzetek</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/28</corresp>
+      <ecrm:P3_has_note xml:lang="en">pyroclastic rocks</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/28</corresp>
+      <ecrm:P3_has_note xml:lang="de">Vulkangestein</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/28"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_26">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/26</corresp>
+      <ecrm:P3_has_note xml:lang="de">Quarz-Porphyr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/26</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kvarc-porfír</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/26"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_51">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/51</corresp>
+      <ecrm:P3_has_note xml:lang="de">Quarzit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/51</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cuarcita</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/51</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kvarcit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/51</corresp>
+      <ecrm:P3_has_note xml:lang="en">Quartzite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/51</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Quaztcite</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/51"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_104">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/104</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Quazt</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/104</corresp>
+      <ecrm:P3_has_note xml:lang="es">Cuarzo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/104</corresp>
+      <ecrm:P3_has_note xml:lang="it">Quarzo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/104</corresp>
+      <ecrm:P3_has_note xml:lang="en">quartz-sandstone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/104"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_18">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/18</corresp>
+      <ecrm:P3_has_note xml:lang="de">Rhyolit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/18</corresp>
+      <ecrm:P3_has_note xml:lang="en">rhyolite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/18</corresp>
+      <ecrm:P3_has_note xml:lang="hu">riolit</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/18"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_27">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/27</corresp>
+      <ecrm:P3_has_note xml:lang="de">Rhyolith-Porphyr</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/27</corresp>
+      <ecrm:P3_has_note xml:lang="en">rhyolite-porphyry</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/27</corresp>
+      <ecrm:P3_has_note xml:lang="hu">riolit-porfír</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/27"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_1">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/1</corresp>
+      <ecrm:P3_has_note xml:lang="en">Rock</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/1</corresp>
+      <ecrm:P3_has_note xml:lang="it">Pietra</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/1"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_75">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="de">Sandstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="es">Arenisca</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Grès</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="hu">homokkő</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="it">arenaria</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">sandstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">brown sand-stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">green sandstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">grey sandstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">sand-stone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="en">stuccoed sandstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis (h)arenarius</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/75</corresp>
+      <ecrm:P3_has_note xml:lang="la">(h)arenaceus lapis arenarius</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/75"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_502">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/502</corresp>
+      <ecrm:P3_has_note xml:lang="en">sandstone</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/502"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_290">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/290</corresp>
+      <ecrm:P3_has_note xml:lang="en">Saphir</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/290"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_97">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/97</corresp>
+      <ecrm:P3_has_note xml:lang="de">Sardonyx</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/97</corresp>
+      <ecrm:P3_has_note xml:lang="en">Sardonyx</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/97</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Sardonice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/97</corresp>
+      <ecrm:P3_has_note xml:lang="es">Sardónice</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/97</corresp>
+      <ecrm:P3_has_note xml:lang="hu">szardonix</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/97"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_52">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="de">Schiefer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="es">Esquisto / Pizarra</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Pala</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="en">schist</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="en">Slate</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/52</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis sectilis</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/52"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_736">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/736</corresp>
+      <ecrm:P3_has_note xml:lang="de">Grauwacke</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/736</corresp>
+      <ecrm:P3_has_note xml:lang="de">Metagrauwacke</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/736</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis basanites</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/736</corresp>
+      <ecrm:P3_has_note xml:lang="it">pietra Bekhen</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/736</corresp>
+      <ecrm:P3_has_note xml:lang="it">scisto verde dell'Uadi Hammamat</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/736"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_32">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="de">Schlacke</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="es">Esquisto Scoria</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="es">Lumaquela</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Salak</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="de">Schillkalk</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Schiste</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/32</corresp>
+      <ecrm:P3_has_note xml:lang="it">Scisto</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/32"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_42">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/42</corresp>
+      <ecrm:P3_has_note xml:lang="de">Sedimentäres Ausgangsgestein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/42</corresp>
+      <ecrm:P3_has_note xml:lang="en">sedimentary protolith</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/42</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vulkáni törmelékes üledék</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/42"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_55">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/55</corresp>
+      <ecrm:P3_has_note xml:lang="de">SEDIMENTGESTEINE</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/55</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Sedimentaires</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/55</corresp>
+      <ecrm:P3_has_note xml:lang="es">Sedimentarias</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/55</corresp>
+      <ecrm:P3_has_note xml:lang="en">SEDIMENTARY ROCKS</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/55</corresp>
+      <ecrm:P3_has_note xml:lang="hu">üledékes kőzetek</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/55"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_302">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/302</corresp>
+      <ecrm:P3_has_note xml:lang="de">Sepiolith (Meerschaum)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/302</corresp>
+      <ecrm:P3_has_note xml:lang="hu">tajték</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/302"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_40">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="de">Serpentinit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="es">Serpentina</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Serpertine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="hu">szerpentin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="la">Marmor Thessalicum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="en">brecciated ophicalcite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="it">marmo verde antico</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/40</corresp>
+      <ecrm:P3_has_note xml:lang="it">serpentina</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/40"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_53">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/53</corresp>
+      <ecrm:P3_has_note xml:lang="de">Silex</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/53</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis molaris</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/53</corresp>
+      <ecrm:P3_has_note xml:lang="it">lava</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/53"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_737">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/737</corresp>
+      <ecrm:P3_has_note xml:lang="de">Lavaschlacke</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/737</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis molaris (fistulosus)</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/737"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_291">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/291</corresp>
+      <ecrm:P3_has_note xml:lang="hu">Smaragd</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/291"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_292">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/292</corresp>
+      <ecrm:P3_has_note xml:lang="de">Smaragdplasma</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/292"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_41">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/41</corresp>
+      <ecrm:P3_has_note xml:lang="de">Speckstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/41</corresp>
+      <ecrm:P3_has_note xml:lang="en">Soapstone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/41</corresp>
+      <ecrm:P3_has_note xml:lang="en">soapstone (talc-rock)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/41</corresp>
+      <ecrm:P3_has_note xml:lang="de">Steatit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/41</corresp>
+      <ecrm:P3_has_note xml:lang="hu">zsírkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/41"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_4">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/4</corresp>
+      <ecrm:P3_has_note xml:lang="de">Steinputz-Trockenmörtel</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/4</corresp>
+      <ecrm:P3_has_note xml:lang="hu">kőpor / rideg habarcs</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/4"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_317">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/317</corresp>
+      <ecrm:P3_has_note xml:lang="de">Stoff</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/317"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_13">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="de">Syenit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="es">Sienita</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="it">Sienite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Syenite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="en">szienit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="de">Hornblendegranit</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis granatus</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/13</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis Syenites</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/13"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_126">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="la">tectorium</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Enduit peint</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="es">estuco</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="it">intonaco</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="en">plaster (mural painting)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="en">Wall plaster</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="de">Putz (Wandmalerei)</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="fr">stuc</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="it">stucco</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="hr">štuk</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="fi">stukko</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="de">Tünchwerk</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vakolat</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="es">Yeso</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="el">κονίαμα, σοβάς/επίχρισμα εξωτερικών τοίχων</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="bg">щукатура, мазилка</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/126</corresp>
+      <ecrm:P3_has_note xml:lang="ar">جص</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/126"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_127">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/127</corresp>
+      <ecrm:P3_has_note xml:lang="la">tectorium induens sepulchrum</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/127"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_132">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/132</corresp>
+      <ecrm:P3_has_note xml:lang="es">Terra sigillata</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/132</corresp>
+      <ecrm:P3_has_note xml:lang="it">Terra sigillata</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/132"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_54">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="de">Tonschiefer</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="hu">agyagpala</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Ardoise</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="it">Ardesia</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="es">Pizarra</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="en">Slate</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/54</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis sectilis cineraceus</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/54"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_293">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/293</corresp>
+      <ecrm:P3_has_note xml:lang="de">Topas</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/293</corresp>
+      <ecrm:P3_has_note xml:lang="hu">topáz</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/293"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_83">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/83</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Trachyte</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/83</corresp>
+      <ecrm:P3_has_note xml:lang="de">Trachyt</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/83</corresp>
+      <ecrm:P3_has_note xml:lang="en">Trachyte</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/83</corresp>
+      <ecrm:P3_has_note xml:lang="it">Trachite</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/83</corresp>
+      <ecrm:P3_has_note xml:lang="es">Tracita</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/83"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_71">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="de">Travertin Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="de">Travertin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="fr">Travertin</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="en">Travertine</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="en">travertine-limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="it">Travertino</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="es">Travertino</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/71</corresp>
+      <ecrm:P3_has_note xml:lang="la">lapis Tiburtinus</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/71"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_64">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/64</corresp>
+      <ecrm:P3_has_note xml:lang="de">Tuff Kalkstein</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/64</corresp>
+      <ecrm:P3_has_note xml:lang="en">tufa-limestone</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/64</corresp>
+      <ecrm:P3_has_note xml:lang="hu">tufás mészkő</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/64"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_117">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/117</corresp>
+      <ecrm:P3_has_note xml:lang="de">unbestimmt</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/117"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_604">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/604</corresp>
+      <ecrm:P3_has_note xml:lang="hu">üveg</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/604"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_122">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="la">vitrum</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="tr">cam</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="de">Glas</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="en">glass</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="fi">lasi</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="hr">staklo</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="hu">üveg</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="fr">verre</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="it">vetro</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="es">vidrio</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="el">γυαλί</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="bg">стъкло</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/122</corresp>
+      <ecrm:P3_has_note xml:lang="ar">زجاج</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/122"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_98">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/98</corresp>
+      <ecrm:P3_has_note xml:lang="de">Vulkantuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/98</corresp>
+      <ecrm:P3_has_note xml:lang="en">Volcanic Tuff</ecrm:P3_has_note>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/98</corresp>
+      <ecrm:P3_has_note xml:lang="hu">vulkáni tufa</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/98"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_84">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/84</corresp>
+      <ecrm:P3_has_note xml:lang="de">Vulkantuff</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/84"/>
+   </owl:NamedIndividual>
+   <owl:NamedIndividual rdf:about="http://lod.ub.uni-heidelberg.de/ontologies/ria/material_116">
+      <rdf:type rdf:resource="http://erlangen-crm.org/current/E57_Material"/>
+      <corresp>https://www.eagle-network.eu/voc/material/lod/116</corresp>
+      <ecrm:P3_has_note xml:lang="de">Zinn</ecrm:P3_has_note>
+      <rdfs:isDefinedBy rdf:resource="https://www.eagle-network.eu/voc/material/lod/116"/>
+   </owl:NamedIndividual>
+</rdf:RDF>
