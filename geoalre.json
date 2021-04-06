@@ -1,0 +1,116 @@
+{"type": "FeatureCollection",
+    "features": [
+              {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            32.6355912,
+                            25.68502752
+                        ]
+                    },
+                    "title": "Thebes",
+                    "uri": "https://www.trismegistos.org/place/2355",
+                    "TM_Geo_ID ": "2355",
+                    "links": {
+                        "broad matches": [],
+                        "close matches": {
+                            "Pleiades": [
+                                {
+                                    "URI": "https://pleiades.stoa.org/places/786017"
+                                }
+                            ]
+                        },
+                        "exact matches": []
+                    },
+                    "properties": {
+                        "country": "Egypt",
+                        "provincia": "Aegyptus",
+                        "title": "Thebes",
+                        "uri": "https://www.trismegistos.org/place/2355",
+                        "TM_Geo_ID ": "2355"
+                    }
+                }, 
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            27.874127,
+                            40.389806
+                        ]
+                    },
+                    "title": "Kyzikos",
+                    "uri": "https://www.trismegistos.org/place/1208",
+                    "TM_Geo_ID ": "1208",
+                    "names": {
+                        "greek": {
+                            "name": "Κύζικος",
+                            "language": "200"
+                        },
+                        "latin": {
+                            "name": "Cyzicus",
+                            "language": "215"
+                        }
+                    },
+                    "links": {
+                        "broad matches": [],
+                        "close matches": {
+                            "Syriaca": [
+                                {
+                                    "URI": "http://syriaca.org/place/439"
+                                }
+                            ],
+                            "Wikipedia": [
+                                {
+                                    "URI": "https://en.wikipedia.org/wiki/Cyzicus"
+                                },
+                                {
+                                    "URI": "https://en.wikipedia.org/wiki/Mysia"
+                                }
+                            ],
+                            "Pleiades": [
+                                {
+                                    "URI": "https://pleiades.stoa.org/places/511218"
+                                }
+                            ],
+                            "Talbert Peutinger": [
+                                {
+                                    "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace2195.html"
+                                }
+                            ],
+                            "Digital Atlas of the Roman Empire": [
+                                {
+                                    "URI": "http://imperium.ahlfeldt.se/places/21425"
+                                }
+                            ],
+                            "ToposText": [
+                                {
+                                    "URI": "https://topostext.org/place/404279UCyz"
+                                }
+                            ],
+                            "EDH": [
+                                {
+                                    "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/1960"
+                                }
+                            ],
+                            "Nomisma": [
+                                {
+                                    "URI": "http://nomisma.org/id/cyzicus"
+                                }
+                            ]
+                        },
+                        "exact matches": []
+                    },
+                    "properties": {
+                        "status": "city",
+                        "country": "Turkey",
+                        "provincia": "Asia",
+                        "title": "Kyzikos",
+                        "uri": "https://www.trismegistos.org/place/1208",
+                        "TM_Geo_ID ": "1208"
+                    }
+                }   
+       ]
+   }
+   
