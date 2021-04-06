@@ -1,116 +1,2620 @@
-{"type": "FeatureCollection",
-    "features": [
-              {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            32.6355912,
-                            25.68502752
-                        ]
-                    },
-                    "title": "Thebes",
-                    "uri": "https://www.trismegistos.org/place/2355",
-                    "TM_Geo_ID ": "2355",
-                    "links": {
-                        "broad matches": [],
-                        "close matches": {
-                            "Pleiades": [
-                                {
-                                    "URI": "https://pleiades.stoa.org/places/786017"
-                                }
-                            ]
-                        },
-                        "exact matches": []
-                    },
-                    "properties": {
-                        "country": "Egypt",
-                        "provincia": "Aegyptus",
-                        "title": "Thebes",
-                        "uri": "https://www.trismegistos.org/place/2355",
-                        "TM_Geo_ID ": "2355"
-                    }
-                }, 
-                {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            27.874127,
-                            40.389806
-                        ]
-                    },
-                    "title": "Kyzikos",
-                    "uri": "https://www.trismegistos.org/place/1208",
-                    "TM_Geo_ID ": "1208",
-                    "names": {
-                        "greek": {
-                            "name": "Κύζικος",
-                            "language": "200"
-                        },
-                        "latin": {
-                            "name": "Cyzicus",
-                            "language": "215"
-                        }
-                    },
-                    "links": {
-                        "broad matches": [],
-                        "close matches": {
-                            "Syriaca": [
-                                {
-                                    "URI": "http://syriaca.org/place/439"
-                                }
-                            ],
-                            "Wikipedia": [
-                                {
-                                    "URI": "https://en.wikipedia.org/wiki/Cyzicus"
-                                },
-                                {
-                                    "URI": "https://en.wikipedia.org/wiki/Mysia"
-                                }
-                            ],
-                            "Pleiades": [
-                                {
-                                    "URI": "https://pleiades.stoa.org/places/511218"
-                                }
-                            ],
-                            "Talbert Peutinger": [
-                                {
-                                    "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace2195.html"
-                                }
-                            ],
-                            "Digital Atlas of the Roman Empire": [
-                                {
-                                    "URI": "http://imperium.ahlfeldt.se/places/21425"
-                                }
-                            ],
-                            "ToposText": [
-                                {
-                                    "URI": "https://topostext.org/place/404279UCyz"
-                                }
-                            ],
-                            "EDH": [
-                                {
-                                    "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/1960"
-                                }
-                            ],
-                            "Nomisma": [
-                                {
-                                    "URI": "http://nomisma.org/id/cyzicus"
-                                }
-                            ]
-                        },
-                        "exact matches": []
-                    },
-                    "properties": {
-                        "status": "city",
-                        "country": "Turkey",
-                        "provincia": "Asia",
-                        "title": "Kyzikos",
-                        "uri": "https://www.trismegistos.org/place/1208",
-                        "TM_Geo_ID ": "1208"
-                    }
-                }   
-       ]
-   }
-   
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9079146667,
+          31.1982456667
+        ]
+      },
+      "title": "Alexandria",
+      "uri": "https://www.trismegistos.org/place/100",
+      "TM_Geo_ID ": "100",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03bb\u03b5\u03be\u03ac\u03bd\u03b4\u03c1\u03b5\u03b9\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca3\u2c81\u2c95\u2c9f\u2ca7\u2c89 - \u2ca3\u2c81\u2c95\u2c9f\u03ef",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Alexandria - Alexandrea",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Syriaca": [
+            {
+              "URI": "http://syriaca.org/place/572"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Alexandria"
+            }
+          ],
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/727070"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/15898"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/312299PAle"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/147"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/151"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/191"
+            }
+          ],
+          "Nomisma": [
+            {
+              "URI": "http://nomisma.org/id/alexandreia_egypt"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; megalopolis (megale polis); civitas; urbs; oppidum",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Alexandria",
+        "TM_Geo_ID": "100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6700972222,
+          26.141775
+        ]
+      },
+      "title": "Tentyris",
+      "uri": "https://www.trismegistos.org/place/2312",
+      "TM_Geo_ID ": "2312",
+      "names": {
+        "greek": {
+          "name": "\u03a4\u03b5\u03bd\u03c4\u03c5\u03c1\u03b9\u03c2 - \u03a4\u03b5\u03bd\u03c4\u03c5\u03c1\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca7\u2c89\u2c9b\u2ca7\u2cb1\u2ca3\u2c93 - \u2c9b\u2c93\u2ca7\u2c9b\u2ca7\u2cb1\u2ca3\u2c89 - \u2c9b\u2c93\u2ca7\u2c89\u2c9b\u2ca7\u2cb1\u2ca3\u2c93",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Tentyra - Tentira",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786127"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace394.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Dendera"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22154"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/261326UTen"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/161"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; civitas; metropolis",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Tentyris",
+        "TM_Geo_ID": "2312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.895832,
+          29.253514
+        ]
+      },
+      "title": "Haueris",
+      "uri": "https://www.trismegistos.org/place/747",
+      "TM_Geo_ID ": "747",
+      "names": {
+        "greek": {
+          "name": "\u0391\u1f51\u03b7\u03c1\u03b9\u03c2",
+          "language": "200"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736918"
+            }
+          ],
+          "Fayum project (text)": [
+            {
+              "URI": "http://www.trismegistos.org/fayum/fayum2/747.php?geo_id=747"
+            }
+          ],
+          "Fayum project (map)": [
+            {
+              "URI": "http://www.trismegistos.org/fayum/fayum2/map.php?geo_id=747"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/28552"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome; demi",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Haueris",
+        "TM_Geo_ID": "747"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Herakleopolites",
+      "uri": "https://www.trismegistos.org/place/2713",
+      "TM_Geo_ID ": "2713",
+      "names": {
+        "greek": {
+          "name": "\u1f29\u03c1\u03b1\u03ba\u03bb\u03b5\u03bf\u03c0\u03bf\u03bb\u03af\u03c4\u03b7\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Heracleopolites",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736921"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Nome_(Egypt)"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; tesh; pagarchia; nesos",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Herakleopolites",
+        "TM_Geo_ID": "2713"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Phathor",
+      "uri": "https://www.trismegistos.org/place/2723",
+      "TM_Geo_ID ": "2723",
+      "names": {
+        "greek": {
+          "name": "\u03a6\u03b1\u03b8\u03c9\u03c1 - \u1f09\u03b8\u03bf\u03c1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u03e9\u2c81\u2ca7\u03e9\u2cb1\u2ca3",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: chorion; monasterion: mone",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Phathor",
+        "TM_Geo_ID": "2723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.49696,
+          29.348065
+        ]
+      },
+      "title": "Theadelpheia",
+      "uri": "https://www.trismegistos.org/place/2349",
+      "TM_Geo_ID ": "2349",
+      "names": {
+        "greek": {
+          "name": "\u0398\u03b5\u03b1\u03b4\u03ad\u03bb\u03c6\u03b5\u03b9\u03b1",
+          "language": "200"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/737081"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/28651"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/173"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome; epoikion",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Theadelpheia",
+        "TM_Geo_ID": "2349"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.716666666667,
+          25.9
+        ]
+      },
+      "title": "Nagada",
+      "uri": "https://www.trismegistos.org/place/2994",
+      "TM_Geo_ID ": "2994",
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Nagada",
+        "TM_Geo_ID": "2994"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0756475,
+          25.517958
+        ]
+      },
+      "title": "Kellis",
+      "uri": "https://www.trismegistos.org/place/2762",
+      "TM_Geo_ID ": "2762",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03b5\u03bb\u03bb\u03b9\u03c2",
+          "language": "200"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Syriaca": [
+            {
+              "URI": "http://syriaca.org/place/601"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Kellis"
+            }
+          ],
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/776189"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21096"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/164"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/195"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Kellis",
+        "TM_Geo_ID": "2762"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6355912,
+          25.68502752
+        ]
+      },
+      "title": "Thebes",
+      "uri": "https://www.trismegistos.org/place/2355",
+      "TM_Geo_ID ": "2355",
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786017"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Thebes",
+        "TM_Geo_ID": "2355"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Oxyrynchites",
+      "uri": "https://www.trismegistos.org/place/2722",
+      "TM_Geo_ID ": "2722",
+      "names": {
+        "greek": {
+          "name": "\u1f48\u03be\u03c5\u03c1\u03c5\u03b3\u03c7\u03af\u03c4\u03b7\u03c2 - \u1f38\u03bf\u03c5\u03c3\u03c4\u03b9\u03bd\u03bf\u03c5\u03c0\u03bf\u03bb\u03af\u03c4\u03b7\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Oxyrynchites",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; tesh; pagarchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Oxyrynchites",
+        "TM_Geo_ID": "2722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7099896,
+          27.550975
+        ]
+      },
+      "title": "Abba Apollotos Monasterion",
+      "uri": "https://www.trismegistos.org/place/10454",
+      "TM_Geo_ID ": "10454",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03b2\u03b2\u1fb6 \u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03c4\u03bf\u03c2 \u03bc\u03bf\u03bd\u03b1\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf\u03bd",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2c81\u2ca9\u2c8f\u2ca7 - \u2ca7\u2c9f\u2ca1\u2c9f\u2ca5 \u2c9b\u2c81\u2ca1\u2c81 \u2c81\u2ca1\u2c9f\u2c97\u2c97\u2cb1",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756663"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37319"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "monasterion; hagios topos",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Abba Apollotos Monasterion",
+        "TM_Geo_ID": "10454"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.240312,
+          26.0488
+        ]
+      },
+      "title": "Nag' Hammadi",
+      "uri": "https://www.trismegistos.org/place/2803",
+      "TM_Geo_ID ": "2803",
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Nag' Hammadi",
+        "TM_Geo_ID": "2803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8047827,
+          27.7756214
+        ]
+      },
+      "title": "Hermopolis",
+      "uri": "https://www.trismegistos.org/place/816",
+      "TM_Geo_ID ": "816",
+      "names": {
+        "greek": {
+          "name": "\u1f19\u03c1\u03bc\u03bf\u1fe6 \u03c0\u03cc\u03bb\u03b9\u03c2 \u039c\u03b5\u03b3\u03ac\u03bb\u03b7 - \u1f19\u03c1\u03bc\u03bf\u03c0\u03bf\u03bb\u03b9\u03c4\u1ff6\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2 - \u0396\u03bc\u03bf\u03c5\u03bd",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u03e3\u2c99\u2c9f\u2ca9\u2c9b",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Hermupolis Magna - Mercuri",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756574"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Hermopolis"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21152"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/153"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/277308UHer"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Hermopolis",
+        "TM_Geo_ID": "816"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7700199,
+          29.1635734
+        ]
+      },
+      "title": "Naqlun",
+      "uri": "https://www.trismegistos.org/place/1418",
+      "TM_Geo_ID ": "1418",
+      "names": {
+        "greek": {
+          "name": "\u1f44\u03c1\u03bf\u03c2 \u039a\u03b5\u03bb\u03bb\u1ff6\u03bd - \u039d\u03b5\u03ba\u03bb\u03cc\u03bd\u03b9\u03bf\u03bd",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2ca7\u2c9f\u2c9f\u2ca9 \u2c9b\u2c9b\u2c89\u2c95\u2c97\u2cb1\u2c9b\u2c89",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736975"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21074"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "monasterion: oros?",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Naqlun",
+        "TM_Geo_ID": "1418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.906827,
+          27.787299
+        ]
+      },
+      "title": "Deir Abu Hennes",
+      "uri": "https://www.trismegistos.org/place/3506",
+      "TM_Geo_ID ": "3506",
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756549"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37304"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Deir Abu Hennes",
+        "TM_Geo_ID": "3506"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Ain Waqfa",
+      "uri": "https://www.trismegistos.org/place/2730",
+      "TM_Geo_ID ": "2730",
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Ain Waqfa",
+        "TM_Geo_ID": "2730"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Lower Egypt",
+      "uri": "https://www.trismegistos.org/place/2712",
+      "TM_Geo_ID ": "2712",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03ac\u03c4\u03c9 \u0391\u1f34\u03b3\u03c5\u03c0\u03c4\u03bf\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Aegyptus Inferior",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "region",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Lower Egypt",
+        "TM_Geo_ID": "2712"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0166707,
+          22.6499972
+        ]
+      },
+      "title": "Primis",
+      "uri": "https://www.trismegistos.org/place/1916",
+      "TM_Geo_ID ": "1916",
+      "names": {
+        "greek": {
+          "name": "\u03a0\u03c1\u03b9\u03bc\u03b9\u03c2 - \u03a0\u03c1\u03b7\u03bc\u03bd\u03b9\u03c2 - \u03a0\u03c1\u1fd6\u03bc\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2cab\u2ca3\u2c93\u2c99",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Primi - Pidema - Pindis",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/795845"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/798093"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/798094"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://de.wikipedia.org/wiki/Qasr_Ibrim"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22166"
+            }
+          ],
+          "Medieval Nubia": [
+            {
+              "URI": "http://www.medievalnubia.info/dev/index.php/Qasr_Ibrim"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/227320UPre"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; oppidum",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Primis",
+        "TM_Geo_ID": "1916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.65172,
+          28.542574
+        ]
+      },
+      "title": "Oxyrynchos",
+      "uri": "https://www.trismegistos.org/place/1524",
+      "TM_Geo_ID ": "1524",
+      "names": {
+        "greek": {
+          "name": "\u1f48\u03be\u03cd\u03c1\u03c5\u03b3\u03c7\u03bf\u03c2 - \u1f48\u03be\u03c5\u03c1\u03cd\u03b3\u03c7\u03c9\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2 - \u1f48\u03be\u03c5\u03c1\u03c5\u03b3\u03c7\u03b9\u03c4\u1ff6\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2 - \u039d\u03ad\u03b1 \u1f38\u03bf\u03c5\u03c3\u03c4\u03af\u03bd\u03bf\u03c5 \u03c0\u03cc\u03bb\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2c89\u2c99\u03eb\u2c89 - \u2ca1\u2c99\u03eb\u2c8f",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Oxyrynchus - Oxurunchus - Oxirinchus",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736983"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Oxyrhynchus"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22142"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/285306UOxy"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Oxyrynchos",
+        "TM_Geo_ID": "1524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.31196,
+          26.00258
+        ]
+      },
+      "title": "Dios Polis",
+      "uri": "https://www.trismegistos.org/place/577",
+      "TM_Geo_ID ": "577",
+      "names": {
+        "greek": {
+          "name": "\u0394\u03b9\u1f78\u03c2 \u03c0\u03cc\u03bb\u03b9\u03c2 \u039c\u03b9\u03ba\u03c1\u03ac",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u03e9\u2c9f\u2ca9 - \u03e9\u2cb1",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Diospolis - Iovis",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756566"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22148"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Hu,_Egypt"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/260323UDio"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis: metropolis",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Dios Polis",
+        "TM_Geo_ID": "577"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.22027,
+          26.856142
+        ]
+      },
+      "title": "Wadi Sarga",
+      "uri": "https://www.trismegistos.org/place/2843",
+      "TM_Geo_ID ": "2843",
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756676"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37320"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "river: wadi",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Wadi Sarga",
+        "TM_Geo_ID": "2843"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9282444444,
+          24.4520527778
+        ]
+      },
+      "title": "Omboi",
+      "uri": "https://www.trismegistos.org/place/1499",
+      "TM_Geo_ID ": "1499",
+      "names": {
+        "greek": {
+          "name": "\u1f48\u03bc\u03b2\u03bf\u03b9 - \u1f48\u03bc\u03b2\u03bf\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c99\u2c83\u2cb1 - \u2c9b\u2c83\u2cb1",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Ombos",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786079"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace393.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Kom_Ombo"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Temple_of_Kom_Ombo"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22155"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/244329UOmb"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Omboi",
+        "TM_Geo_ID": "1499"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Maks Gibli",
+      "uri": "https://www.trismegistos.org/place/13808",
+      "TM_Geo_ID ": "13808",
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Maks Gibli",
+        "TM_Geo_ID": "13808"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Upper Egypt",
+      "uri": "https://www.trismegistos.org/place/2766",
+      "TM_Geo_ID ": "2766",
+      "names": {
+        "greek": {
+          "name": "\u1f0c\u03bd\u03c9 \u0391\u1f34\u03b3\u03c5\u03c0\u03c4\u03bf\u03c2 - \u1f0c\u03bd\u03c9 \u03c7\u03ce\u03c1\u03b1 - \u1f19\u03c1\u03bc\u1fc6\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c99\u2c81\u2ca3\u2c8f\u2ca5",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Aegyptus Superior",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "area: chora",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Upper Egypt",
+        "TM_Geo_ID": "2766"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.702219,
+          24.5664825
+        ]
+      },
+      "title": "Kysis",
+      "uri": "https://www.trismegistos.org/place/2761",
+      "TM_Geo_ID ": "2761",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03c5\u03c3\u03b9\u03c2",
+          "language": "200"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/776191"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://de.wikipedia.org/wiki/Qasr_Dusch"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22220"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome; district: toparchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Kysis",
+        "TM_Geo_ID": "2761"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Middle Egypt",
+      "uri": "https://www.trismegistos.org/place/2800",
+      "TM_Geo_ID ": "2800",
+      "names": {
+        "greek": {
+          "name": "\u039c\u03ad\u03c3\u03b7 \u0391\u1f34\u03b3\u03c5\u03c0\u03c4\u03bf\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Media Aegyptus",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "region",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Middle Egypt",
+        "TM_Geo_ID": "2800"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Arsinoites",
+      "uri": "https://www.trismegistos.org/place/332",
+      "TM_Geo_ID ": "332",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03c1\u03c3\u03b9\u03bd\u03bf\u03af\u03c4\u03b7\u03c2 - \u03a3\u03bf\u03c5\u03c7\u03bf\u03c5 \u03bd\u03cc\u03bc\u03bf\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Arsinoites - Crocodilopolites",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736893"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Nome_(Egypt)"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/143"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/165"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/166"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; tesh; pagarchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Arsinoites",
+        "TM_Geo_ID": "332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.815787,
+          25.996402
+        ]
+      },
+      "title": "Koptos",
+      "uri": "https://www.trismegistos.org/place/1159",
+      "TM_Geo_ID ": "1159",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03bf\u03c0\u03c4\u03bf\u03c2 - \u1f38\u03bf\u03c5\u03c3\u03c4\u03b9\u03bd\u03b9\u03b1\u03bd\u03bf\u03cd\u03c0\u03bf\u03bb\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c95\u2c89\u2c83\u2ca7\u2cb1 - \u2c95\u2c83\u2ca7",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Coptos - Copto - Copton - Coptus",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786010"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace398.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Qift"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22151"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/259328UCop"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/176"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/194"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; emporion",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Koptos",
+        "TM_Geo_ID": "1159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.416623,
+          26.833145
+        ]
+      },
+      "title": "Aphrodito",
+      "uri": "https://www.trismegistos.org/place/237",
+      "TM_Geo_ID ": "237",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03c6\u03c1\u03bf\u03b4\u03af\u03c4\u03b7\u03c2 \u03c0\u03cc\u03bb\u03b9\u03c2 - \u1f08\u03c6\u03c1\u03bf\u03b4\u03af\u03c4\u03b7\u03c2 \u03ba\u03ce\u03bc\u03b7 - \u1f08\u03c6\u03c1\u03bf\u03b4\u03b9\u03c4\u03ce",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u03eb\u2c95\u2cb1\u2c9f\u2ca9",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Veneris - Afrodit( )",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756532"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/28694"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/268314UAph"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; village: kome; demi",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Aphrodito",
+        "TM_Geo_ID": "237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.23217,
+          27.00798
+        ]
+      },
+      "title": "Apa Apollo Monasterion",
+      "uri": "https://www.trismegistos.org/place/3025",
+      "TM_Geo_ID ": "3025",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03b2\u03b2\u1fb6 \u1f08\u03c0\u03bf\u03bb\u03bb\u1ff6 \u03bc\u03bf\u03bd\u03b1\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf\u03bd - \u1f08\u03b2\u03b2\u1fb6 \u03a0\u03bf\u03c5\u03bb\u03b5\u03b9 \u03a0\u1f10\u03c4\u03c1\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca7\u2ca1\u2c89\u2ca7\u2ca3\u2c81",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756520"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37293"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "monasterion; petra",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Apa Apollo Monasterion",
+        "TM_Geo_ID": "3025"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Antinoites",
+      "uri": "https://www.trismegistos.org/place/2973",
+      "TM_Geo_ID ": "2973",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03bd\u03c4\u03b9\u03bd\u03bf\u03af\u03c4\u03b7\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2ca7\u2c9f\u03e3 \u2c9b\u2c81\u2c9b\u2c87\u2c93\u2c9b\u2c9f\u2c9f\u2ca9",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756517"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Nome_(Egypt)"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; nomarchia; tesh; pagarchia; kurat",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Antinoites",
+        "TM_Geo_ID": "2973"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Egypt",
+      "uri": "https://www.trismegistos.org/place/49",
+      "TM_Geo_ID ": "49",
+      "names": {
+        "greek": {
+          "name": "\u0391\u1f34\u03b3\u03c5\u03c0\u03c4\u03bf\u03c2 - \u1f08\u03b5\u03c1\u03af\u03b1 - \u1f08\u03b5\u03c4\u03af\u03b1 - \u1f08\u03c1\u03b1\u03bd\u03ba\u03b7\u03bb\u03af\u03c2 - \u039c\u03cd\u03c3\u03c1\u03b1 - \u03a0\u03bf\u03c4\u03b1\u03bc\u1fd6\u03c4\u03b9\u03c2 - \u1f68\u03b3\u03c5\u03b3\u03af\u03b1 - \u1f19\u03c1\u03bc\u03bf\u03c7\u03cd\u03bc\u03b9\u03bf\u03c2 - \u1f29\u03c6\u03b1\u03b9\u03c3\u03c4\u03af\u03b1 - \u03a7\u03b7\u03bc\u03af\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c95\u2c8f\u2c99\u2c89",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Aegyptus",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Syriaca": [
+            {
+              "URI": "http://syriaca.org/place/7"
+            },
+            {
+              "URI": "http://syriaca.org/place/715"
+            },
+            {
+              "URI": "http://syriaca.org/place/2298"
+            }
+          ],
+          "DASI": [
+            {
+              "URI": "http://dasi.cnr.it/?id=dasi_prj_sit&prjId=1&recId=346"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Egypt_(Roman_province)"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace3160.html"
+            }
+          ],
+          "GeoNames": [
+            {
+              "URI": "https://www.geonames.org/357994"
+            }
+          ],
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/981503"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/766"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/271307REgy"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "region; modern country",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Egypt",
+        "TM_Geo_ID": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.560331,
+          25.631139
+        ]
+      },
+      "title": "Memnoneia - Djeme",
+      "uri": "https://www.trismegistos.org/place/1341",
+      "TM_Geo_ID ": "1341",
+      "names": {
+        "greek": {
+          "name": "\u03c4\u1f70 \u039c\u03b5\u03bc\u03bd\u03cc\u03bd\u03b5\u03b9\u03b1",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u03eb\u2c8f\u2c99\u2c89 - \u03ed\u2c8f\u2c99\u2c93",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Menonia (sic)",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786067"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/321318358"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/864388873"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Medinet_Habu_(location)"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/30589"
+            },
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37147"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/160"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/196"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome; quarter; district",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Memnoneia - Djeme",
+        "TM_Geo_ID": "1341"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.771322,
+          28.189047
+        ]
+      },
+      "title": "Tenis - Hakoris",
+      "uri": "https://www.trismegistos.org/place/2309",
+      "TM_Geo_ID ": "2309",
+      "names": {
+        "greek": {
+          "name": "\u03a4\u03b7\u03bd\u03b9\u03c2 - \u1f09\u03ba\u03c9\u03c1\u03b9\u03c2 - \u1f09\u03ba\u03c9\u03c1\u03b5\u03c9\u03c2 \u03ba\u03ce\u03bc\u03b7 - \u039a\u03c1\u03bf\u03ba\u03bf\u03b4\u03af\u03bb\u03c9\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca7\u2c89\u03e9\u2c9b\u2c89",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Acoris",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/737077"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace415.html"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/28647"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/169"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: kome; polis",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Tenis - Hakoris",
+        "TM_Geo_ID": "2309"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.835832,
+          29.320878
+        ]
+      },
+      "title": "Krokodilopolis",
+      "uri": "https://www.trismegistos.org/place/327",
+      "TM_Geo_ID ": "327",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03c1\u03bf\u03ba\u03bf\u03b4\u03af\u03bb\u03c9\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2 - \u03a0\u03c4\u03bf\u03bb\u03b5\u03bc\u03b1\u1f76\u03c2 \u0395\u1f50\u03b5\u03c1\u03b3\u03ad\u03c4\u03b9\u03c2 - \u1f08\u03c1\u03c3\u03b9\u03bd\u03bf\u03b9\u03c4\u1ff6\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2 - \u1f08\u03c1\u03c3\u03b9\u03bd\u03cc\u03b7",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2c89\u2c93\u2c9f\u2c99 - \u2ca1\u2c9f\u2c97\u2c93\u2ca5",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Arsinoe - Crialon",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736948"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Faiyum"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Crocodilopolis"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21135"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/293308UKro"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; nout; civitas; oppidum",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Krokodilopolis",
+        "TM_Geo_ID": "327"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7018756667,
+          26.1498853333
+        ]
+      },
+      "title": "Kaine",
+      "uri": "https://www.trismegistos.org/place/952",
+      "TM_Geo_ID ": "952",
+      "names": {
+        "greek": {
+          "name": "\u039a\u03b1\u03b9\u03bd\u03ae - \u039c\u03b1\u03be\u03b9\u03bc\u03b9\u03b1\u03bd\u03bf\u1fe6 \u03c0\u03cc\u03bb\u03b9\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Cenopoli - Caene - Maximianopolis",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786047"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Qena"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22150"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/261327UKai"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Kaine",
+        "TM_Geo_ID": "952"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Hermopolites",
+      "uri": "https://www.trismegistos.org/place/2720",
+      "TM_Geo_ID ": "2720",
+      "names": {
+        "greek": {
+          "name": "\u1f19\u03c1\u03bc\u03bf\u03c0\u03bf\u03bb\u03af\u03c4\u03b7\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca1\u2ca7\u2c9f\u03e3 \u03e3\u2c99\u2c9f\u2ca9\u2c9b",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Hermopolites",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; tesh; pagarchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Hermopolites",
+        "TM_Geo_ID": "2720"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Peri Thebas",
+      "uri": "https://www.trismegistos.org/place/1690",
+      "TM_Geo_ID ": "1690",
+      "names": {
+        "greek": {
+          "name": "\u03a0\u03b5\u03c1\u1f76 \u0398\u03ae\u03b2\u03b1\u03c2",
+          "language": "200"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: toparchia; topos; nomos; pagarchia; tesh (?); keh (?)",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Peri Thebas",
+        "TM_Geo_ID": "1690"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8810025,
+          27.8105625
+        ]
+      },
+      "title": "Antinoopolis",
+      "uri": "https://www.trismegistos.org/place/2774",
+      "TM_Geo_ID ": "2774",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03bd\u03c4\u03b9\u03bd\u03cc\u03bf\u03c5 \u03c0\u03cc\u03bb\u03b9\u03c2 - \u039d\u03ad\u03bf\u03b9 \u1f1d\u03bb\u03bb\u03b7\u03bd\u03b5\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c81\u2c9b\u2ca7\u2c93\u2c9b\u2c9f\u2c9f\u2ca9",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Antinou - Antenou",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756518"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace413.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Antinopolis"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22144"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/278308UAnt"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; kallipolis; ptoliethron",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Antinoopolis",
+        "TM_Geo_ID": "2774"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Phel",
+      "uri": "https://www.trismegistos.org/place/2979",
+      "TM_Geo_ID ": "2979",
+      "names": {
+        "greek": {
+          "name": "\u03a6\u03b5\u03bb",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c81\u2ca1\u2c81 \u2ca5\u2c81\u2c99\u2c9f\u2ca9\u2c8f\u2c97 \u2c99\u2cab\u2c89\u2c97 - \u2ca7\u2ca5\u2c89\u2c9b\u03ef - \u2ca7\u2ca5\u2c93\u2c9b\u2ca7\u2c93",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "status": "monasterion",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Phel",
+        "TM_Geo_ID": "2979"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89804,
+          24.081158
+        ]
+      },
+      "title": "Syene",
+      "uri": "https://www.trismegistos.org/place/2207",
+      "TM_Geo_ID ": "2207",
+      "names": {
+        "greek": {
+          "name": "\u03a3\u03c5\u03b7\u03bd\u03b7 - \u03a3\u03bf\u03b7\u03bd\u03b7",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca5\u2c9f\u2ca9\u2c81\u2c9b",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Syene - Siene",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786123"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace391.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Aswan"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22157"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/241329USye"
+            }
+          ],
+          "GeoNames": [
+            {
+              "URI": "https://www.geonames.org/359792"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/154"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/163"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; urbs; civitas; district: toparchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Syene",
+        "TM_Geo_ID": "2207"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Deir el-Hammam",
+      "uri": "https://www.trismegistos.org/place/2756",
+      "TM_Geo_ID ": "2756",
+      "links": {
+        "broad matches": [],
+        "close matches": [],
+        "exact matches": []
+      },
+      "properties": {
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Deir el-Hammam",
+        "TM_Geo_ID": "2756"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8732936296,
+          24.9795361111
+        ]
+      },
+      "title": "Apollonopolis",
+      "uri": "https://www.trismegistos.org/place/269",
+      "TM_Geo_ID ": "269",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03c0\u03cc\u03bb\u03bb\u03c9\u03bd\u03bf\u03c2 \u03c0\u03cc\u03bb\u03b9\u03c2 \u039c\u03b5\u03b3\u03ac\u03bb\u03b7 - \u0392\u03b1\u03c7\u03b8\u03b9\u03c2 - \u03c0\u03cc\u03bb\u03b9\u03c2 \u03a6\u03bf\u03af\u03b2\u03bf\u03c5",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c89\u2ca7\u2c83\u2c9f - \u2ca7\u2c83\u2c9f - \u2c91\u2c83\u2cb1",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Apollinis - Apollonos Superiore",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/785974"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Edfu"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Apollonopolis_Magna"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22152"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/249328UApo"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Apollonopolis",
+        "TM_Geo_ID": "269"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.889,
+          24.09
+        ]
+      },
+      "title": "Elephantine",
+      "uri": "https://www.trismegistos.org/place/621",
+      "TM_Geo_ID ": "621",
+      "names": {
+        "greek": {
+          "name": "\u1f18\u03bb\u03b5\u03c6\u03b1\u03bd\u03c4\u03af\u03bd\u03b7 - \u1f38\u03b7\u03b2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c93\u2c8f\u2c83",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Elephantine - Elephantis",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786021"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Elephantine"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22156"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/241329UEle"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "island (on the Nile): nesos; insula; city: polis; metropolis; demi; urbs",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Elephantine",
+        "TM_Geo_ID": "621"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.746075,
+          26.565878
+        ]
+      },
+      "title": "Panopolis",
+      "uri": "https://www.trismegistos.org/place/1589",
+      "TM_Geo_ID ": "1589",
+      "names": {
+        "greek": {
+          "name": "\u03a0\u03b1\u03bd\u1f78\u03c2 \u03c0\u03cc\u03bb\u03b9\u03c2 - \u03a7\u03b5\u03bc\u03bc\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u03e3\u2c99\u2c93\u2c9b",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Pano",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756613"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace411.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Akhmim"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21111"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/265317UPan"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; kallipolis; civitas; district: toparchia",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Panopolis",
+        "TM_Geo_ID": "1589"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.704427,
+          27.57436
+        ]
+      },
+      "title": "Tachlout",
+      "uri": "https://www.trismegistos.org/place/2974",
+      "TM_Geo_ID ": "2974",
+      "names": {
+        "greek": {
+          "name": "\u03a4\u03b1\u03c7\u03bb\u03bf\u03c5\u03c4 - \u03a4\u03b5\u03c3\u03bb\u03c9\u03c4",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca7\u2c89\u03e3\u2c97\u2cb1\u2ca7",
+          "language": "070"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756650"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/28735"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "village: chorion",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Tachlout",
+        "TM_Geo_ID": "2974"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.255061,
+          29.849491
+        ]
+      },
+      "title": "Memphis",
+      "uri": "https://www.trismegistos.org/place/1344",
+      "TM_Geo_ID ": "1344",
+      "names": {
+        "greek": {
+          "name": "\u039c\u03b5\u03bc\u03c6\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c99\u2c9b\u2cab\u2c89 - \u2c89\u2c95\u2c89\u2ca1\u03ef\u2c81",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Memfis - Memphis - Menfris",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736963"
+            },
+            {
+              "URI": "https://pleiades.stoa.org/places/195443086"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace387.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Memphis,_Egypt#Great_Temple_of_Ptah"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21137"
+            },
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/37716"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/298313PMem"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/180"
+            }
+          ],
+          "Nomisma": [
+            {
+              "URI": "http://nomisma.org/id/memphis"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; asty; demi; oppidum; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Memphis",
+        "TM_Geo_ID": "1344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.230256,
+          30.006136
+        ]
+      },
+      "title": "Babylon",
+      "uri": "https://www.trismegistos.org/place/389",
+      "TM_Geo_ID ": "389",
+      "names": {
+        "greek": {
+          "name": "\u0392\u03b1\u03b2\u03c5\u03bb\u03ce\u03bd - \u03a6\u03bf\u03c3\u03c3\u03b1\u03c4\u03bf\u03bd",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c83\u2c81\u2c83\u2ca9\u2c97\u2cb1\u2c9b - \u2c83\u2c81\u2c83\u2c93\u2c97\u2cb1\u2c9b - \u2ca1\u2c81\u2c83\u2c93\u2c97\u2cb1\u2c9b",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Babilona - Babylonia Stratonicidi",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/727082"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace423.html"
+            },
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace425.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Old_Cairo"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Fustat"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Cairo"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Babylon_Fortress"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21140"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/300312UBab"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city; camp: stratopedon",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Babylon",
+        "TM_Geo_ID": "389"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1825335,
+          27.181346
+        ]
+      },
+      "title": "Lykopolis",
+      "uri": "https://www.trismegistos.org/place/1271",
+      "TM_Geo_ID ": "1271",
+      "names": {
+        "greek": {
+          "name": "\u039b\u03cd\u03ba\u03c9\u03bd \u03c0\u03cc\u03bb\u03b9\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2ca5\u2c93\u2c9f\u2c9f\u2ca9\u2ca7",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Lycon - Lyco",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756593"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace412.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Lykopolis"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Asyut"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22145"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/272312ULyk"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; demi",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Lykopolis",
+        "TM_Geo_ID": "1271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.917622,
+          26.185099
+        ]
+      },
+      "title": "Abydos",
+      "uri": "https://www.trismegistos.org/place/34",
+      "TM_Geo_ID ": "34",
+      "names": {
+        "greek": {
+          "name": "\u1f08\u03b2\u03c5\u03b4\u03bf\u03c2",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c89\u2c83\u2cb1\u2ca7 - \u2c81\u2c83\u2cb1\u2ca7",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Abydus - Aboedos - Abubis - Abidos",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/756512"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Abydos,_Egypt"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/22160"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/262319UAby"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; civitas",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Abydos",
+        "TM_Geo_ID": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6355911,
+          25.68502752
+        ]
+      },
+      "title": "Dios Polis",
+      "uri": "https://www.trismegistos.org/place/576",
+      "TM_Geo_ID ": "576",
+      "names": {
+        "greek": {
+          "name": "\u0394\u03b9\u1f78\u03c2 \u03c0\u03cc\u03bb\u03b9\u03c2 \u039c\u03b5\u03b3\u03ac\u03bb\u03b7 - \u0398\u1fc6\u03b2\u03b1\u03b9 - \u039d\u03bf",
+          "language": "200"
+        },
+        "coptic": {
+          "name": "\u2c9b\u2c8f - \u2c9b\u2c89",
+          "language": "070"
+        },
+        "latin": {
+          "name": "Thebae - No - Diospolis",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/786017"
+            }
+          ],
+          "Talbert Peutinger": [
+            {
+              "URI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace396.html"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+            },
+            {
+              "URI": "https://en.wikipedia.org/wiki/Luxor"
+            }
+          ],
+          "Digital Atlas of the Roman Empire": [
+            {
+              "URI": "http://imperium.ahlfeldt.se/places/21107"
+            }
+          ],
+          "ToposText": [
+            {
+              "URI": "https://topostext.org/place/257326PThe"
+            }
+          ],
+          "EDH": [
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/178"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/193"
+            },
+            {
+              "URI": "https://edh-www.adw.uni-heidelberg.de/edh/geographie/21789"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "city: polis; metropolis; nout; demi",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Dios Polis",
+        "TM_Geo_ID": "576"
+      }
+    },
+    {
+      "type": "Feature",
+      "title": "Memphites",
+      "uri": "https://www.trismegistos.org/place/2714",
+      "TM_Geo_ID ": "2714",
+      "names": {
+        "greek": {
+          "name": "\u039c\u03b5\u03bc\u03c6\u03af\u03c4\u03b7\u03c2",
+          "language": "200"
+        },
+        "latin": {
+          "name": "Memphites",
+          "language": "215"
+        }
+      },
+      "links": {
+        "broad matches": [],
+        "close matches": {
+          "Pleiades": [
+            {
+              "URI": "https://pleiades.stoa.org/places/736964"
+            }
+          ],
+          "Wikipedia": [
+            {
+              "URI": "https://en.wikipedia.org/wiki/Nome_(Egypt)"
+            }
+          ]
+        },
+        "exact matches": []
+      },
+      "properties": {
+        "status": "district: nomos; tesh",
+        "country": "Egypt",
+        "provincia": "Aegyptus",
+        "title": "Memphites",
+        "TM_Geo_ID": "2714"
+      }
+    }
+  ]
+}
