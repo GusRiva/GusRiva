@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [[36,37], [30,40]]
+            },
+            "properties": {
+              "status": "fortress",
+              "country": "Israel",
+              "provincia": "Iudaea",
+              "title": "String2",
+              "TM_Geo_ID": "3148"
+            }
+          },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [[24,30], [30,40]]
+        },
+        "properties": {
+          "status": "fortress",
+          "country": "Israel",
+          "provincia": "Iudaea",
+          "title": "String1",
+          "TM_Geo_ID": "3148"
+        }
+      }
+    ]
+  }
